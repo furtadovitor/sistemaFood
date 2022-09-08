@@ -4,3 +4,44 @@ in SYSTEMPATH/Filters/Filters.php on line 166.
  2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 12:44:05 --> Class 'App\Controllers\App\Models\UsuarioModel' not found
+in APPPATH/Controllers/Password.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Password->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 12:44:08 --> Class 'App\Controllers\App\Models\UsuarioModel' not found
+in APPPATH/Controllers/Password.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Password->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 13:05:05 --> Class 'App\Filters\Throttle' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 13:05:17 --> Class 'App\Filters\Throttle' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 13:09:27 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH/Controllers/Password.php on line 37.
+ 1 APPPATH/Controllers/Password.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Password->processaEsqueci()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-08 16:25:44 --> Call to a member function with() on string
+in APPPATH/Controllers/Password.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

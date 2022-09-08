@@ -26,7 +26,7 @@ class Filters extends BaseConfig
         'login'         => \App\Filters\LoginFilter::class, //FIltro de login
         'admin'         => \App\Filters\AdminFilter::class, //FIltro de admin
         'visitante'     => \App\Filters\VisitanteFilter::class, //FIltro de visitante
-        'throttle'     => \App\Filters\Throttle::class, //FIltro que ajuda a prevenir ataques de força bruta 
+        'throttle'     => \App\Filters\ThrottleFilter::class, //FIltro que ajuda a prevenir ataques de força bruta 
 
 
     ];
