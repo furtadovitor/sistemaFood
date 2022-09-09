@@ -30,6 +30,7 @@
                   <div class="auth-form-light text-left py-5 px-4 px-sm-5">
 
 
+
                       <?php if(session()->has('sucesso')): ?>
 
                       <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -74,38 +75,54 @@
                       </div>
 
                       <?php endif; ?>
-                      
+
                       <div class="brand-logo">
                           <img src="<?php echo site_url('admin/')?>images/logo1.png" alt="logo">
                       </div>
                       <h4>Recuperando a senha!</h4>
                       <h6 class="font-weight-light mb-3">Esqueci a minha senha</h6>
 
-                      <?= form_open('password/processaesqueci'); ?>
+                      <?php if(session()->has('errors_model')): ?>
+
+                      <ul>
+                          <?php foreach(session('errors_model') as $error) : ?>
+
+                          <li class="text-danger"><?php echo $error ?></li>
+
+                          <?php endforeach; ?>
+                      </ul>
+
+
+                      <?php endif; ?>
+                      <?= form_open("password/processareset/$token"); ?>
+
                       <div class="form-group">
-                          <input type="email" name="email" value="<?php echo old('email'); ?>"
-                              class="form-control form-control-lg" id="exampleInputEmail1"
-                              placeholder="Digite o seu email">
+                          <label for="password" class="col-sm-3 col-form-label">Nova senha</label>
+                          <input type="password" class="form-control" id="password" name="password" placeholder="Senha">
                       </div>
-                      
+
+                      <div class="form-group">
+                          <label for="confirmPassword" class="col-sm-6 col-form-label">Confirmação da nova
+                              senha:</label>
+                          <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                              placeholder="Confirme sua senha">
+                      </div>
+
                       <div class="mt-3">
-                          <input id="btn-reset-senha" type="submit"
-                              class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="recuperar senha">Recuperar senha</input>
+                          <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn"
+                              value="redefinir senha">Redefinir senha</input>
                       </div>
 
-                      <div class="mt-3 d-flex justify-content-between align-items-center">
 
-                      <a href="<?php echo site_url('login'); ?>" class=" auth-link text-black ">Lembrei a minha senha.</a>
+
+
+                      <?= form_close(); ?>
+
                   </div>
-               
-
-                  <?= form_close(); ?>
-
               </div>
           </div>
       </div>
-  </div>
-  <!-- content-wrapper ends -->
+      <!-- content-wrapper ends -->
   </div>
   <!-- page-body-wrapper ends -->
 
@@ -120,18 +137,5 @@
 
   <?= $this->section('scripts'); ?>
 
-    <script>
-
-        $("form").submit(function(){
-
-            $(this).find(":submit").attr("disabled", "disabled");
-
-            $("#btn-reset-senha").val("Enviando e-mail de recuperação.. ");
-        })
-
-
-
-
-    </script>
 
   <?= $this->endSection(); ?>

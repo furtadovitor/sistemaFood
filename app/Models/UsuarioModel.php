@@ -4,11 +4,13 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
+use App\Libraries\Token;
+
 class UsuarioModel extends Model
 {
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
-    protected $allowedFields    = ['nome', 'email', 'telefone'];
+    protected $allowedFields    = ['nome', 'email','cpf', 'telefone','password','reset_hash', 'reset_expira_em'];
 
 
     //Datas
@@ -116,6 +118,34 @@ class UsuarioModel extends Model
     public function buscaUsuarioPorEmail(string $email){
 
         return $this->where('email', $email)->first();
+    }
+
+    public function buscaUsuarioParaResetarSenha(string $token){
+
+
+        $token = new Token($token);
+
+        $tokenHash = $token->getHash();
+
+        $usuario = $this->where('reset_hash', $tokenHash)->first();
+
+        //Se o usuario é difereente de null, foi encontrado..
+
+        if($usuario != null){
+
+
+            //verificando se o reset_expira está expirado.
+
+            if($usuario->reset_expira_em < date('Y-m-d H:i:s')){
+
+                //se estiver expirado, retornada null (false)
+                $usuario = null;
+
+
+            }
+
+            return $usuario;
+        }
     }
 
   
