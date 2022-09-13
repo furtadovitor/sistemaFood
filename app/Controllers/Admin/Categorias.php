@@ -70,6 +70,36 @@ class Categorias extends BaseController
     return view ('Admin/Categorias/criar', $data);
     }
 
+    public function cadastrar(){
+
+        if($this->request->getMethod() === 'post'){
+
+           
+            $categoria = new Categoria($this->request->getPost());
+           
+
+            if($this->categoriaModel->save($categoria)){
+
+                return redirect()->to(site_url("admin/categorias/show/".$this->categoriaModel->getInsertID()))
+                                 ->with('sucesso', "Categoria $categoria->nome cadastrada com sucesso.");
+           
+            }else{
+
+                return redirect()->back()->with('errors_model', $this->categoriaModel->errors())->with('error', 'Dados inválidos, favor verificar.')->withInput();
+
+
+            }
+
+
+        }else{
+
+            /* Não é post */
+
+            return redirect()->back();
+
+        }
+    }
+
      public function show($id = null){
 
         //categoria ta sendo criado através da recupoeração do metodo buscacategoriaOu404
@@ -146,6 +176,56 @@ class Categorias extends BaseController
             return redirect()->back();
 
         }
+    }
+
+    public function excluir($id = null){
+
+        $categoria = $this->buscaCategoriaOu404($id);
+
+        if($categoria->deletado_em != null){
+            
+            return redirect()->back()->with('info', "A categoria $categoria->nome já encontra-se excluído.");
+        }
+
+
+        if($this->request->getMethod() === 'post'){
+
+            $this->categoriaModel->delete($id);
+            return redirect()->to(site_url('admin/categorias'))->with('sucesso', "Categoria $categoria->nome excluído com sucesso.");
+        }
+
+               
+        $data = [
+            'titulo' => "Excluindo a categoria $categoria->nome",
+            'categoria' => $categoria,
+        ];
+
+        return view('Admin/Categorias/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null){
+
+        //categoria ta sendo criado através da recupoeração do metodo buscacategoriaOu404
+        $categoria = $this->buscaCategoriaOu404($id);
+
+        if($categoria->deletado_em == null){
+
+            return redirect()->back()->with('info', 'Apenas categorias exclúidas podem ser recuperadas.');
+
+        }
+
+        
+        if($this->categoriaModel->desfazerExclusao($id)){
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso.');
+        }else{
+
+            return redirect()->back()->with('errors_model', $this->categoriaModel->errors())->with('atencao', 'Dados inválidos, favor verificar.')->withInput();
+
+        
+        }
+       
+
     }
 
 

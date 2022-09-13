@@ -47,16 +47,22 @@
 
 
 
-                  <?php echo form_open("admin/categorias/atualizar/$categoria->id"); ?>
+                  <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
 
-                  <?= $this->include('Admin/Categorias/formulario'); ?>
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>Atenção!</strong> Tem certeza da exclusão do Extra? <strong><?php echo esc($extra->nome);?></strong> ?
+                  </div>
 
-                  <a href="<?= site_url("admin/categorias"); ?>" class="btn btn-info btn-sm mr-2">
+                  <button type="submit" class="btn btn-danger mr-2 btn-sm">
+                      <i class="mdi mdi-trash-can btn-icon-prepend"></i>
+                      Excluir
+                  </button>
+
+                  <a href="<?= site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>
 
-              
                   <?php echo form_close(); ?>
 
 

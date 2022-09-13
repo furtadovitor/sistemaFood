@@ -4,12 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class CategoriaModel extends Model
+class ExtraModel extends Model
 {
-    protected $table            = 'categorias';
-    protected $returnType       = 'App\Entities\Categoria';
+    protected $table            = 'extras';
+    protected $returnType       = 'App\Entities\Extra';
     protected $useSoftDeletes   = true;
-    protected $allowedFields    = ['nome', 'ativo', 'slug'];
+    protected $allowedFields    = ['nome', 'slug','preco', 'descricao', 'ativo',];
 
     // Dates
     protected $useTimestamps = true;
@@ -18,15 +18,15 @@ class CategoriaModel extends Model
     protected $updatedField  = 'atualizado_em';
     protected $deletedField  = 'deletado_em';
 
-    // Validation
-    protected $validationRules = [
-        'nome'         => 'required|min_length[4]|is_unique[categorias.nome]|max_length[120]',
+    //Validação
+     protected $validationRules = [
+        'nome'         => 'required|min_length[4]|is_unique[extras.nome]|max_length[120]',
 
     ];
     protected $validationMessages = [
         'nome' => [
             'required' => 'O campo nome é obrigatório.',
-            'is_unique' => 'Essa categoria já existe.',
+            'is_unique' => 'Esse extra já existe.',
 
         ], 
       
@@ -52,11 +52,10 @@ class CategoriaModel extends Model
         }
         return $data;
     }
-
-        /**
+         /**
     * @uso Controller categoria no método procurar através com o autocomplete
     * @param string $term
-    * @return array categorias
+    * @return array extras
     *
 
     */
@@ -83,6 +82,4 @@ class CategoriaModel extends Model
         ->update();
     }
     
-
- 
 }

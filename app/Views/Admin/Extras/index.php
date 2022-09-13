@@ -33,14 +33,14 @@
 
                   <!-- Peguei do Jquery autocomplete, classe que incorpora o estilo do arquivo css do jquery. -->
                   <div class="ui-widget">
-                      <input id="query" name="query" placeholder="Pesquise por uma categoria"
+                      <input id="query" name="query" placeholder="Pesquise por uma extra"
                           class="form-control bg-light mb-5">
                   </div>
 
 
-                  <a href="<?= site_url("admin/categorias/criar"); ?>" class="btn btn-success mb-5">
+                  <a href="<?= site_url("admin/extras/criar"); ?>" class="btn btn-success mb-5">
                       <i class="mdi mdi-plus btn-icon-prepend"></i>
-                      Cadastrar categoria
+                      Cadastrar extra
                   </a>
 
                   <div class="table-responsive">
@@ -48,6 +48,7 @@
                           <thead>
                               <tr>
                                   <th>Nome</th>
+                                  <th>Preço</th>
                                   <th>Data de criação</th>
                                   <th>Ativo</th>
                                   <th>Situação</th>
@@ -56,23 +57,25 @@
                           </thead>
                           <tbody>
 
-                              <?php foreach($categorias as $categoria): ?>
+                              <?php foreach($extras as $extra): ?>
                               <tr>
                                   <td>
-                                      <a href="<?= site_url("admin/categorias/show/$categoria->id"); ?>">
-                                          <?= $categoria->nome; ?> </a>
+                                      <a href="<?= site_url("admin/extras/show/$extra->id"); ?>">
+                                          <?= $extra->nome; ?> </a>
                                   </td>
-                                  <td><?= $categoria->criado_em->humanize(); ?></td>
+                                  <td>R$&nbsp;<?= esc(number_format($extra->preco,2)); ?></td>
+                                  <td><?= $extra->criado_em->humanize(); ?></td>
 
-                                  <td><?= ($categoria->ativo && $categoria->deletado_em == null? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>') ?>
+
+                                  <td><?= ($extra->ativo && $extra->deletado_em == null? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>') ?>
                                   </td>
                                   <td>
 
-                                      <?= ($categoria->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>') ?>
+                                      <?= ($extra->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>') ?>
 
-                                      <?php if($categoria->deletado_em != null): ?>
+                                      <?php if($extra->deletado_em != null): ?>
 
-                                      <a href="<?= site_url("admin/categorias/desfazerexclusao/$categoria->id"); ?>"
+                                      <a href="<?= site_url("admin/extras/desfazerexclusao/$extra->id"); ?>"
                                           class="badge badge-dark ml-2">
                                           <i class="mdi mdi-undo btn-icon-prepend"></i>
                                           Desfazer
@@ -115,7 +118,7 @@
 
                   $.ajax({
 
-                      url: "<?= site_url('admin/categorias/procurar'); ?>",
+                      url: "<?= site_url('admin/extras/procurar'); ?>",
                       dataType: "json",
                       data: {
                           term: request.term
@@ -128,7 +131,7 @@
                               var data = [
 
                                   {
-                                      label: 'Categoria não encontrada',
+                                      label: 'Extra não encontrada',
                                       value: -1
                                   }
                               ];
@@ -151,7 +154,7 @@
 
                   } else {
 
-                      window.location.href = '<?= site_url('admin/categorias/show/'); ?>' + ui.item
+                      window.location.href = '<?= site_url('admin/extras/show/'); ?>' + ui.item
                           .id;
 
                   }

@@ -33,14 +33,14 @@
 
                   <!-- Peguei do Jquery autocomplete, classe que incorpora o estilo do arquivo css do jquery. -->
                   <div class="ui-widget">
-                      <input id="query" name="query" placeholder="Pesquise por uma categoria"
+                      <input id="query" name="query" placeholder="Pesquise por uma medida de produto"
                           class="form-control bg-light mb-5">
                   </div>
 
 
-                  <a href="<?= site_url("admin/categorias/criar"); ?>" class="btn btn-success mb-5">
+                  <a href="<?= site_url("admin/medidas/criar"); ?>" class="btn btn-success mb-5">
                       <i class="mdi mdi-plus btn-icon-prepend"></i>
-                      Cadastrar categoria
+                      Cadastrar medida
                   </a>
 
                   <div class="table-responsive">
@@ -56,23 +56,25 @@
                           </thead>
                           <tbody>
 
-                              <?php foreach($categorias as $categoria): ?>
+                              <?php foreach($medidas as $medida): ?>
                               <tr>
                                   <td>
-                                      <a href="<?= site_url("admin/categorias/show/$categoria->id"); ?>">
-                                          <?= $categoria->nome; ?> </a>
+                                      <a href="<?= site_url("admin/medidas/show/$medida->id"); ?>">
+                                          <?= $medida->nome; ?> </a>
                                   </td>
-                                  <td><?= $categoria->criado_em->humanize(); ?></td>
 
-                                  <td><?= ($categoria->ativo && $categoria->deletado_em == null? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>') ?>
+                                  <td><?= $medida->criado_em->humanize(); ?></td>
+
+
+                                  <td><?= ($medida->ativo && $medida->deletado_em == null? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>') ?>
                                   </td>
                                   <td>
 
-                                      <?= ($categoria->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>') ?>
+                                      <?= ($medida->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>') ?>
 
-                                      <?php if($categoria->deletado_em != null): ?>
+                                      <?php if($medida->deletado_em != null): ?>
 
-                                      <a href="<?= site_url("admin/categorias/desfazerexclusao/$categoria->id"); ?>"
+                                      <a href="<?= site_url("admin/medidas/desfazerexclusao/$medida->id"); ?>"
                                           class="badge badge-dark ml-2">
                                           <i class="mdi mdi-undo btn-icon-prepend"></i>
                                           Desfazer
@@ -115,7 +117,7 @@
 
                   $.ajax({
 
-                      url: "<?= site_url('admin/categorias/procurar'); ?>",
+                      url: "<?= site_url('admin/medidas/procurar'); ?>",
                       dataType: "json",
                       data: {
                           term: request.term
@@ -128,7 +130,7 @@
                               var data = [
 
                                   {
-                                      label: 'Categoria não encontrada',
+                                      label: 'Medida não encontrada',
                                       value: -1
                                   }
                               ];
@@ -151,7 +153,7 @@
 
                   } else {
 
-                      window.location.href = '<?= site_url('admin/categorias/show/'); ?>' + ui.item
+                      window.location.href = '<?= site_url('admin/medidas/show/'); ?>' + ui.item
                           .id;
 
                   }

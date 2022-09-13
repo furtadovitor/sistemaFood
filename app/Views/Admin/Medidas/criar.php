@@ -23,7 +23,7 @@
   <div class="row">
 
 
-      <div class="col-lg-12 grid-margin stretch-card">
+      <div class="col-lg-6 grid-margin stretch-card">
           <div class="card">
 
               <div class="card-header bg-primary pb-0 pt-4">
@@ -47,16 +47,17 @@
 
 
 
-                  <?php echo form_open("admin/categorias/atualizar/$categoria->id"); ?>
+                  <?php echo form_open("admin/medidas/cadastrar"); ?>
 
-                  <?= $this->include('Admin/Categorias/formulario'); ?>
+                  <?= $this->include('Admin/Medidas/formulario'); ?>
 
-                  <a href="<?= site_url("admin/categorias"); ?>" class="btn btn-info btn-sm mr-2">
+                  <a href="<?= site_url("admin/medidas"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>
 
-              
+
+             
                   <?php echo form_close(); ?>
 
 
