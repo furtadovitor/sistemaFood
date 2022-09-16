@@ -36,7 +36,7 @@
 
                       <?php if($produto->imagem): ?>
 
-                      <img class="card-img-top w-75" src="..." alt="Card image cap">
+                      <img class="card-img-top w-75" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
 
                       <?php else: ?>
 
@@ -48,8 +48,10 @@
                       <?php endif; ?>
                   </div>
 
+                  <hr>
+
                   <a href="<?= site_url("admin/produtos/editarimagem/$produto->id"); ?>"
-                      class="btn btn-outline-primary mb-3 btn-sm ">
+                      class="btn btn-outline-primary mt-2 mb-3 btn-sm ">
                       <i class="mdi mdi-image btn-icon-prepend"></i>
                       Editar
                   </a>
@@ -104,6 +106,13 @@
                           <i class="mdi mdi-pencil btn-icon-prepend"></i>
                           Editar
                       </a>
+
+
+                      <a href="<?= site_url("admin/produtos/extras/$produto->id"); ?>" class="btn btn-success btn-sm mr-2">
+                          <i class="mdi mdi-plus-circle btn-icon-prepend"></i>
+                          Extras
+                      </a>
+
 
                       <a href="<?= site_url("admin/produtos/excluir/$produto->id"); ?>"
                           class="btn btn-danger btn-sm mr-2">

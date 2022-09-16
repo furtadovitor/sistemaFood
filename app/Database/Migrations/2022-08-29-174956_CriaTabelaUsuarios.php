@@ -14,7 +14,7 @@ class CriaTabelaUsuarios extends Migration
                 
                 'type' => 'INT',
                 'constraint' => 5,
-                'unsigned' = > true,
+                'unsigned' => true,
                 'auto_increment' => true,
             ],
 

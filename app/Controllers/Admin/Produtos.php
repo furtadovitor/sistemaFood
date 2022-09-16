@@ -11,12 +11,20 @@ class Produtos extends BaseController
 
     private $produtoModel;
     private $categoriaModel;
+    private $extraModel;
+    private $produtoExtraModel;
+
+
 
 
     public function __construct(){
 
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->categoriaModel = new \App\Models\CategoriaModel();
+        $this->extraModel = new \App\Models\ExtraModel();
+        $this->produtoExtraModel = new \App\Models\ProdutoExtraModel();
+
+
 
 
     }
@@ -63,9 +71,9 @@ class Produtos extends BaseController
          return $this->response->setJSON($retorno);
  
          
-     }
+    }
 
-     public function show($id = null){
+    public function show($id = null){
 
         $produto = $this->buscaProdutoOu404($id);
        
@@ -76,6 +84,21 @@ class Produtos extends BaseController
 
         return view('Admin/Produtos/show', $data);
     }
+
+    public function criar(){
+
+        //produto ta sendo criado através da recupoeração do metodo buscaprodutoOu404
+        $produto = new Produto();
+       
+        $data = [
+            'titulo' => "Criando novo produto",
+            'produto' => $produto,
+            'categorias' => $this->categoriaModel->where('ativo', true)->findAll(),
+        ];
+
+        return view('Admin/Produtos/criar', $data);
+    }
+
     public function editar($id = null){
 
         $produto = $this->buscaProdutoOu404($id);
@@ -153,29 +176,111 @@ class Produtos extends BaseController
         $tamanhoImagem = $imagem->getSizeByUnit('mb');
 
         if($tamanhoImagem > 2){
+            
 
             return redirect()->back()->with('atencao', "O arquivo selecionado é muito grande. Máximo permitido é 2MB.");
 
         }
-        dd($imagem);
-
-        
 
 
-    }
-     public function criar(){
+        $tipoImagem = $imagem->getMimeType();
 
-        //produto ta sendo criado através da recupoeração do metodo buscaprodutoOu404
-        $produto = new Produto();
-       
-        $data = [
-            'titulo' => "Criando novo produto",
-            'produto' => $produto,
-            'categorias' => $this->categoriaModel->where('ativo', true)->findAll(),
+        $tipoImagemLimpo = explode('/', $tipoImagem);
+
+        $tiposPermitidos = [
+
+            'jpeg', 'png', 'webp'
+
         ];
 
-        return view('Admin/Produtos/criar', $data);
+        if(!in_array($tipoImagemLimpo[1], $tiposPermitidos)){
+
+            return redirect()->back()->with('atencao', "O arquivo enviado não é permitido. Arquivos permitidos: jpeg, png e webp.");
+
+        }
+
+        list($largura, $altura) = getimagesize($imagem->getPathName());
+        
+
+        if($largura < "400" || $altura < "400"){
+
+            return redirect()->back()->with('atencao', "A imagem enviada não pode ser menor do que 400 x 400 pixels");
+
+        }
+
+
+        //------------------------- A partir daqui, faço o store da imagem --------------------//
+
+
+        //Fazendo o store da imagem e recuperando o caminho da mesma
+        $imagemCaminho = $imagem->store('produtos');
+
+        $imagemCaminho = WRITEPATH . 'uploads/'. $imagemCaminho;
+
+        // Fazendo o resize da mesma imagem 
+        service('image')
+                ->withFile($imagemCaminho)
+                ->fit(400, 400, 'center')
+                ->save($imagemCaminho);
+
+
+
+        //Ruperando a imagem antiga para excluir
+        $imagemAntiga = $produto->imagem;
+           
+       //Atribuindo a nova imaegm
+        $produto->imagem = $imagem->getName();
+
+        //Atualizando a imagem do produto
+        $this->produtoModel->save($produto);
+
+        //Definindo o caminho da imagem antiga 
+        $caminhoImagem = WRITEPATH.'uploads/produtos/'.$imagemAntiga;
+
+        //Verifica se a imagem existe e é valida 
+        if(is_file($caminhoImagem)){
+
+            unlink($caminhoImagem);
+
+        }
+
+        return redirect()->to(site_url("admin/produtos/show/$produto->id"))->with('sucesso', 'Imagem alterada com sucesso.');
     }
+
+    public function imagem(string $imagem = null){
+
+        if($imagem){
+
+            $caminhoImagem = WRITEPATH . 'uploads/produtos/'. $imagem;
+
+            $infoImagem = new \finfo(FILEINFO_MIME);
+
+            $tipoImagem = $infoImagem->file($caminhoImagem);
+
+            header("Content-Type: $tipoImagem");
+
+            header("Content-Length: ".filesize($caminhoImagem));
+
+            readfile($caminhoImagem);
+
+            exit;
+        }
+    }
+
+    public function extras($id = null){
+
+        $produto = $this->buscaProdutoOu404($id);
+       
+        $data = [
+            'titulo' => "Gerenciar os extras do produto $produto->nome",
+            'produto' => $produto,
+            'extras' => $this->extraModel->where('ativo', true)->findAll(),
+            'produtosExtras' => $this->produtoExtraModel->buscaExtrasDoProduto($produto->id),
+        ];
+
+        return view('Admin/Produtos/extras', $data);
+    }
+   
 
     public function cadastrar(){
 
