@@ -275,10 +275,53 @@ class Produtos extends BaseController
             'titulo' => "Gerenciar os extras do produto $produto->nome",
             'produto' => $produto,
             'extras' => $this->extraModel->where('ativo', true)->findAll(),
-            'produtosExtras' => $this->produtoExtraModel->buscaExtrasDoProduto($produto->id),
+            'produtosExtras' => $this->produtoExtraModel->buscaExtrasDoProduto($produto->id,10),
+            'pager' => $this->produtoExtraModel->pager,
         ];
 
         return view('Admin/Produtos/extras', $data);
+    }
+
+    public function cadastrarExtras($id = null){
+
+        if($this->request->getMethod() === 'post'){
+
+            $produto = $this->buscaProdutoOu404($id);
+
+
+            $extraProduto['extra_id'] = $this->request->getPost('extra_id');
+
+            $extraProduto['produto_id'] = $produto->id;
+
+            $extraExistente = $this->produtoExtraModel
+                                    ->where('produto_id', $produto->id)
+                                    ->where('extra_id', $extraProduto['extra_id'])
+                                    ->first();
+
+            if($extraExistente){
+
+                return redirect()->back()->with('atencao', 'Esse Extra já existe para esse produto');
+            }
+            
+            if($this->produtoExtraModel->save($extraProduto)){
+
+                return redirect()->back()->with('sucesso', 'Atribuído com sucesso');
+
+            }else{
+
+                /*Erro de validação */
+
+                return redirect()->back()->with('errors_model', $this->produtoExtraModel->errors())->with('atencao', 'Dados inválidos, favor verificar.')->withInput();
+
+            }
+
+        }else{
+
+            /* Não é post */
+
+            return redirect()->back();
+        }
+
     }
    
 
@@ -304,6 +347,40 @@ class Produtos extends BaseController
 
             return redirect()->back();
         }
+    }
+
+    public function excluirExtra($id_principal = null, $id = null){
+
+        if($this->request->getMethod() === 'post'){
+
+            $produto = $this->buscaProdutoOu404($id);
+            $produtoExtra = $this->produtoExtraModel
+                    ->where('id', $id_principal)
+                    ->where('produto_id', $produto->id)
+                    ->first();
+
+        if(!$produtoExtra){
+
+            return redirect()->back()->with('atencao', 'Não encontramos o registro principal');
+
+        }
+
+        $this->produtoExtraModel->delete($id_principal);
+
+        return redirect()->back()->with('sucesso', 'Extra excluído com sucesso');
+
+
+
+
+
+
+
+        }else{
+
+            /* Não é post */
+            return redirect()->back();
+        }
+
     }
 
 
