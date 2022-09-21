@@ -38,6 +38,12 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('login', 'Login::novo', ['filter' => 'visitante']);
 
+//Bota a URL do jeito que eu quiser 
+$routes->group('admin', function($routes){
+    $routes->add('formas', 'Admin\FormasPagamento::index');
+
+});
+
 
 /*
  * --------------------------------------------------------------------

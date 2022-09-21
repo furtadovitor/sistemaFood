@@ -14,7 +14,6 @@
 
   <link rel="stylesheet" href="<?php echo site_url('admin/vendors/select2/select2.min.css'); ?>" />
 
-
   <?= $this->endSection(); ?>
 
 
@@ -49,22 +48,43 @@
 
 
 
-                  <?php echo form_open("admin/produtos/cadastrarextras/$produto->id"); ?>
+                  <?php echo form_open("admin/produtos/cadastrarespecificacoes/$produto->id"); ?>
 
                   <div class="form-row">
 
-                      <div class="form-group col-lg-6">
+                      <div class="form-group col-md-4">
 
-                          <label for="">Escolha o extra do produto (opcional)</label>
+                          <label for="">Escolha a medida do produto (opcional)</label>
 
-                          <select class="form-control js-example-basic-single" name="extra_id">
+                          <div class="ls-custom-select col-lg-12">
+                              <select class="form-control js-example-basic-single" name="medida_id">
+                                  <option value="">Escolha..</option>
+                                  <?php foreach($medidas as $medida) :?>
+
+                                  <option value="<?php echo $medida->id ?>"><?php echo esc($medida->nome) ?></option>
+                                  <?php endforeach; ?>
+                              </select>
+                          </div>
+
+                      </div>
+
+                      <div class="form-group col-md-4">
+                          <label for="nome">Preço:</label>
+                          <input type="text" class="money form-control" name="preco" id="preco"
+                              value="<?= old('preco'); ?>">
+                      </div>
+
+                      <div class="form-group col-md-4">
+
+                          <label for="">Produto customizável</label>
+
+                          <select class="form-control" name="customizavel">
 
                               <option value="">Escolha..</option>
+                              <option value="1">Sim</option>
+                              <option value="0">Não</option>
 
-                              <?php foreach($extras as $extra) :?>
 
-                              <option value="<?php echo $extra->id ?>"><?php echo esc($extra->nome) ?></option>
-                              <?php endforeach; ?>
                           </select>
                       </div>
 
@@ -73,7 +93,7 @@
 
                   <button type="submit" class="btn btn-primary mr-2 btn-sm">
                       <i class="mdi mdi-check btn-icon-prepend"></i>
-                      Inserir extra
+                      Inserir especificação
                   </button>
                   <a href="<?= site_url("admin/produtos/show/$produto->id"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
@@ -88,34 +108,51 @@
                   <div class="form-row">
                       <div class="col-md-8">
 
-                          <?php if(empty($produtoExtras)): ?>
+                          <?php if(empty($produtoEspecificacoes)): ?>
 
-                          <p>Esse produto não possui extras até o momento</p>
+                          <div class="alert alert-warning" role="alert">
+                              <h4 class="alert-heading">Atenção!!!</h4>
+                              <p>Esse produto não possui especificações até o momento, logo ele <strong>não será
+                                      exibido</strong> como opção de compra na área pública</p>
+                              <hr>
+                              <p class="mb-0">Aproveite para cadastrar pelo menos uma especificação para o produto
+                                  <strong><?php echo esc($produto->nome); ?></strong>.
+                              </p>
+                          </div>
                           <?php else: ?>
 
-                          <h4 class="card-title">Extras do produto</h4>
+                          <h4 class="card-title">Especificações do produto</h4>
 
                           <div class="table-responsive">
                               <table class="table table-hover">
                                   <thead>
                                       <tr>
-                                          <th>Extra</th>
+                                          <th>Medida</th>
                                           <th>Preço</th>
+                                          <th>Customizável</th>
+
                                           <th class="text-center">Remover</th>
                                       </tr>
                                   </thead>
                                   <tbody>
 
-                                      <?php foreach($produtoExtras as $extraProduto):?>
+                                      <?php foreach($produtoEspecificacoes as $especificacao):?>
                                       <tr>
-                                          <td><?php echo esc($extraProduto->extra); ?> </td>
-                                          <td>R$&nbsp;<?php echo esc(number_format($extraProduto->preco, 2) ); ?></td>
+                                          <td><?php echo esc($especificacao->medida); ?> </td>
+                                          <td>R$&nbsp;<?php echo esc(number_format($especificacao->preco, 2) ); ?>
+                                          </td>
+
+                                          <td><?php echo ($especificacao->customizavel ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-warning">Não</label>') ?>
+                                          </td>
+
                                           <td class="text-center">
 
-                                            <?php echo form_open("admin/produtos/excluirextra/$extraProduto->id/$extraProduto->id"); ?>
+                                              <a href="<?= site_url("admin/produtos/excluirespecificacao/$especificacao->id/$especificacao->produto_id"); ?>"
+                                                  class="btn badge badge-danger">
+                                                  &nbsp;X&nbsp;
+                                              </a>
 
-                                              <button type="submit" class="btn badge badge-danger">&nbsp;X&nbsp;</button>
-                                            <?php echo form_close(); ?>
+                                              
                                           </td>
                                       </tr>
 
@@ -152,18 +189,19 @@
       <script src="<?= site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
       <script src="<?= site_url('admin/vendors/mask/app.js'); ?>"></script>
       <script src="<?php echo site_url('admin/vendors/select2/select2.min.js'); ?>"></script>
+
       <script>
       // Instalando o plugin select2 para conseguir pesquisar os extras
       $(document).ready(function() {
           $('.js-example-basic-single').select2({
 
-              placeholder: 'Digite o nome do Extra...',
+              placeholder: 'Digite o nome da Medida...',
               allowClear: false,
 
               "language": {
 
                   "noResults": function() {
-                      return "Extra não encontrado&nbsp;&nbsp;<a class='btn btn-primary btn-sm' href='<?php echo site_url('admin/extras/criar'); ?>'>Cadastrar</a>";
+                      return "Medida não encontrada&nbsp;&nbsp;<a class='btn btn-primary btn-sm' href='<?php echo site_url('admin/medidas/criar'); ?>'>Cadastrar</a>";
                   }
 
 

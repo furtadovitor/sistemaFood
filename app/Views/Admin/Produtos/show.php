@@ -23,7 +23,7 @@
   <div class="row">
 
 
-      <div class="col-lg-4 grid-margin stretch-card">
+      <div class="col-lg-5 grid-margin stretch-card">
           <div class="card">
 
               <div class="card-header bg-primary pb-0 pt-4">
@@ -34,9 +34,11 @@
 
                   <div class="text-center">
 
-                      <?php if($produto->imagem): ?>
+                      <?php if($produto->imagem && $produto->deletado_em == null): ?>
 
-                      <img class="card-img-top w-75" src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->nome); ?>">
+                      <img class="card-img-top w-75"
+                          src="<?php echo site_url("admin/produtos/imagem/$produto->imagem"); ?>"
+                          alt="<?php echo esc($produto->nome); ?>">
 
                       <?php else: ?>
 
@@ -48,15 +50,19 @@
                       <?php endif; ?>
                   </div>
 
+                  <?php if($produto->deletado_em == null): ?>
+
                   <hr>
 
                   <a href="<?= site_url("admin/produtos/editarimagem/$produto->id"); ?>"
                       class="btn btn-outline-primary mt-2 mb-3 btn-sm ">
                       <i class="mdi mdi-image btn-icon-prepend"></i>
-                      Editar
+                      Editar imagem
                   </a>
 
                   <hr>
+
+                  <?php endif; ?>
 
                   <p class="card-text">
                       <span class="font-weight-bold">Nome:</span>
@@ -108,9 +114,17 @@
                       </a>
 
 
-                      <a href="<?= site_url("admin/produtos/extras/$produto->id"); ?>" class="btn btn-success btn-sm mr-2">
+                      <a href="<?= site_url("admin/produtos/extras/$produto->id"); ?>"
+                          class="btn btn-success btn-sm mr-2">
                           <i class="mdi mdi-plus-circle btn-icon-prepend"></i>
                           Extras
+                      </a>
+
+
+                      <a href="<?= site_url("admin/produtos/especificacoes/$produto->id"); ?>"
+                          class="btn btn-warning btn-sm mr-2">
+                          <i class="mdi mdi-plus-circle btn-icon-prepend"></i>
+                          Especificações
                       </a>
 
 
