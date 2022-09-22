@@ -40,7 +40,22 @@ $routes->get('login', 'Login::novo', ['filter' => 'visitante']);
 
 //Bota a URL do jeito que eu quiser 
 $routes->group('admin', function($routes){
+
+    /* add funciona da mesma forma que um GET */
     $routes->add('formas', 'Admin\FormasPagamento::index');
+    $routes->add('formas/criar', 'Admin\FormasPagamento::criar');
+    $routes->add('formas/show/(:num)', 'Admin\FormasPagamento::show/$1');
+    $routes->add('formas/editar/(:num)', 'Admin\FormasPagamento::editar/$1');
+    $routes->add('formas/desfazerexclusao/(:num)', 'Admin\FormasPagamento::desfazerExclusao/$1');
+
+    /* Para o POST */ 
+
+    $routes->post('formas/atualizar/(:num)', 'Admin\FormasPagamento::atualizar/$1');
+    $routes->post('formas/cadastrar', 'Admin\FormasPagamento::cadastrar');
+
+    $routes->match(['get', 'post'], 'formas/excluir/(:num)', 'Admin\FormasPagamento::excluir/$1');
+
+
 
 });
 
