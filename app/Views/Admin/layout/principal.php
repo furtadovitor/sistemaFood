@@ -199,6 +199,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/entregadores'); ?>">
+                            <i class="mdi mdi-account-settings menu-icon"></i>
+                            <span class="menu-title">Entregadores</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/extras'); ?>">
                             <i class="mdi mdi-account-settings menu-icon"></i>
                             <span class="menu-title">Extras</span>
@@ -350,8 +357,8 @@
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        
-                        
+
+
                     </div>
                 </footer>
                 <!-- partial -->
