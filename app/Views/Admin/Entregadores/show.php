@@ -34,17 +34,21 @@
 
                   <div class="text-center">
 
-                      <?php if($entregador->imagem && $entregador->deletado_em == null): ?>
+                      <?php if($entregador->imagem): ?>
 
                       <img class="card-img-top w-75"
                           src="<?php echo site_url("admin/entregadores/imagem/$entregador->imagem"); ?>"
                           alt="<?php echo esc($entregador->nome); ?>">
+
+                          <hr>
 
                       <?php else: ?>
 
                       <img class="card-img-top w-75"
                           src="<?php echo site_url("admin/images/usuario_sem_imagem.png"); ?>"
                           alt="entregador sem imagem por enquanto">
+
+                          <hr>
 
 
                       <?php endif; ?>

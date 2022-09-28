@@ -206,6 +206,13 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/bairros'); ?>">
+                            <i class="mdi mdi-account-settings menu-icon"></i>
+                            <span class="menu-title">Bairros</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/extras'); ?>">
                             <i class="mdi mdi-account-settings menu-icon"></i>
                             <span class="menu-title">Extras</span>

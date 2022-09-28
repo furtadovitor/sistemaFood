@@ -47,10 +47,10 @@
 
 
 
-                  <?php echo form_open("admin/usuarios/excluir/$usuario->id"); ?>
+                  <?php echo form_open("admin/entregadores/excluir/$entregador->id"); ?>
 
                   <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                      <strong>Atenção!</strong> Tem certeza da exclusão do usuário <strong><?php echo esc($usuario->nome);?></strong> ?
+                      <strong>Atenção!</strong> Tem certeza da exclusão do usuário <strong><?php echo esc($entregador->nome);?></strong> ?
                   </div>
 
                   <button type="submit" class="btn btn-danger mr-2 btn-sm">
@@ -58,7 +58,7 @@
                       Excluir
                   </button>
 
-                  <a href="<?= site_url("admin/usuarios/show/$usuario->id"); ?>" class="btn btn-info btn-sm mr-2">
+                  <a href="<?= site_url("admin/entregadores/show/$entregador->id"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>

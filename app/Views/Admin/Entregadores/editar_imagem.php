@@ -23,7 +23,7 @@
   <div class="row">
 
 
-      <div class="col-lg-12 grid-margin stretch-card">
+      <div class="col-lg-6 grid-margin stretch-card">
           <div class="card">
 
               <div class="card-header bg-primary pb-0 pt-4">
@@ -47,11 +47,28 @@
 
 
 
-                  <?php echo form_open("admin/entregadores/cadastrar"); ?>
+                  <?php echo form_open_multipart("admin/entregadores/upload/$entregador->id"); ?>
 
-                  <?= $this->include('Admin/Entregadores/formulario'); ?>
+                  <div class="form-group mb-5">
+                      <label>Envio de imagem</label>
+                      <input type="file" name="foto_entregador" class="file-upload-default">
+                      <div class="input-group col-xs-12">
+                          <input type="text" class="form-control file-upload-info" disabled placeholder="Escolha uma imagem">
+                          <span class="input-group-append">
+                              <button class="file-upload-browse btn btn-danger" type="button">Escolher</button>
+                          </span>
+                      </div>
+                  </div>
 
-                  <a href="<?= site_url("admin/entregadores"); ?>" class="btn btn-info btn-sm mr-2">
+
+
+
+                  <button type="submit" class="btn btn-primary mr-2 btn-sm">
+                      <i class="mdi mdi-check btn-icon-prepend"></i>
+                      Salvar
+                  </button>
+
+                  <a href="<?= site_url("admin/entregadores/show/$entregador->id"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>
@@ -77,6 +94,7 @@
 
       <script src="<?= site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
       <script src="<?= site_url('admin/vendors/mask/app.js'); ?>"></script>
+      <script src="<?php echo site_url('admin/js/file-upload.js'); ?>"></script>
 
 
 
