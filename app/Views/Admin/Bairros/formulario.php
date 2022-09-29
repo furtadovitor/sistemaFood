@@ -3,8 +3,8 @@
     <?php if(!$bairro->id) : ?>
 
     <div class="form-group col-md-4">
-        <label for="cep">Nome</label>
-        <input type="text" class="cep form-control" name="cep" value="<?= old('cep', esc($bairro->nome)); ?>">
+        <label for="cep">CEP</label>
+        <input type="text" class="cep form-control" name="cep" value="<?= old('cep', esc($bairro->cep)); ?>">
         <div id="cep"></div>
    
     </div>
@@ -66,7 +66,7 @@
 
 
 
-<button type="submit" class="btn btn-primary mr-2 btn-sm">
+<button id="btn-salvar" type="submit" class="btn btn-primary mr-2 btn-sm">
     <i class="mdi mdi-check btn-icon-prepend"></i>
     Salvar
 </button>

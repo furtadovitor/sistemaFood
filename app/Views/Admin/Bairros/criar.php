@@ -47,11 +47,11 @@
 
 
 
-                  <?php echo form_open("admin/extras/cadastrar"); ?>
+                  <?php echo form_open("admin/bairros/cadastrar"); ?>
 
-                  <?= $this->include('Admin/Extras/formulario'); ?>
+                  <?= $this->include('Admin/Bairros/formulario'); ?>
 
-                  <a href="<?= site_url("admin/extras"); ?>" class="btn btn-info btn-sm mr-2">
+                  <a href="<?= site_url("admin/bairros"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>
@@ -78,7 +78,89 @@
 
       <script src="<?= site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
       <script src="<?= site_url('admin/vendors/mask/app.js'); ?>"></script>
+      
+      <!-- script do viaCep -->
+      <script>
 
+        //Desabilitando o botão do submit
+        $("#btn-salvar").prop('disabled', true);
+
+        //pegando o valor do campo cep
+        $('[name=cep]').focusout(function(){
+
+            var cep = $(this).val();
+
+        //preparando o ajax request
+
+        $.ajax({
+
+            //definindo tipo da requisião e url
+            type: 'get',
+            url: '<?php echo site_url('admin/bairros/consultacep'); ?>',
+            dataType: 'json',
+            data: {
+                cep: cep
+            },
+                beforeSend: function(){
+                    $("$cep").html('Consultando...');
+                
+
+                //limpando os campos cidades, etc..
+
+                $('[name=nome]').val('');
+                $('[name=cidade]').val('');
+                $('[name=estado]').val('');
+
+                $("#btn-salvar").prop('disabled', true);
+
+
+            },
+
+            //definindo o success em caso de sucesso na requisição
+
+            success: function(response) {
+
+                //verificando se existe algum erro
+
+                if(!response.erro){
+
+                    /* Sucesso .. */
+
+                     $('[name=nome]').val(response.endereco.bairro);
+                     $('[name=cidade]').val(response.endereco.cidade);
+                     $('[name=estado]').val(response.endereco.uf);
+
+                     $("#btn-salvar").prop('disabled', false);
+                     $("$cep").html('');
+
+
+                }else{
+
+                    /* Existem erros de validação, cep não encontradoo */
+               
+                    $("$cep").html(response.erro);
+
+               
+                }
+
+
+
+            }, // fim do success
+
+            error: function(){
+
+                alert("Não foi possível consultar o CEP. Favor entrar em contato com o suporte técnico.")
+                $("#btn-salvar").prop('disabled', true)              
+
+            },
+            
+        });
+           
+    });
+
+
+
+      </script>                 
 
 
 

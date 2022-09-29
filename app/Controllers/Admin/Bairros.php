@@ -31,7 +31,7 @@ class Bairros extends BaseController
         return  view('Admin/Bairros/index', $data);
     }
 
-    public function procurar(){
+     public function procurar(){
 
         //IF para não mostrar ao usuário. Pois ele só deve ser acessado via AJAX REQUEST. 
          if(!$this->request->isAJAX()){
@@ -58,6 +58,20 @@ class Bairros extends BaseController
          return $this->response->setJSON($retorno);
  
          
+     }
+
+     public function criar(){
+
+        $bairro = new Bairro();
+
+        $data = [
+
+            'titulo' => "Cadastrando novo Bairro",
+            'bairro' => $bairro,
+        ];
+
+        return view('Admin/Bairros/criar', $data);
+
      }
      public function show($id = null){
 
@@ -87,7 +101,89 @@ class Bairros extends BaseController
 
      }
 
-     private function buscaBairroOu404(int $id = null){
+     public function atualizar($id = null){
+
+        if($this->request->getMethod() === 'post'){
+
+            $bairro = $this->buscaBairroOu404($id);
+
+            $bairro->fill($this->request->getPost());
+
+            //Retirando o vírgula do preço 
+
+            $bairro->valor_entrega = str_replace(",", "", $bairro->valor_entrega);
+
+            if(! $bairro->hasChanged()){
+
+                return redirect()->back()->with('info', 'Não há dados para atualizar.');
+            }
+
+            if($this->bairroModel->save($bairro)){
+
+                return redirect()->to(site_url("admin/bairros/show/$bairro->id"))
+                                  ->with('sucesso', "Bairro: $bairro->nome atualizado com sucesso");
+           
+            }else{
+
+                return redirect()->back()->with('errors_model', $this->bairroModel->errors())->with('atencao', 'Dados inválidos, favor verificar.')->withInput();
+
+
+            }
+
+
+        }else{
+
+            return redirect()->back();
+        }
+     }
+
+     public function consultaCep(){
+
+        if(!$this->request->isAJAX()){
+
+            return redirect()->to(site_url());
+
+        }
+
+        $validacao = service('validation');
+
+        $validacao->setRule('cep','CEP','required|exact_length[9]');
+        
+        $retorno = [];
+        //se o cep não for válido, cair no if
+        if(! $validacao->withRequest($this->request)->run()){
+
+            $retorno['erro'] = '<span class="text-danger small">'.$validacao->getError() . '</span>';
+
+            return $this->response->setJSON($retorno);
+        }
+
+        //formatando o cep para tirar o "-"
+        $cep = str_replace('-', '', $this->request->getGet('cep'));
+
+        //carregando o Helper Consulta CEP 
+
+        helper('consulta_cep');
+        
+        $consulta = consultaCep($cep);
+
+        if(isset($consulta->erro) && !isset($consulta->cep)){
+
+            $retorno['erro'] = '<span class="text-danger small"> CEP inválido. </span>';
+
+            return $this->response->setJSON($retorno);
+        }
+
+        $retorno['endereco'] = $consulta;
+
+        return $this->response->setJSON($retorno);
+
+        
+
+
+     }
+
+    private function buscaBairroOu404(int $id = null){
 
         if(!$id || !$bairro = $this->bairroModel->withDeleted(true)->where('id', $id)->first()){
 
