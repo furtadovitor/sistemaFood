@@ -102,7 +102,7 @@
                 cep: cep
             },
                 beforeSend: function(){
-                    $("$cep").html('Consultando...');
+                    $("#cep").html('Consultando...');
                 
 
                 //limpando os campos cidades, etc..
@@ -127,18 +127,18 @@
                     /* Sucesso .. */
 
                      $('[name=nome]').val(response.endereco.bairro);
-                     $('[name=cidade]').val(response.endereco.cidade);
+                     $('[name=cidade]').val(response.endereco.localidade);
                      $('[name=estado]').val(response.endereco.uf);
 
                      $("#btn-salvar").prop('disabled', false);
-                     $("$cep").html('');
+                     $("#cep").html('');
 
 
                 }else{
 
                     /* Existem erros de validação, cep não encontradoo */
                
-                    $("$cep").html(response.erro);
+                    $("#cep").html(response.erro);
 
                
                 }

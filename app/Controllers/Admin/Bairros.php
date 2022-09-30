@@ -145,6 +145,7 @@ class Bairros extends BaseController
 
         }
 
+
         $validacao = service('validation');
 
         $validacao->setRule('cep','CEP','required|exact_length[9]');
@@ -172,13 +173,20 @@ class Bairros extends BaseController
             $retorno['erro'] = '<span class="text-danger small"> CEP inválido. </span>';
 
             return $this->response->setJSON($retorno);
+
+
+        
         }
+
+
+        $consulta = consultaCep($cep);
+        echo '<pre>';
+        print_r($consulta);
+        exit;
 
         $retorno['endereco'] = $consulta;
 
         return $this->response->setJSON($retorno);
-
-        
 
 
      }
