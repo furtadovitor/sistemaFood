@@ -20,7 +20,8 @@ class BairroModel extends Model
 
        // Validation
        protected $validationRules = [
-        'nome'         => 'required|min_length[4]|is_unique[bairros.nome]|max_length[120]',
+        'nome'         => 'required|min_length[4]|is_unique[bairros.nome,id,{id}]|max_length[120]',
+        'cidade'         => 'required|equals[Rio de Janeiro]',
         'valor_entrega' => 'required',
 
     ];
@@ -30,6 +31,10 @@ class BairroModel extends Model
             'is_unique' => 'Essa Bairro já existe.',
 
         ], 
+        'cidade' => [
+            'equals' => 'Por favor, cadastre apenas bairros do Rio de Janeiro - RJ.',
+        ], 
+      
 
         'valor_entrega' => [
             'required' => 'O campo Valor de entrega é obrigatório.',

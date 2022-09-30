@@ -49,6 +49,7 @@
                               <tr>
                                   <th>Nome</th>
                                   <th>Categoria</th>
+                                  <th>Especificações</th>
                                   <th>Data de criação</th>
                                   <th>Ativo</th>
                                   <th>Situação</th>
@@ -64,6 +65,25 @@
                                           <?= $produto->nome; ?> </a>
                                   </td>
                                   <td><?= $produto->categoria; ?></td>
+
+
+                                  <td>
+                                    
+                                    <?php foreach($especificacoes as $especificacao): ?>
+
+                                        <?php if($produto->id == $especificacao->produto_id): ?> 
+
+                                            <p>
+                                                <?php echo esc($especificacao->nome); ?> : R$&nbsp;<?php echo esc($especificacao->preco); ?>
+                                            </p>
+
+                                       
+
+                                        <?php endif; ?>
+
+                                    <?php endforeach; ?>
+                                  </td>
+
 
                                   <td><?= $produto->criado_em->humanize(); ?></td>
 

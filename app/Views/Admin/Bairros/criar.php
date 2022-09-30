@@ -128,7 +128,7 @@
 
                      $('[name=nome]').val(response.endereco.bairro);
                      $('[name=cidade]').val(response.endereco.localidade);
-                     $('[name=estado]').val(response.endereco.uf);
+                     $('[name=estado]').val(response.endereco.uf)
 
                      $("#btn-salvar").prop('disabled', false);
                      $("#cep").html('');
