@@ -1,0 +1,838 @@
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:20 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 10:52:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:31:17 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 222.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:13 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 108
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(108): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 11:36:14 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscaBairroOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Bairros.php on line 229
+in APPPATH/Controllers/Admin/Bairros.php on line 283.
+ 1 APPPATH/Controllers/Admin/Bairros.php(229): App\Controllers\Admin\Bairros->buscaBairroOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Bairros->excluir()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 13:57:21 --> Invalid argument supplied for foreach()
+in APPPATH/Views/Admin/Expedientes/expedientes.php on line 21.
+ 1 APPPATH/Views/Admin/Expedientes/expedientes.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Admin/Expedientes/expedientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/Expedientes.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Expedientes->expedientes()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:32 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 14:20:41 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 15:05:33 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 15.
+ 1 APPPATH/Controllers/Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 15:12:04 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 15.
+ 1 APPPATH/Controllers/Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 15:12:05 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 15.
+ 1 APPPATH/Controllers/Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 15:12:05 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 15.
+ 1 APPPATH/Controllers/Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-30 16:01:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1 in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/sistemaFood/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/sistemaFood/app/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+#7 /var/www/sistemaFood/app/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#13 {main}
+CRITICAL - 2022-09-30 16:01:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+ 9 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-30 16:01:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1 in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/sistemaFood/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/sistemaFood/app/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+#7 /var/www/sistemaFood/app/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#13 {main}
+CRITICAL - 2022-09-30 16:01:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+ 9 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-30 16:01:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1 in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/sistemaFood/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/sistemaFood/app/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+#7 /var/www/sistemaFood/app/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#13 {main}
+CRITICAL - 2022-09-30 16:01:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+ 9 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-30 16:03:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1 in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/sistemaFood/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/sistemaFood/app/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+#7 /var/www/sistemaFood/app/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#13 {main}
+CRITICAL - 2022-09-30 16:03:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`slug, produtos`.`ingredientes, produtos`.`imagem, categorias`.`id AS categoria' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/ProdutoModel.php(123): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Home.php(25): App\Models\ProdutoModel->buscaProdutosSiteHome()
+ 9 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:11:05 --> syntax error, unexpected end of file
+in APPPATH/Views/Home/index.php on line 680.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(28): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:16:19 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 39.
+ 1 APPPATH/Views/Home/index.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:17:23 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 41.
+ 1 APPPATH/Views/Home/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:18:22 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 44.
+ 1 APPPATH/Views/Home/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:18:22 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 44.
+ 1 APPPATH/Views/Home/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:18:23 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 44.
+ 1 APPPATH/Views/Home/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:18:23 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 44.
+ 1 APPPATH/Views/Home/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:18:23 --> Undefined variable: categoria
+in APPPATH/Views/Home/index.php on line 44.
+ 1 APPPATH/Views/Home/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:00 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:12 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:19 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-30 16:21:33 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Categorias.php on line 106
+in APPPATH/Controllers/Admin/Categorias.php on line 238.
+ 1 APPPATH/Controllers/Admin/Categorias.php(106): App\Controllers\Admin\Categorias->buscaCategoriaOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Categorias->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

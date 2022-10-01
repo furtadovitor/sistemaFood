@@ -47,10 +47,10 @@
 
 
 
-                  <?php echo form_open("admin/extras/excluir/$extra->id"); ?>
+                  <?php echo form_open("admin/bairros/excluir/$bairro->id"); ?>
 
                   <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                      <strong>Atenção!</strong> Tem certeza da exclusão do Extra? <strong><?php echo esc($extra->nome);?></strong> ?
+                      <strong>Atenção!</strong> Tem certeza da exclusão do bairro? <strong><?php echo esc($bairro->nome);?></strong> ?
                   </div>
 
                   <button type="submit" class="btn btn-danger mr-2 btn-sm">
@@ -58,7 +58,7 @@
                       Excluir
                   </button>
 
-                  <a href="<?= site_url("admin/extras/show/$extra->id"); ?>" class="btn btn-info btn-sm mr-2">
+                  <a href="<?= site_url("admin/bairros/show/$bairro->id"); ?>" class="btn btn-info btn-sm mr-2">
                       <i class="mdi mdi-arrow-left btn-icon-prepend"></i>
                       Voltar
                   </a>

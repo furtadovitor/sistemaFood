@@ -23,7 +23,7 @@ class Bairros extends BaseController
         $data = [
 
             'titulo' => 'Listando os bairros atendidos',
-            'bairros' => $this->bairroModel->withDeleted(true)->paginate(10),
+            'bairros' => $this->bairroModel->withDeleted(true)->orderBy('nome','ASC')->paginate(10),
             'pager' => $this->bairroModel->pager,
 
         ];
@@ -73,6 +73,36 @@ class Bairros extends BaseController
         return view('Admin/Bairros/criar', $data);
 
      }
+
+     public function cadastrar(){
+
+        if($this->request->getMethod() === 'post'){
+
+            $bairro = new Bairro($this->request->getPost());
+
+            //Retirando o vírgula do preço 
+
+            $bairro->valor_entrega = str_replace(",", "", $bairro->valor_entrega);
+
+
+            if($this->bairroModel->save($bairro)){
+
+                return redirect()->to(site_url("admin/bairros/show/".$this->bairroModel->getInsertID()))
+                                  ->with('sucesso', "Bairro: $bairro->nome cadastrado com sucesso");
+           
+            }else{
+
+                return redirect()->back()->with('errors_model', $this->bairroModel->errors())->with('atencao', 'Dados inválidos, favor verificar.')->withInput();
+
+
+            }
+
+
+        }else{
+
+            return redirect()->back();
+        }
+     }
      public function show($id = null){
 
         $bairro = $this->buscaBairroOu404($id);
@@ -90,6 +120,11 @@ class Bairros extends BaseController
      public function editar($id = null){
 
         $bairro = $this->buscaBairroOu404($id);
+
+        if($bairro->deletado_em != null){
+            
+            return redirect()->back()->with('info', "O Bairro $bairro->nome encontra-se excluído. Logo, não é possível editá-la.");
+        }
 
         $data = [
 
@@ -145,6 +180,7 @@ class Bairros extends BaseController
 
         }
 
+
         $validacao = service('validation');
 
         $validacao->setRule('cep','CEP','required|exact_length[9]');
@@ -166,22 +202,83 @@ class Bairros extends BaseController
         helper('consulta_cep');
         
         $consulta = consultaCep($cep);
+      
 
         if(isset($consulta->erro) && !isset($consulta->cep)){
 
             $retorno['erro'] = '<span class="text-danger small"> CEP inválido. </span>';
 
             return $this->response->setJSON($retorno);
+
+
+        
         }
+
+
+    
 
         $retorno['endereco'] = $consulta;
 
         return $this->response->setJSON($retorno);
 
-        
-
 
      }
+
+     public function excluir($id = null){
+
+        $bairro = $this->buscaBairroOu404($id);
+
+        if($bairro->deletado_em != null){
+            
+            return redirect()->back()->with('info', "O bairro $bairro->nome encontra-se excluído. Logo, não é possível editá-la.");
+        }
+
+        if($bairro->deletado_em != null){
+            
+            return redirect()->back()->with('info', "O bairro $bairro->nome já encontra-se excluído.");
+        }
+
+
+        if($this->request->getMethod() === 'post'){
+
+            $this->bairroModel->delete($id);
+            return redirect()->to(site_url('admin/bairros'))->with('sucesso', "bairro $bairro->nome excluído com sucesso.");
+        }
+
+               
+        $data = [
+            'titulo' => "Excluindo o bairro $bairro->nome",
+            'bairro' => $bairro,
+        ];
+
+        return view('Admin/Bairros/excluir', $data);
+    }
+
+    public function desfazerExclusao($id = null){
+
+        //bairro ta sendo criado através da recupoeração do metodo buscabairroOu404
+        $bairro = $this->buscaBairroOu404($id);
+
+        if($bairro->deletado_em == null){
+
+            return redirect()->back()->with('info', 'Apenas bairros exclúidos podem ser recuperados.');
+
+        }
+
+        
+        if($this->bairroModel->desfazerExclusao($id)){
+
+            return redirect()->back()->with('sucesso', 'Exclusão desfeita com sucesso.');
+        }else{
+
+            return redirect()->back()->with('errors_model', $this->bairroModel->errors())->with('atencao', 'Dados inválidos, favor verificar.')->withInput();
+
+        
+        }
+       
+
+    }
+
 
     private function buscaBairroOu404(int $id = null){
 
