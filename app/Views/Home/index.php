@@ -65,7 +65,7 @@
 
               <?php foreach ($produtos as $produto): ?>
 
-              <div class="col-sm-6 filtr-item image filter active <?php echo $produto->categoria_slug ?>">
+              <div class="col-sm-6 filtr-item image filter active <?php echo $produto->categoria_slug?>">
 
                   <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/food-1.jpg" class="block
               fancybox" data-fancybox-group="fancybox">
