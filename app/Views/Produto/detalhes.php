@@ -44,13 +44,71 @@
                       </h2>
                       <hr />
                       <h3 class="price-container">
-                          $129.54
+
+                          <p class="small">Escolha o valor</p>
+
+
+                          <?php foreach ($especificacoes as $especificacao) : ?>
+                          <div class="radio">
+
+                              <label style="font-size: 15px" ;>
+
+                                  <input type="radio" style="margin-top: 2px" class="especificacao"
+                                      data-especificacao="<?php echo $especificacao->especificacao_id ?>"
+                                      name="produto[preco]" value="<?php echo $especificacao->preco; ?>">
+
+                                  <?php echo esc($especificacao->nome); ?>
+                                  <?php echo esc(number_format($especificacao->preco, 2)); ?>
+
+                              </label>
+
+                          </div>
+
+                          <?php endforeach; ?>
+
+                          <?php if(isset($extras)): ?>
+
+                          <hr>
+
+                          <p class="small">Extras do produto</p>
+
+                          <div class="radio">
+
+                              <label style="font-size: 15px" ;>
+
+                                  <input type="radio" style="margin-top: 2px" class="extra" name="extra" checked="">Sem extra
+
+                              </label>
+
+                          </div>
+
+
+
+
+                          <?php foreach ($extras as $extra) : ?>
+                          <div class="radio">
+
+                              <label style="font-size: 15px" ;>
+
+                                  <input type="radio" class="extra" data-extra="<?php echo $extra->id_principal ?>"
+                                      name="extra" value="<?php echo $extra->preco; ?>">
+
+                                  <?php echo esc($extra->nome); ?>
+                                  <?php echo esc(number_format($extra->preco, 2)); ?>
+
+                              </label>
+
+                          </div>
+
+                          <?php endforeach; ?>
+
+                          <?php endif; ?>
                       </h3>
 
                       <div class="description description-tabs">
 
                           <div id="myTabContent" class="tab-content">
-                              <div class="tab-pane fade active in" id="more-information">
+                              <div class="tab-pane fade active in" style="font-size:15px;" id="more-information">
                                   <br />
                                   <strong>É uma delícia &#x1F60B;</strong>
                                   <p>
@@ -66,20 +124,24 @@
 
                           <!-- Campos hidden que to usando no controller -->
 
-                          <input type="text" name="produto[slug]" placeholder="produto[slug]" value="<?php echo $produto->slug; ?>">
-                     
-                          <input type="text" id="especificacao_id" placeholder="produto[especificacao_id]" name="produto[especificacao_id]">
+                          <input type="text" name="produto[slug]" placeholder="produto[slug]"
+                              value="<?php echo $produto->slug; ?>">
+
+                          <input type="text" id="especificacao_id" placeholder="produto[especificacao_id]"
+                              name="produto[especificacao_id]">
 
                           <input type="text" id="extra_id" placeholder="produto[extra_id]" name="produto[extra_id]">
 
-                        </div>
+                      </div>
                       <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6">
-                          
-                          <input type="submit" class="btn btn-success btn-lg" value="Adicionar ao carrinho">
-                          
-                          
-                          <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-lg">Mais produtos</a>
+                          <div class="col-sm-4">
+
+                              <input id="btn-adiciona" type="submit" class="btn btn-success btn-lg" value="Adicionar ao carrinho">
+
+                          </div>
+                          <div class="col-sm-4">
+
+                              <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-lg">Mais produtos</a>
                           </div>
 
                       </div>
@@ -103,7 +165,25 @@
 
 
   <?= $this->section('scripts'); ?>
-  <!-- Aqui enviamos p/ template pricipal os scripts -->
 
+  <script>
+
+    $(document).ready(function () {
+
+        var especificacao_id;
+
+        //se a especificacao id não tiver valor, o botão fica desabilitado
+        if (!$especificacao_id) {
+
+            $("#btn-adiciona").prop("disabled", true);
+
+            $("#btn-adiciona").prop("value", "Selecione um valor");
+
+        }
+    });
+
+
+
+  </script>
 
   <?= $this->endSection(); ?>

@@ -1,0 +1,192 @@
+CRITICAL - 2022-10-07 15:26:36 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:36 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:36 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:36 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:47 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:52 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:52 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:52 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:52 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:26:58 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:27:06 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:27:06 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:27:06 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:27:06 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:27:22 --> Class 'App\Models\produtoEspecificacaoModel' not found
+in APPPATH/Controllers/Produto.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(866): App\Controllers\Produto->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:41:30 --> Undefined property: stdClass::$especificacao_id
+in APPPATH/Views/Produto/detalhes.php on line 54.
+ 1 APPPATH/Views/Produto/detalhes.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Produto/detalhes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produto.php(40): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:45:34 --> Undefined property: stdClass::$especificacao_id
+in APPPATH/Views/Produto/detalhes.php on line 54.
+ 1 APPPATH/Views/Produto/detalhes.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Produto/detalhes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produto.php(40): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:46:25 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:02 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:50 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:50 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:50 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:51 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-07 15:47:51 --> Call to undefined method App\Models\ProdutoEspecificacaoModel::finAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Models/ProdutoEspecificacaoModel.php(56): CodeIgniter\Model->__call()
+ 2 APPPATH/Controllers/Produto.php(35): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProdutoDetalhes()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Produto->detalhes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
