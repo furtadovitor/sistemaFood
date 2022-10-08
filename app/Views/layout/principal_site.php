@@ -366,9 +366,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <div class="copy_text">
-                                        <a target="_blank" href="https://www.templateshub.net">Templates Hub</a>
-                                    </div>
+                                    
                                 </div>
                                 <div class="col-md-4">
                                     <div class="social-links">
