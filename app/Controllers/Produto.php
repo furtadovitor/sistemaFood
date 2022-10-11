@@ -25,7 +25,7 @@ class Produto extends BaseController
        
         //se cair no if, é pq não foi informado o slug ou foi alterado na url
 
-        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->first()){
+        if(!$produto_slug || !$produto = $this->produtoModel->where('slug', $produto_slug)->where('ativo',true)->first()){
 
             return redirect()->to(site_url('/'));
         }

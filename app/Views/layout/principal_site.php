@@ -287,47 +287,46 @@
         </header>
         <!-- End header -->
 
-        <?php if(session()->has('sucesso')): ?>
+        <div class="container" style="margin-top: 2em">
 
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <strong>Perfeito!</strong> <?= session('sucesso'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+            <?php if(session()->has('sucesso')): ?>
+
+            <div class="alert alert-success" role="alert"><?= session('sucesso'); ?></div>
+
+
+            <?php endif; ?>
+
+            <?php if(session()->has('info')): ?>
+
+            <div class="alert alert-info" role="alert"><?= session('info'); ?></div>
+
+
+            <?php endif; ?>
+
+            <?php if(session()->has('atencao')): ?>
+
+
+
+            <div class="alert alert-danger" role="alert"><?= session('atencao'); ?></div>
+
+            <?php endif; ?>
+
+            <?php if(session()->has('fraude')): ?>
+
+
+
+            <div class="alert alert-warning" role="alert"><?= session('fraude'); ?></div>
+
+            <?php endif; ?>
+
+            <!-- Captura os erros de CSRF, ação nao permitida! -->
+            <?php if(session()->has('error')): ?>
+
+            <div class="alert alert-danger" role="alert"><?= session('error'); ?></div>
+
+
+            <?php endif; ?>
         </div>
-
-        <?php endif; ?>
-
-        <?php if(session()->has('info')): ?>
-
-        <div class="alert alert-info alert-dismissible fade show" role="alert">
-            <strong>Informaçao!</strong> <?= session('info'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-        <?php endif; ?>
-
-        <?php if(session()->has('atencao')): ?>
-
-    
-
-        <div class="alert alert-danger" role="alert"><?= session('atencao'); ?></div>
-
-        <?php endif; ?>
-
-        <!-- Captura os erros de CSRF, ação nao permitida! -->
-        <?php if(session()->has('error')): ?>
-
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Erro!</strong> <?= session('error'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-        <?php endif; ?>
 
         <?php $this->renderSection('conteudo');?>
 
