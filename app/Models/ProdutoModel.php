@@ -122,6 +122,21 @@ public function buscaProdutosSiteHome(){
                 ->findAll();
 }
 
+//Uso no controller Produto/customizar
+public function exibeOpcoesProdutosParaCustomizar(int $categoria_id){
+
+    return $this->select(['produtos.id', 'produtos.nome'])
+                ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+                ->where('produtos.categoria_id', $categoria_id)
+                ->where('produtos.ativo', true)
+                ->where('produtos_especificacoes.customizavel', true)
+                ->where('produtos.nome')
+                ->findAll();
+
+
+
+}
+
 
 
 }

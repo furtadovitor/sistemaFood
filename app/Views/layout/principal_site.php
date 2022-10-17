@@ -155,7 +155,7 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png"
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/teste.png"
                                         alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
