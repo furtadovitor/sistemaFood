@@ -39,7 +39,7 @@
 
 
 
-                  <div class="row">
+                  <div class="row" style="min-height:300px">
 
                       <div class="col-md-12">
 
@@ -100,32 +100,16 @@
 
                   <div class="row">
 
-                      <div class="col-sm-4">
+                      <div class="col-sm-2">
 
-                          <input id="btn-adiciona" type="submit" class="btn btn-success btn-block "
+                          <input id="btn-adiciona" type="submit" class="btn btn-success "
                               value="Adicionar ao carrinho">
 
                       </div>
 
+                      <div class="col-sm-2">
 
-                      <!-- Colocando o botão customizavel para aparecer somento se o item for customizavel -->
-                      <?php foreach($especificacoes as $especificacao): ?>
-
-                      <?php if($especificacao->customizavel): ?>
-
-                      <div class="col-sm-4">
-
-                          <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>"
-                              class="btn btn-primary btn-block ">Customizar</a>
-                      </div>
-
-                      <?php break; ?>
-                      <?php endif; ?>
-                      <?php endforeach; ?>
-
-                      <div class="col-sm-4">
-
-                          <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-block ">Mais produtos</a>
+                          <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?>" class="btn btn-info  ">Voltar</a>
                       </div>
                   </div>
 
@@ -150,38 +134,50 @@
 
   <script>
 $(document).ready(function() {
+  
 
-    var especificacao_id;
+    $("#btn-adiciona").prop("disabled", true);
 
-    //se a especificacao id não tiver valor, o botão fica desabilitado
-    if (!especificacao_id) {
+    $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
-        $("#btn-adiciona").prop("disabled", true);
+    
 
-        $("#btn-adiciona").prop("value", "Selecione um valor");
+    $("#primeira_metade").on('change', function() {
 
-    }
 
-    $(".especificacao").on('click', function() {
+        var primeira_metade = $(this).val();
 
-        var especificacao_id = $(this).attr('data-especificacao');
+        var categoria_id = '<?php echo $produto->categoria_id ?>';
 
-        $("#especificacao_id").val(especificacao_id);
+        if(primeira_metade){
 
-        $("#btn-adiciona").prop("disabled", false);
+            $.ajax({
 
-        $("#btn-adiciona").prop("value", "Adicionar ao carrinho");
+                type: 'get',
+                url: '<?php echo site_url('produto/procurar'); ?>',
+                dataType: 'json',
+                data: {
+                  primeira_metade: primeira_metade,
+                  categoria_id: categoria_id,  
+                },
+
+                success: function(data){
+
+
+                },
+        });
+
+        
+
+        }else{
+
+            /*Cliente não escolheu a 1 metade */
+        }
+        
 
     });
 
-    $(".extra").on('click', function() {
 
-        var extra_id = $(this).attr('data-extra');
-
-        $("#extra_id").val(extra_id);
-
-
-    });
 });
   </script>
 

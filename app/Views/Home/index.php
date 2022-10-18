@@ -113,10 +113,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-2.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/picanha.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-2.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/picanha-min.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>

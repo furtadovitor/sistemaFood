@@ -130,7 +130,7 @@ public function exibeOpcoesProdutosParaCustomizar(int $categoria_id){
                 ->where('produtos.categoria_id', $categoria_id)
                 ->where('produtos.ativo', true)
                 ->where('produtos_especificacoes.customizavel', true)
-                ->where('produtos.nome')
+                ->groupBy('produtos.nome')
                 ->findAll();
 
 
