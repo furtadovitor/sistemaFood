@@ -33,7 +33,7 @@
               <div class="card-body">
 
                   <p class="card-text">
-                      <span class="font-weight-bold">Nome:</span>
+                      <span class="font-weight-bold">Nosssme:</span>
                       <?= esc($bairro->nome); ?>
                   </p>
 

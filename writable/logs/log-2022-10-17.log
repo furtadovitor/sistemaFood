@@ -1039,3 +1039,123 @@ in APPPATH/Controllers/Admin/Produtos.php on line 570.
  4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-10-17 22:25:05 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'braseiro_nobre', 3306, '', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemaFood\app\Models\CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemaFood\app\Controllers\Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xampp\htdocs\sistemaFood\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistemaFood\app\Models\CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistemaFood\app\Controllers\Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+#7 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-17 22:25:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categorias`.`id`, `categorias`.`nome`, `categorias`.`slug`
+FROM `categorias`
+JOIN `produtos` ON `produtos`.`categoria_id` = `categorias`.`id`
+WHERE `categorias`.`deletado_em` IS NULL
+GROUP BY `categorias`.`id`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-17 22:32:13 --> mysqli_sql_exception: Unknown column 'produto.id' in 'on clause' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemaFood\app\Models\ProdutoModel.php(134): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemaFood\app\Controllers\Produto.php(79): App\Models\ProdutoModel->exibeOpcoesProdutosParaCustomizar(1)
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Produto->customizar('carne')
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+#10 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-17 22:32:13 --> Unknown column 'produto.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produtos`.`id`, `produtos`.`nome`
+FROM `produtos`
+JOIN `produtos_especificacoes` ON `produtos_especificacoes`.`produto_id` = `produto`.`id`
+WHERE `produtos`.`categoria_id` = 1
+AND `produtos`.`ativo` = 1
+AND `produtos_especificacoes`.`customizavel` = 1
+AND `produtos`.`nome` IS NULL
+AND `produtos`.`deletado_em` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produtos`.`id`, `produtos`.`nome`
+FROM `produtos`
+JOIN `produtos_especificacoes` ON `produtos_especificacoes`.`produto_id` = `produto`.`id`
+WHERE `produtos`.`categoria_id` = 1
+AND `produtos`.`ativo` = 1
+AND `produtos_especificacoes`.`customizavel` = 1
+AND `produtos`.`nome` IS NULL
+AND `produtos`.`deletado_em` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produtos`.`id`, `produtos`.`nome`
+FROM `produtos`
+JOIN `produtos_especificacoes` ON `produtos_especificacoes`.`produto_id` = `produto`.`id`
+WHERE `produtos`.`categoria_id` = 1
+AND `produtos`.`ativo` = 1
+AND `produtos_especificacoes`.`customizavel` = 1
+AND `produtos`.`nome` IS NULL
+AND `produtos`.`deletado_em` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `produtos`.`id`, `produtos`.`nome`
+FROM `produtos`
+JOIN `produtos_especificacoes` ON `produtos_especificacoes`.`produto_id` = `produto`.`id`
+WHERE `produtos`.`categoria_id` = :produtos.categoria_id:
+AND `produtos`.`ativo` = :produtos.ativo:
+AND `produtos_especificacoes`.`customizavel` = :produtos_especificacoes.customizavel:
+AND `produtos`.`nome` IS NULL
+AND `produtos`.`deletado_em` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProdutoModel.php(134): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Produto.php(79): App\Models\ProdutoModel->exibeOpcoesProdutosParaCustomizar(1)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Produto->customizar('carne')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 22:32:33 --> Argument 1 passed to App\Models\ProdutoModel::exibeOpcoesProdutosParaCustomizar() must be of the type int, string given, called in C:\xampp\htdocs\sistemaFood\app\Controllers\Produto.php on line 79
+in APPPATH\Models\ProdutoModel.php on line 126.
+ 1 APPPATH\Controllers\Produto.php(79): App\Models\ProdutoModel->exibeOpcoesProdutosParaCustomizar('Carne')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Produto->customizar('carne')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
