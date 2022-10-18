@@ -5,11 +5,12 @@
 
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
 
     <!-- Meta tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -18,35 +19,45 @@
 
 
     <!-- Stylesheets -->
-    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet"
+        media="all" />
+    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"
+        media="all" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/fonts.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/slick.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/slick-theme.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/aos.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet" />
-    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
-    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
+    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-datepicker.css" type="text/css"
+        rel="stylesheet" />
+    <link href="<?php echo site_url('web/'); ?>src/assets/css/bootstrap-datetimepicker.css" type="text/css"
+        rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/main.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo site_url('web/'); ?>src/assets/css/responsive.css" type="text/css" rel="stylesheet" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="256x256"  href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-256x256.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-192x192.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="<?php echo site_url('web/'); ?>src/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="256x256"
+        href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="<?php echo site_url('web/'); ?>src/assets/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/favicon.ico" />
     <link rel="manifest" href="<?php echo site_url('web/'); ?>src/assets/img/site.html" />
-    <link rel="mask-icon" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="mask-icon" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/safari-pinned-tab.svg"
+        color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
-    <meta name="theme-color" content="#ffffff" />    
+    <meta name="theme-color" content="#ffffff" />
 
-     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
-     <?= $this->renderSection('estilos') ?>
+    <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
+    <?= $this->renderSection('estilos') ?>
 
 
 </head>
@@ -55,8 +66,8 @@
 <!-- BEGIN body -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  
-    <!-- BEGIN  Loading Section -->  
+
+    <!-- BEGIN  Loading Section -->
     <div class="loading-overlay">
         <div class="spinner">
             <span></span>
@@ -66,7 +77,7 @@
             <span></span>
         </div>
     </div>
-    <!-- END Loading Section -->    
+    <!-- END Loading Section -->
 
     <!-- BEGIN body wrapper -->
     <div class="body-wrapper">
@@ -102,7 +113,8 @@
                         <div class="item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" /> 
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png"
+                                        alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -110,7 +122,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
                                     </div>
@@ -121,7 +134,8 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/tortilla.png" alt="sample" />
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/tortilla.png"
+                                        alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -129,7 +143,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
                                     </div>
@@ -140,7 +155,8 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png" alt="sample" />
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/teste.png"
+                                        alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -148,7 +164,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
                                     </div>
@@ -159,7 +176,8 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png" alt="sample" />
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png"
+                                        alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -167,7 +185,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
                                     </div>
@@ -178,7 +197,8 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png" alt="sample" />
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png"
+                                        alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -186,7 +206,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
                                     </div>
@@ -208,7 +229,8 @@
 
                         <div class="navbar_top hidden-xs">
                             <div class="top_addr">
-                                <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city,
+                                    12345</span>
                                 <span><i class="fa fa-phone" aria-hidden="true"></i> 123 456 789</span>
                                 <span><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 21:00</span>
                                 <div class="pull-right search-block">
@@ -217,8 +239,10 @@
                             </div>
                             <div id="navbar_search">
                                 <form method="post">
-                                    <input type="text" name="q" class="form-control pull-left" value="" placeholder="Search anything">
-                                    <button type="submit" class="pull-right close" id="search_close"><i class="fa fa-close"></i></button>
+                                    <input type="text" name="q" class="form-control pull-left" value=""
+                                        placeholder="Search anything">
+                                    <button type="submit" class="pull-right close" id="search_close"><i
+                                            class="fa fa-close"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -263,7 +287,48 @@
         </header>
         <!-- End header -->
 
-      <?php $this->renderSection('conteudo');?>
+        <div class="container" style="margin-top: 2em">
+
+            <?php if(session()->has('sucesso')): ?>
+
+            <div class="alert alert-success" role="alert"><?= session('sucesso'); ?></div>
+
+
+            <?php endif; ?>
+
+            <?php if(session()->has('info')): ?>
+
+            <div class="alert alert-info" role="alert"><?= session('info'); ?></div>
+
+
+            <?php endif; ?>
+
+            <?php if(session()->has('atencao')): ?>
+
+
+
+            <div class="alert alert-danger" role="alert"><?= session('atencao'); ?></div>
+
+            <?php endif; ?>
+
+            <?php if(session()->has('fraude')): ?>
+
+
+
+            <div class="alert alert-warning" role="alert"><?= session('fraude'); ?></div>
+
+            <?php endif; ?>
+
+            <!-- Captura os erros de CSRF, ação nao permitida! -->
+            <?php if(session()->has('error')): ?>
+
+            <div class="alert alert-danger" role="alert"><?= session('error'); ?></div>
+
+
+            <?php endif; ?>
+        </div>
+
+        <?php $this->renderSection('conteudo');?>
 
 
         <!--  Begin Footer  -->
@@ -273,14 +338,16 @@
 
             <!--    Google map, Social links    -->
             <div class="section" id="contact">
-                <div id="googleMap"></div> 
+                <div id="googleMap"></div>
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
                             <div class="row">
                                 <div class="col-sm-6 col-md-4">
                                     <h4 class="footer_ttl footer_ttl_padd">about us</h4>
-                                    <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries but also the leap into electronic typesetting. </p>
+                                    <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. It has survived not only five centuries but also the leap
+                                        into electronic typesetting. </p>
                                 </div>
                                 <div class="col-sm-6 col-md-5">
                                     <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
@@ -347,7 +414,8 @@
                                     <div class="footer_border">
                                         <div class="footer_cnt">
                                             <i class="fa fa-map-marker"></i>
-                                            <span>Your City, Your streert, 18765, 100 Tenth Avenue, New York City, NY 1001</span>
+                                            <span>Your City, Your streert, 18765, 100 Tenth Avenue, New York City, NY
+                                                1001</span>
                                         </div>
                                         <div class="footer_cnt">
                                             <i class="fa fa-phone"></i>
@@ -366,7 +434,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
-                                    
+
                                 </div>
                                 <div class="col-md-4">
                                     <div class="social-links">
@@ -438,7 +506,7 @@
 
     <div class="cd-overlay"></div>
     <!-- /.cd-overlay -->
-         
+
 
     <!-- END mobile right burger menu -->
 
@@ -457,11 +525,13 @@
     <script src="<?php echo site_url('web/'); ?>src/assets/js/jquery.fancybox.js"></script>
     <script src="<?php echo site_url('web/'); ?>src/assets/js/loadMoreResults.js"></script>
     <script src="<?php echo site_url('web/'); ?>src/assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&amp;callback=myMap"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&amp;callback=myMap">
+    </script>
 
 
     <!-- Essa section renderizará os scripts específicos da view que estender esse layout.-->
     <?= $this->renderSection('scripts') ?>
 </body>
 
-</html> 
+</html>

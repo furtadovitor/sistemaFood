@@ -1,0 +1,8 @@
+CRITICAL - 2022-10-11 14:47:17 --> Undefined variable: validacao
+in APPPATH/Controllers/Carrinho.php on line 37.
+ 1 APPPATH/Controllers/Carrinho.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->adicionar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

@@ -35,8 +35,24 @@
                   </div>
 
 
+
                   <?php echo form_open("carrinho/adicionar"); ?>
                   <div class="col-md-7 col-md-offset-1 col-sm-12 col-xs-12">
+
+
+                      <?php if(session()->has('errors_model')): ?>
+
+                      <ul style="margin-left: -1.6em !important; list-style:decimal">
+                          <?php foreach(session('errors_model') as $error) : ?>
+
+                          <li class="text-danger"><?php echo $error ?></li>
+
+                          <?php endforeach; ?>
+                      </ul>
+
+
+                      <?php endif; ?>
+
                       <h2 class="name">
 
                           <?php echo esc($produto->nome); ?>
@@ -76,7 +92,8 @@
 
                               <label style="font-size: 15px" ;>
 
-                                  <input type="radio" style="margin-top: 2px" class="extra" name="extra" checked="">Sem extra
+                                  <input type="radio" style="margin-top: 2px" class="extra" name="extra" checked="">Sem
+                                  extra
 
                               </label>
 
@@ -90,7 +107,7 @@
 
                               <label style="font-size: 15px" ;>
 
-                                  <input type="radio" class="extra" data-extra="<?php echo $extra->id_principal ?>"
+                                  <input type="radio" class="extra" data-extra="<?php echo $extra->id ?>"
                                       name="extra" value="<?php echo $extra->preco; ?>">
 
                                   <?php echo esc($extra->nome); ?>
@@ -104,6 +121,22 @@
 
                           <?php endif; ?>
                       </h3>
+
+                      <div class="row" style="margin-top: 4rem">
+
+                          <div class="col-md-4">
+
+                              <label>Quantidade</label>
+
+                              <input type="number" class="form-control" placeholder="Quantidade"
+                                  name="produto[quantidade]" value="1" min="1" max="10" step="1" required="">
+
+
+                          </div>
+
+
+
+                      </div>
 
                       <div class="description description-tabs">
 
@@ -124,24 +157,42 @@
 
                           <!-- Campos hidden que to usando no controller -->
 
-                          <input type="text" name="produto[slug]" placeholder="produto[slug]"
+                          <input type="hidden" name="produto[slug]" placeholder="produto[slug]"
                               value="<?php echo $produto->slug; ?>">
 
-                          <input type="text" id="especificacao_id" placeholder="produto[especificacao_id]"
+                          <input type="hidden" id="especificacao_id" placeholder="produto[especificacao_id]"
                               name="produto[especificacao_id]">
 
-                          <input type="text" id="extra_id" placeholder="produto[extra_id]" name="produto[extra_id]">
+                          <input type="hidden" id="extra_id" placeholder="produto[extra_id]" name="produto[extra_id]">
 
                       </div>
                       <div class="row">
                           <div class="col-sm-4">
 
-                              <input id="btn-adiciona" type="submit" class="btn btn-success btn-lg" value="Adicionar ao carrinho">
+                              <input id="btn-adiciona" type="submit" class="btn btn-success btn-block "
+                                  value="Adicionar ao carrinho">
 
                           </div>
+
+
+                          <!-- Colocando o botão customizavel para aparecer somento se o item for customizavel -->
+                          <?php foreach($especificacoes as $especificacao): ?>
+
+                          <?php if($especificacao->customizavel): ?>
+
                           <div class="col-sm-4">
 
-                              <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-lg">Mais produtos</a>
+                              <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>"
+                                  class="btn btn-primary btn-block ">Customizar</a>
+                          </div>
+
+                          <?php break; ?>
+                          <?php endif; ?>
+                          <?php endforeach; ?>
+
+                          <div class="col-sm-4">
+
+                              <a href="<?php echo site_url("/"); ?>" class="btn btn-info btn-block ">Mais produtos</a>
                           </div>
 
                       </div>
@@ -167,23 +218,40 @@
   <?= $this->section('scripts'); ?>
 
   <script>
+$(document).ready(function() {
 
-    $(document).ready(function () {
+    var especificacao_id;
 
-        var especificacao_id;
+    //se a especificacao id não tiver valor, o botão fica desabilitado
+    if (!especificacao_id) {
 
-        //se a especificacao id não tiver valor, o botão fica desabilitado
-        if (!$especificacao_id) {
+        $("#btn-adiciona").prop("disabled", true);
 
-            $("#btn-adiciona").prop("disabled", true);
+        $("#btn-adiciona").prop("value", "Selecione um valor");
 
-            $("#btn-adiciona").prop("value", "Selecione um valor");
+    }
 
-        }
+    $(".especificacao").on('click', function() {
+
+        var especificacao_id = $(this).attr('data-especificacao');
+
+        $("#especificacao_id").val(especificacao_id);
+
+        $("#btn-adiciona").prop("disabled", false);
+
+        $("#btn-adiciona").prop("value", "Adicionar ao carrinho");
+
     });
 
+    $(".extra").on('click', function() {
+
+        var extra_id = $(this).attr('data-extra');
+
+        $("#extra_id").val(extra_id);
 
 
+    });
+});
   </script>
 
   <?= $this->endSection(); ?>
