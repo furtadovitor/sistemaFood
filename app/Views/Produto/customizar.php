@@ -39,7 +39,7 @@
 
 
 
-                  <div class="row" style="min-height:300px">
+                  <div class="row" style="min-height:400px">
 
                       <div class="col-md-12">
 
@@ -63,11 +63,19 @@
 
                       <div class="col-md-6" style="margin-bottom: 2em">
 
-                          <label>Escolha o seu produto</label>
+                          <div id="imagemPrimeiroProduto" style="margin-bottom: 1em">
+
+                              <img class="img-responsive center-block d-block mx-auto"
+                                  src="<?php echo site_url("web/src/assets/img/escolha_produto.png"); ?>" width="200"
+                                  alt="Escolha o produto" />
+
+                          </div>
+
+                          <label>Escolha a primeira metade do produto</label>
 
                           <select id="primeira_metade" class="form-control" name="primeira_metade">
 
-                              <option>Escolha seu produto...</option>
+                              <option value="">Escolha seu produto...</option>
 
                               <?php foreach ($opcoes as $opcao): ?>
 
@@ -84,12 +92,21 @@
 
                       <div class="col-md-6" style="margin-bottom: 2em">
 
-                          <label>Segunda metade</label>
+
+                          <div id="imagemSegundoProduto" style="margin-bottom: 1em">
+
+                              <img class="img-responsive center-block d-block mx-auto"
+                                  src="<?php echo site_url("web/src/assets/img/escolha_produto.png"); ?>" width="200"
+                                  alt="Escolha o produto" />
+
+                          </div>
+
+                          <label>Escolha a segunda metade</label>
 
                           <select id="segunda_metade" class="form-control" name="segunda_metade">
 
-                             <!-- Aqui será renderizada as pções de metade via js -->
-                             
+                              <!-- Aqui será renderizada as pções de metade via js -->
+
                           </select>
 
 
@@ -102,14 +119,14 @@
 
                       <div class="col-sm-2">
 
-                          <input id="btn-adiciona" type="submit" class="btn btn-success "
-                              value="Adicionar ao carrinho">
+                          <input id="btn-adiciona" type="submit" class="btn btn-success " value="Adicionar ao carrinho">
 
                       </div>
 
                       <div class="col-sm-2">
 
-                          <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?>" class="btn btn-info  ">Voltar</a>
+                          <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?>"
+                              class="btn btn-info  ">Voltar</a>
                       </div>
                   </div>
 
@@ -134,13 +151,13 @@
 
   <script>
 $(document).ready(function() {
-  
+
 
     $("#btn-adiciona").prop("disabled", true);
 
     $("#btn-adiciona").prop("value", "Selecione um tamanho");
 
-    
+
 
     $("#primeira_metade").on('change', function() {
 
@@ -149,7 +166,13 @@ $(document).ready(function() {
 
         var categoria_id = '<?php echo $produto->categoria_id ?>';
 
-        if(primeira_metade){
+
+        $("#imagemPrimeiroProduto").html(
+            '<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.png"); ?>" width="200" alt="Escolha o produto"/>'
+            );
+
+
+        if (primeira_metade) {
 
             $.ajax({
 
@@ -157,26 +180,109 @@ $(document).ready(function() {
                 url: '<?php echo site_url('produto/procurar'); ?>',
                 dataType: 'json',
                 data: {
-                  primeira_metade: primeira_metade,
-                  categoria_id: categoria_id,  
+                    primeira_metade: primeira_metade,
+                    categoria_id: categoria_id,
                 },
 
-                success: function(data){
+                beforeSend: function(data) {
+
+                    $("#segunda_metade").html('');
 
 
                 },
-        });
 
-        
+                success: function(data) {
 
-        }else{
+                    if (data.imagemPrimeiroProduto) {
 
-            /*Cliente não escolheu a 1 metade */
+                        $("#imagemPrimeiroProduto").html(
+                            '<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' +
+                            data.imagemPrimeiroProduto +
+                            '" width="200" alt="Escolha o produto"/>');
+                    }
+
+                    if (data.produtos) {
+
+                        $("#segunda_metade").html(
+                            '<option>Escolha a segunda metade</option>');
+
+                        $(data.produtos).each(function() {
+
+
+                            $('#segunda_metade').append("<option value=" + this.id +
+                                ">" + this.nome + "</option>");
+
+                            /*
+                                var option = $('<option/>');
+
+                           
+                                option.attr('value'. this.id).text(this.nome);
+
+                                $("#segunda_metade").append(option);
+                                */
+                        });
+
+                    } else {
+
+
+                        $("#segunda_metade").html(
+                            '<option>Não encontramos opções de customização</option>');
+
+                    }
+
+
+                },
+            });
+
+
+
+        } else {
+
+            $("$segunda_metade").html('<option>Escolha a primeira metade</option>');
+
+
         }
-        
+
 
     });
 
+    $("#segunda_metade").on('change', function() {
+
+        var primeiro_produto_id = $("#primeira_metade").val();
+
+        var segundo_produto_id = $("#segunda_metade").val();
+
+        if (primeiro_produto_id && segundo_produto_id) {
+
+            $.ajax({
+
+                type: 'get',
+                url: '<?php echo site_url('produto/exibeTamanhos'); ?>',
+                dataType: 'json',
+                data: {
+                    primeiro_produto_id: primeiro_produto_id,
+                    segundo_produto_id: segundo_produto_id,
+                },
+
+                beforeSend: function(data) {
+
+
+                },
+
+                success: function(data) {
+
+                  
+
+
+                },
+            });
+
+
+        }
+
+
+
+    });
 
 });
   </script>

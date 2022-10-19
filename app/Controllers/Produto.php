@@ -84,6 +84,110 @@ class Produto extends BaseController
 
      
     }
+
+    public function procurar()
+    {
+        if(!$this->request->isAJAX()){
+            
+            return redirect()->back();
+
+        }
+
+        $get = $this->request->getGet();
+
+    
+
+        $produto = $this->produtoModel->where('id', $get['primeira_metade'])->first();
+        
+
+        if($produto == null){
+
+            return $this->response->setJSON([]);
+
+        }
+
+        $produtos = $this->produtoModel->exibeOpcoesProdutosParaCustomizar2Metade($get['primeira_metade'], $get['categoria_id']);
+       
+
+     
+        if($produtos == null){
+
+            return $this->response->setJSON([]);
+
+        }
+
+        $data['produtos'] = $produtos;
+        $data['imagemPrimeiroProduto'] = $produto->imagem;
+
+        return $this->response->setJSON($data);
+
+
+
+
+    }
+
+    public function exibeTamanhos(){
+
+        if(!$this->request->isAJAX()){
+            
+            return redirect()->back();
+
+        }
+
+        $get = $this->request->getGet();
+
+        //pegando primeiro produto
+        $primeiroProduto = $this->produtoModel->where('id', $get['primeiro_produto_id'])->first();
+
+        //validando existencia
+        if($primeiroProduto == null){
+
+            return $this->response->setJSON([]);
+
+        }
+
+        //pegando especificacao 1 produto
+        $especificacoesPrimeiroProduto = $this->produtoEspecificacaoModel->where('produto_id', $primeiroProduto->id)->findAll();
+
+        //validando existencia
+        if($especificacoesPrimeiroProduto == null){
+
+            return $this->response->setJSON([]);
+
+        }
+
+        //pegando extra o primeiro produto
+        $extrasPrimeiroProduto = $this->produtoExtraModel->buscaExtrasDoProdutoDetalhes($primeiroProduto->id);
+
+        //Verificações do segunpro produto 
+
+         //pegando segundo produto
+         $segundoProduto = $this->produtoModel->where('id', $get['segundo_produto_id'])->first();
+
+         //validando existencia
+         if($segundoProduto == null){
+ 
+             return $this->response->setJSON([]);
+ 
+         }
+
+         //pegando especificacao 2 produto
+        $especificacoesSegundoProduto = $this->produtoEspecificacaoModel->where('produto_id', $segundoProduto->id)->findAll();
+
+        //validando existencia
+        if($especificacoesSegundoProduto == null){
+
+            return $this->response->setJSON([]);
+
+        }
+
+          //pegando extra o 2 produto
+          $extrasSegundoProduto = $this->produtoExtraModel->buscaExtrasDoProdutoDetalhes($segundoProduto->id);
+   
+
+          $extrasCombinados = $segundoProduto->combinaExtrasDosProdutos($extrasPrimeiroProduto, $extrasSegundoProduto);
+   
+    }
       
     public function imagem(string $imagem = null){
 
