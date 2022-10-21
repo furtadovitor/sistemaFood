@@ -242,12 +242,8 @@
       <div class="col-sm-12 d-flex flex-xs-column">
           <div class="col-sm-6 d-flex align-items-center padd_lr0" data-aos="fade-up">
               <div class="content">
-                  <h1 class="section-title title_sty1">about us</h1>
-                  <p class="short">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua.</p>
+                  <h1 class="section-title title_sty1">Sobre nós</h1>
+                  <p class="short">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da Penha, O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime.</p>
               </div>
           </div>
           <div class="col-sm-6 img text-center padd_lr0" data-aos="fade-down">

@@ -95,7 +95,6 @@
                         <li data-target="#main-carousel" data-slide-to="1"></li>
                         <li data-target="#main-carousel" data-slide-to="2"></li>
                         <li data-target="#main-carousel" data-slide-to="3"></li>
-                        <li data-target="#main-carousel" data-slide-to="4"></li>
                     </ol>
 
                     <!-- Controls -->
@@ -113,7 +112,7 @@
                         <div class="item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png"
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/ancho.png"
                                         alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
@@ -121,11 +120,10 @@
                                     </div>
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h4 class="item_name">Diversas Carnes</h4>
+                                    <p class="item_info">Trabalhamos com todos os tipos de carnes, picanha nobre, argentina, uruguaia; Coração de frango, linguiça suína, mineira, entre  outros...</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +132,7 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/tortilla.png"
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/batata.png"
                                         alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
@@ -142,11 +140,10 @@
                                     </div>
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h4 class="item_name">Petiscos</h4>
+                                    <p class="item_info">Temos petiscos de frango, batata frita com cheddar, alcatra acebolada, peixe frito, entre outros...</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +152,7 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/teste.png"
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/galeto.png"
                                         alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
@@ -163,20 +160,20 @@
                                     </div>
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h4 class="item_name">Galeto na Brasa</h4>
+                                    <p class="item_info">Utilizamos galetos selecionados e preparados na brasa, temperado com um molho especial, a base de ervas finas. Uma receita tradicional da casa.</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                      
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/pizza.png"
+                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/costela_carrosel.png"
                                         alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
@@ -184,32 +181,10 @@
                                     </div>
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h4 class="item_name">Costela no Bafo</h4>
+                                    <p class="item_info">A costela no bafo, que é assada durante 72 horas, fazendo com que elimine 65% do seu peso em gordura e ficando extremamente macia, possibilitando ao consumidor uma experiência gastronômica inesquecível, com ensejo de cortar a carne com a "colher" ou retirar com "palitinho", de textura tão macia e saborosa.</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/burger.png"
-                                        alt="sample" />
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,10 +204,10 @@
 
                         <div class="navbar_top hidden-xs">
                             <div class="top_addr">
-                                <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city,
-                                    12345</span>
-                                <span><i class="fa fa-phone" aria-hidden="true"></i> 123 456 789</span>
-                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 21:00</span>
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i> Vila da Penha - Rio de Janeiro
+                                    </span>
+                                <span><i class="fa fa-phone" aria-hidden="true"></i> (21) 99100-5822</span>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00 - 02:00</span>
                                 <div class="pull-right search-block">
                                     <i class="fa fa-search" id="search" aria-hidden="true"></i>
                                 </div>
@@ -344,10 +319,9 @@
                         <div class="footer_content">
                             <div class="row">
                                 <div class="col-sm-6 col-md-4">
-                                    <h4 class="footer_ttl footer_ttl_padd">about us</h4>
-                                    <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. It has survived not only five centuries but also the leap
-                                        into electronic typesetting. </p>
+                                    <h4 class="footer_ttl footer_ttl_padd">Sobre nós</h4>
+                                    <p class="footer_txt">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da Penha,
+                                         O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime. </p>
                                 </div>
                                 <div class="col-sm-6 col-md-5">
                                     <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
