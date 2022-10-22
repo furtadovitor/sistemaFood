@@ -170,7 +170,7 @@ a:focus {
     font-family: 'Montserrat-Regular';
 }
 
-#about_us .short,
+#sobre .short,
 .carousel-caption p {
     font-family: 'Montserrat-Light';
 }
@@ -181,7 +181,7 @@ a:focus {
 }
 
 .carousel-caption h1,
-#about_us .title,
+#sobre .title,
 .section-title,
 .btn-border,
 #footer .control-label,
@@ -703,27 +703,27 @@ a:focus {
     align-items: center;
     justify-content: center;   
 }
-#about_us {
+#sobre {
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
-#about_us .content {
+#sobre .content {
     padding: 40px 50px 70px;
     max-width: 100%;
     background-color: #f6a525;
 }
 
-.about_img {
+.foto_about {
     max-width: 100%;
 }
 
-#about_us .row {
+#sobre .row {
     position: relative;
 }
 
-#about_us .border:after {
+#sobre .border:after {
     content: "";
     position: absolute;
     width: 95%;
@@ -733,15 +733,15 @@ a:focus {
     top: 12px;
 }
 
-#about_us .img {
+#sobre .img {
     z-index: 9;
 }
 
-#about_us .title {
+#sobre .title {
     margin-bottom: 20px;
 }
 
-#about_us .short {
+#sobre .short {
     color: #fff;
     font-size: 17px;
     text-align: center;
@@ -1640,10 +1640,6 @@ a:focus {
 
 /*----------------------------------------*/
 
-#googleMap {
-    height: 500px;
-    margin-bottom: 180px;
-}
 
 
 /*---------------------------------------- 

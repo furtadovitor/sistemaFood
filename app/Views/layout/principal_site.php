@@ -123,7 +123,7 @@
                                     <h4 class="item_name">Diversas Carnes</h4>
                                     <p class="item_info">Trabalhamos com todos os tipos de carnes, picanha nobre, argentina, uruguaia; Coração de frango, linguiça suína, mineira, entre  outros...</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
+                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                     <h4 class="item_name">Petiscos</h4>
                                     <p class="item_info">Temos petiscos de frango, batata frita com cheddar, alcatra acebolada, peixe frito, entre outros...</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
+                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
                                     <h4 class="item_name">Galeto na Brasa</h4>
                                     <p class="item_info">Utilizamos galetos selecionados e preparados na brasa, temperado com um molho especial, a base de ervas finas. Uma receita tradicional da casa.</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
+                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@
                                     <h4 class="item_name">Costela no Bafo</h4>
                                     <p class="item_info">A costela no bafo, que é assada durante 72 horas, fazendo com que elimine 65% do seu peso em gordura e ficando extremamente macia, possibilitando ao consumidor uma experiência gastronômica inesquecível, com ensejo de cortar a carne com a "colher" ou retirar com "palitinho", de textura tão macia e saborosa.</p>
                                     <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
+                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                             <div id="navbar_content">
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="#">
+                                    <a class="navbar-brand" href="<?php echo site_url('/') ?>">
                                         <img src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo" />
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger right_menu_icon">
@@ -241,11 +241,13 @@
                                     <div class="navbar-right">
                                         <ul class="nav navbar-nav">
                                             <li><a class="page-scroll" href="#header">Home</a></li>
-                                            <li><a class="page-scroll" href="#about_us">About</a></li>
+                                            <li><a class="page-scroll" href="#sobre">Sobre Nós</a></li>
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
-                                            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
-                                            <li><a class="page-scroll" href="#reservation">Reservation</a></li>
-                                            <li><a class="page-scroll" href="#footer">Contact</a></li>
+                                            <li><a class="page-scroll" href="#galeria">Galeria</a></li>
+                                            <li><a class="page-scroll" href="#footer">Contato</a></li>
+                                            <li><a class="page-scroll" href="<?php echo site_url("login"); ?>">Entrar</a></li>
+                                            <li><a class="page-scroll" href="#">Registre-se</a></li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -313,8 +315,7 @@
 
             <!--    Google map, Social links    -->
             <div class="section" id="contact">
-                <div id="googleMap"></div>
-                <div class="footer_pos">
+               
                     <div class="container">
                         <div class="footer_content">
                             <div class="row">
@@ -324,113 +325,102 @@
                                          O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime. </p>
                                 </div>
                                 <div class="col-sm-6 col-md-5">
-                                    <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
+                                    <h4 class="footer_ttl footer_ttl_padd">Expediente</h4>
                                     <div class="footer_border">
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Monday</div>
+                                            <div class="week_day">Segunda-Feira</div>
                                             <div class="week_time text-right">Closed</div>
                                         </div>
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Tuesday</div>
+                                            <div class="week_day">Terça-Feira</div>
                                             <div class="week_time">
-                                                <span class="week_time_start">10 am</span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">12 am</span>
+                                            <div class="week_time text-right">Closed</div>
+                                              
                                             </div>
                                         </div>
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Wednsday</div>
+                                            <div class="week_day">Quarta-Feira</div>
                                             <div class="week_time">
-                                                <span class="week_time_start">10 am</span>
+                                                <span class="week_time_start">18:00 </span>
                                                 <span class="week_time_node">-</span>
-                                                <span class="week_time_end">12 am</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Thursday</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">10 am</span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">12 am</span>
+                                                <span class="week_time_end">02:00 </span>
                                             </div>
 
                                         </div>
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Friday</div>
+                                            <div class="week_day">Quinta-Feira</div>
                                             <div class="week_time">
-                                                <span class="week_time_start">10 am</span>
+                                                <span class="week_time_start">18:00 </span>
                                                 <span class="week_time_node">-</span>
-                                                <span class="week_time_end">12 am</span>
+                                                <span class="week_time_end">02:00 </span>
                                             </div>
 
                                         </div>
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Saturday</div>
+                                            <div class="week_day">Sexta-Feira</div>
                                             <div class="week_time">
-                                                <span class="week_time_start">7 am</span>
+                                                <span class="week_time_start">18:00 </span>
                                                 <span class="week_time_node">-</span>
-                                                <span class="week_time_end">1 am</span>
+                                                <span class="week_time_end">02:00 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="week_row clearfix">
+                                            <div class="week_day">Sábado</div>
+                                            <div class="week_time">
+                                                <span class="week_time_start">18:00 </span>
+                                                <span class="week_time_node">-</span>
+                                                <span class="week_time_end">02:00 </span>
                                             </div>
                                         </div>
                                         <div class="week_row clearfix">
-                                            <div class="week_day">Sunday</div>
+                                            <div class="week_day">Domingo</div>
                                             <div class="week_time">
-                                                <span class="week_time_start">7 am</span>
+                                                <span class="week_time_start">18:00 </span>
                                                 <span class="week_time_node">-</span>
-                                                <span class="week_time_end">1 am</span>
+                                                <span class="week_time_end">02:00 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-3">
-                                    <h4 class="footer_ttl footer_ttl_padd">contact us</h4>
+                                    <h4 class="footer_ttl footer_ttl_padd">Contato</h4>
                                     <div class="footer_border">
                                         <div class="footer_cnt">
                                             <i class="fa fa-map-marker"></i>
-                                            <span>Your City, Your streert, 18765, 100 Tenth Avenue, New York City, NY
-                                                1001</span>
+                                            <span>Praça do Viseu, em frente ao 124, Vila da peha, Rio de Janeiro, RJ</span>
                                         </div>
                                         <div class="footer_cnt">
                                             <i class="fa fa-phone"></i>
-                                            <span>(457) 570 5682; (385) 620 756</span>
+                                            <span>(21) 99100-5822</span>
                                         </div>
                                         <div class="footer_cnt">
                                             <i class="fa fa-envelope"></i>
-                                            <span>info@butazzopizza.net</span>
+                                            <span>braseironobre@gmail.com</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
-
+                                    <p>&copy Copyright 2022 – Braseiro Nobre. Todos os direitos reservados</p>
+                                    
                                 </div>
                                 <div class="col-md-4">
                                     <div class="social-links">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                            <a href="https://www.instagram.com" title="Facebook">
                                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                                <a href="https://www.instagram.com" title="Instagram">
                                                     <i class="fa fa-instagram" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
-                                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
-                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -465,11 +455,13 @@
         </div>
         <ul class="rmenu_list">
             <li><a class="page-scroll" href="#header">Home</a></li>
-            <li><a class="page-scroll" href="#about_us">About</a></li>
+            <li><a class="page-scroll" href="#sobre">Sobre nós</a></li>
             <li><a class="page-scroll" href="#menu">Menus</a></li>
-            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
-            <li><a class="page-scroll" href="#reservation">Reservation</a></li>
-            <li><a class="page-scroll" href="#footer">Contact</a></li>
+            <li><a class="page-scroll" href="#gallery">Galeria</a></li>
+            <li><a class="page-scroll" href="#footer">Contato</a></li>
+            <li><a class="page-scroll" src="<?php echo site_url("Admin/login/"); ?>">Entrar</a></li>
+            <li><a class="page-scroll" href="#">Registre-se</a></li>
+
         </ul>
         <div class="right_menu_addr top_addr">
             <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>

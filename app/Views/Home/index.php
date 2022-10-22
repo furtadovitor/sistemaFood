@@ -95,17 +95,17 @@
 
 
   <!--    Gallery    -->
-  <div class="container section" id="gallery" data-aos="fade-up">
+  <div class="container section" id="galeria" data-aos="fade-up">
       <div class="title-block">
-          <h1 class="section-title">Gallery</h1>
+          <h1 class="section-title">Galeria</h1>
       </div>
       <div id="photo_gallery" class="list1">
           <div class="row loadMore">
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-1.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/picanha1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-1.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/picanha1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -124,10 +124,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-3.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/linguica1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-3.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/linguica1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -135,10 +135,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-4.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/coracao1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-4.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/coracao1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -146,10 +146,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-5.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/galeto1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/picanha.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/galeto1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -157,10 +157,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-6.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/churrasco1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-6.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/churrasco1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -168,10 +168,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-7.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/churrasco2.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-7.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/churrasco2.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -179,10 +179,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-8.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/barca1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-8.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/barca1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -190,10 +190,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-1.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/frango1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-1.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/frango1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -201,10 +201,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-2.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/frango2.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-2.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/frango2.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -212,10 +212,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-3.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/batata1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-3.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/batata1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -223,10 +223,10 @@
                   </a>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-4.jpg" class="block fancybox"
+                  <a href="<?php echo site_url('web/'); ?>src/assets/img/photos/costela1.jpg" class="block fancybox"
                       data-fancybox-group="fancybox">
                       <div class="content">
-                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/gallery-4.jpg" alt="sample" />
+                          <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/costela1.jpg" alt="sample" />
                           <div class="zoom">
                               <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                           </div>
@@ -238,7 +238,7 @@
   </div>
 
   <!--    About Us    -->
-  <div class="container section" id="about_us">
+  <div class="container section" id="sobre">
       <div class="col-sm-12 d-flex flex-xs-column">
           <div class="col-sm-6 d-flex align-items-center padd_lr0" data-aos="fade-up">
               <div class="content">
@@ -248,10 +248,12 @@
           </div>
           <div class="col-sm-6 img text-center padd_lr0" data-aos="fade-down">
               <div class="border_on">
-                  <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/about-us.jpg" alt="sample"
-                      class="about_img" />
+                  <img src="<?php echo site_url('web/'); ?>src/assets/img/photos/foto_about.jpg" alt="sample"
+                      class="foto_about" />
               </div>
           </div>
+
+          
       </div>
   </div>
 
