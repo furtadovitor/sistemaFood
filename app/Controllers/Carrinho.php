@@ -29,7 +29,18 @@ class Carrinho extends BaseController
     }
     public function index()
     {
-        //
+        $data = [
+            'titulo' => 'Meu carrinho de compras'
+
+        ];
+
+        if(session()->has('carrinho') && count(session()->get('carrinho')) > 0){
+
+            //convertendo array de objetos
+            $data['carrinho'] = json_decode(json_encode(session()->get('carrinho')), false);
+        }
+
+        return view('Carrinho/index', $data);
     }
 
     public function adicionar()

@@ -10,6 +10,8 @@ class Produto extends BaseController
     private $produtoModel;
     private $produtoEspecificacaoModel;
     private $produtoExtraModel;
+    private $medidaModel;
+
 
     public function __construct()
     {
@@ -17,6 +19,8 @@ class Produto extends BaseController
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
         $this->produtoExtraModel = new \App\Models\ProdutoExtraModel();
+        $this->medidaModel = new \App\Models\MedidaModel();
+
 
         
     }
@@ -186,7 +190,29 @@ class Produto extends BaseController
    
 
           $extrasCombinados = $segundoProduto->combinaExtrasDosProdutos($extrasPrimeiroProduto, $extrasSegundoProduto);
-   
+
+          //só envia caso o extra exista de fato
+          if($extrasCombinados != null){
+
+            $data['extras'] = $extrasCombinados;
+          }
+
+          //recuperando as medidas em comum do produto
+
+          $medidasEmComum = $segundoProduto->recuperaMedidasEmComum($especificacoesPrimeiroProduto, $especificacoesSegundoProduto);
+
+         
+
+          $medidas = $this->medidaModel->select('id, nome')->whereIn('id', $medidasEmComum)->where('ativo', true)->findAll();
+
+          $data['medidas'] = $medidas;
+          
+          //enviando imagem dio 2 produto
+
+          $data['imagemSegundoProduto'] = $segundoProduto->imagem;
+          
+          return $this->response->setJSON($data);
+
     }
       
     public function imagem(string $imagem = null){

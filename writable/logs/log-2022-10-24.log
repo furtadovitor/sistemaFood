@@ -1,0 +1,972 @@
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:11 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:24 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:27 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:21:39 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:03 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 401
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(401): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->especificacoes()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:05 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:23:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:25 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:26 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 155
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(155): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->editarImagem()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 15:30:30 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in /var/www/sistemaFood/app/Controllers/Admin/Produtos.php on line 85
+in APPPATH/Controllers/Admin/Produtos.php on line 570.
+ 1 APPPATH/Controllers/Admin/Produtos.php(85): App\Controllers\Admin\Produtos->buscaProdutoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Produtos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:13 --> Undefined variable: subtotal
+in APPPATH/Views/Carrinho/index.php on line 97.
+ 1 APPPATH/Views/Carrinho/index.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:24 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:47 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:47 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:47 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:48 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:48 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:48 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:48 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:49 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:49 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:49 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:45:49 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:32 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:33 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:35 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:35 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:35 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:42 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:43 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:46:43 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:47:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:47:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:47:39 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:47:40 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:51:13 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:51:14 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:51:14 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:52:26 --> Undefined variable: subTotal
+in APPPATH/Views/Carrinho/index.php on line 94.
+ 1 APPPATH/Views/Carrinho/index.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:52:34 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:52:35 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:52:35 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-24 16:52:40 --> A non well formed numeric value encountered
+in APPPATH/Views/Carrinho/index.php on line 92.
+ 1 APPPATH/Views/Carrinho/index.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Carrinho/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Carrinho.php(43): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
