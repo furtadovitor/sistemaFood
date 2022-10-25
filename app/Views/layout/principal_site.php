@@ -56,6 +56,11 @@
     <meta name="msapplication-TileColor" content="#990100" />
     <meta name="theme-color" content="#ffffff" />
 
+    <style>
+        .navbar-nav > li > a{
+            line-height: 30px;
+        }
+    </style>
     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
     <?= $this->renderSection('estilos') ?>
 
@@ -121,7 +126,9 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Diversas Carnes</h4>
-                                    <p class="item_info">Trabalhamos com todos os tipos de carnes, picanha nobre, argentina, uruguaia; Coração de frango, linguiça suína, mineira, entre  outros...</p>
+                                    <p class="item_info">Trabalhamos com todos os tipos de carnes, picanha nobre,
+                                        argentina, uruguaia; Coração de frango, linguiça suína, mineira, entre outros...
+                                    </p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
@@ -141,7 +148,8 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Petiscos</h4>
-                                    <p class="item_info">Temos petiscos de frango, batata frita com cheddar, alcatra acebolada, peixe frito, entre outros...</p>
+                                    <p class="item_info">Temos petiscos de frango, batata frita com cheddar, alcatra
+                                        acebolada, peixe frito, entre outros...</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
@@ -161,7 +169,9 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Galeto na Brasa</h4>
-                                    <p class="item_info">Utilizamos galetos selecionados e preparados na brasa, temperado com um molho especial, a base de ervas finas. Uma receita tradicional da casa.</p>
+                                    <p class="item_info">Utilizamos galetos selecionados e preparados na brasa,
+                                        temperado com um molho especial, a base de ervas finas. Uma receita tradicional
+                                        da casa.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
@@ -169,7 +179,7 @@
                             </div>
                         </div>
 
-                      
+
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
@@ -182,7 +192,11 @@
                                 </div>
                                 <div class="fadeUp fade-slow item_details">
                                     <h4 class="item_name">Costela no Bafo</h4>
-                                    <p class="item_info">A costela no bafo, que é assada durante 72 horas, fazendo com que elimine 65% do seu peso em gordura e ficando extremamente macia, possibilitando ao consumidor uma experiência gastronômica inesquecível, com ensejo de cortar a carne com a "colher" ou retirar com "palitinho", de textura tão macia e saborosa.</p>
+                                    <p class="item_info">A costela no bafo, que é assada durante 72 horas, fazendo com
+                                        que elimine 65% do seu peso em gordura e ficando extremamente macia,
+                                        possibilitando ao consumidor uma experiência gastronômica inesquecível, com
+                                        ensejo de cortar a carne com a "colher" ou retirar com "palitinho", de textura
+                                        tão macia e saborosa.</p>
                                     <div class="item_link_box">
                                         <a href="#reservation" class="item_link page-scroll">Conheça mais</a>
                                     </div>
@@ -205,7 +219,7 @@
                         <div class="navbar_top hidden-xs">
                             <div class="top_addr">
                                 <span><i class="fa fa-map-marker" aria-hidden="true"></i> Vila da Penha - Rio de Janeiro
-                                    </span>
+                                </span>
                                 <span><i class="fa fa-phone" aria-hidden="true"></i> (21) 99100-5822</span>
                                 <span><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00 - 02:00</span>
                                 <div class="pull-right search-block">
@@ -246,6 +260,21 @@
                                             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                                             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
                                             <li><a class="page-scroll" href="#footer">Contact</a></li>
+
+                                            <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
+
+                                            <li><a class="page-scroll" href=<?php echo site_url('carrinho'); ?>>
+                                                    <i class="fa fa-shopping-cart fa fa-2x"></i>
+                                                    <span style="font-size: 25px !important">
+
+                                                        <?php echo count(session()->get('carrinho')); ?>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <?php endif; ?>
+
+
                                         </ul>
                                     </div>
                                 </div>
@@ -320,8 +349,12 @@
                             <div class="row">
                                 <div class="col-sm-6 col-md-4">
                                     <h4 class="footer_ttl footer_ttl_padd">Sobre nós</h4>
-                                    <p class="footer_txt">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da Penha,
-                                         O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime. </p>
+                                    <p class="footer_txt">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos
+                                        FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da
+                                        Penha,
+                                        O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria.
+                                        Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de
+                                        Cordeiro ao Douro e a Costela Prime. </p>
                                 </div>
                                 <div class="col-sm-6 col-md-5">
                                     <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
@@ -470,6 +503,21 @@
             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
             <li><a class="page-scroll" href="#footer">Contact</a></li>
+
+
+            <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
+
+            <li><a class="page-scroll" href=<?php echo site_url('carrinho'); ?>>
+                    <i class="fa fa-shopping-cart"></i>
+                    <span style="font-size: 25px !important">
+
+                        <?php echo count(session()->get('carrinho')); ?>
+                    </span>
+                </a>
+            </li>
+
+            <?php endif; ?>
+
         </ul>
         <div class="right_menu_addr top_addr">
             <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>
