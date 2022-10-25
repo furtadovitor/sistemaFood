@@ -169,7 +169,7 @@ $(document).ready(function() {
 
         $("#imagemPrimeiroProduto").html(
             '<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.png"); ?>" width="200" alt="Escolha o produto"/>'
-            );
+        );
 
 
         if (primeira_metade) {
@@ -252,6 +252,10 @@ $(document).ready(function() {
 
         var segundo_produto_id = $("#segunda_metade").val();
 
+        $("#imagemSegundoProduto").html(
+            '<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("web/src/assets/img/escolha_produto.png"); ?>" width="200" alt="Escolha o produto"/>'
+        );
+
         if (primeiro_produto_id && segundo_produto_id) {
 
             $.ajax({
@@ -271,7 +275,15 @@ $(document).ready(function() {
 
                 success: function(data) {
 
-                  
+                    if (data.imagemSegundoProduto) {
+
+                        $("#imagemSegundoProduto").html(
+                            '<img class="img-responsive center-block d-block mx-auto" src="<?php echo site_url("produto/imagem/"); ?>' +
+                            data.imagemSegundoProduto +
+                            '" width="200" alt="Escolha o produto"/>');
+                    }
+
+
 
 
                 },
