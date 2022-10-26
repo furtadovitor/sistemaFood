@@ -5,3 +5,529 @@ in APPPATH/Controllers/Carrinho.php on line 101.
  3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-25 21:03:52 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:05:29 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:06:06 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:06:37 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:08:47 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:08:57 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:09:53 --> Undefined property: App\Controllers\Carrinho::$validation
+in APPPATH\Controllers\Carrinho.php on line 276.
+ 1 APPPATH\Controllers\Carrinho.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Carrinho::$validation', 'APPPATH\\Controllers\\Carrinho.php', 276, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:10:13 --> exact_lenth não é uma regra válida.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('exact_lenth')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('cep', 'CEP', '21212-1', [...], [...])
+ 3 APPPATH\Controllers\Carrinho.php(279): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:13:58 --> Illegal string offset 'cep'
+in APPPATH\Controllers\Carrinho.php on line 287.
+ 1 APPPATH\Controllers\Carrinho.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'cep\'', 'APPPATH\\Controllers\\Carrinho.php', 287, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:14:50 --> Call to undefined function App\Controllers\consultaCep()
+in APPPATH\Controllers\Carrinho.php on line 291.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 21:26:47 --> Call to undefined function App\Controllers\nb_url_title()
+in APPPATH\Controllers\Carrinho.php on line 304.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 21:27:18 --> mysqli_sql_exception: Table 'braseiro_nobre.bairros' doesn't exist in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, ...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, ...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, ...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, ...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemaFood\app\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-25 21:27:18 --> Table 'braseiro_nobre.bairros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'vila-da-penha\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'vila-da-penha\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'vila-da-penha\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = :slug:
+AND `ativo` = :ativo:
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 21:27:38 --> mysqli_sql_exception: Table 'braseiro_nobre.bairros' doesn't exist in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, ...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, ...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, ...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, ...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemaFood\app\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-25 21:27:38 --> Table 'braseiro_nobre.bairros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = :slug:
+AND `ativo` = :ativo:
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 21:27:43 --> mysqli_sql_exception: Table 'braseiro_nobre.bairros' doesn't exist in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, ...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, ...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, ...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, ...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemaFood\app\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-25 21:27:43 --> Table 'braseiro_nobre.bairros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = :slug:
+AND `ativo` = :ativo:
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 21:28:02 --> mysqli_sql_exception: Table 'braseiro_nobre.bairros' doesn't exist in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, ...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, ...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, ...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, ...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemaFood\app\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-25 21:28:02 --> Table 'braseiro_nobre.bairros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = \'barra-funda\'
+AND `ativo` = 1
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, `valor_entrega`
+FROM `bairros`
+WHERE `slug` = :slug:
+AND `ativo` = :ativo:
+AND `bairros`.`deletado_em` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Carrinho.php(306): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Carrinho->consultaCep()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 21:31:51 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.expediente' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `exp...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `exp...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `exp...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `exp...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(58): CodeIgniter\Database\Forge->dropTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2022-10-25 21:32:30 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.expediente' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `exp...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `exp...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `exp...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `exp...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(58): CodeIgniter\Database\Forge->dropTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(5)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-10-25 21:33:03 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.expediente' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `exp...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `exp...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `exp...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `exp...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(58): CodeIgniter\Database\Forge->dropTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(5)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-10-25 21:33:43 --> mysqli_sql_exception: Tablespace for table '`braseiro`.`migrations`' exists. Please DISCARD the tablespace before IMPORT in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-10-25 21:34:50 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.expediente' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `exp...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `exp...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `exp...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `exp...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(58): CodeIgniter\Database\Forge->dropTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2022-10-25 21:35:35 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.expediente' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `exp...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `exp...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `exp...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `exp...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(58): CodeIgniter\Database\Forge->dropTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2022-10-25 21:37:16 --> mysqli_sql_exception: Unknown table 'braseiro_nobre.bairros' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('DROP TABLE `bai...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `bai...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `bai...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query('DROP TABLE `bai...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-28-190246_CriaTabelaBairros.php(78): CodeIgniter\Database\Forge->dropTable('bairros')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaBairros->down()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2022-10-25 21:37:16 --> mysqli_sql_exception: Invalid default value for 'abertura_hora' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(53): CodeIgniter\Database\Forge->createTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->up()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#14 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#15 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#16 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}
+ERROR - 2022-10-25 21:40:43 --> mysqli_sql_exception: Invalid default value for 'abertura_hora' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(53): CodeIgniter\Database\Forge->createTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->up()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-10-25 21:41:12 --> mysqli_sql_exception: Invalid default value for 'abertura_hora' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(53): CodeIgniter\Database\Forge->createTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->up()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-10-25 21:42:42 --> mysqli_sql_exception: Invalid default value for 'abertura_hora' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(53): CodeIgniter\Database\Forge->createTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->up()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-10-25 21:43:56 --> mysqli_sql_exception: Invalid default value for 'abertura_hora' in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\sistemaFood\app\Database\Migrations\2022-09-30-143958_CriaTabelaExpediente.php(53): CodeIgniter\Database\Forge->createTable('expediente')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaExpediente->up()
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}

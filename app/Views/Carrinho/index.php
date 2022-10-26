@@ -229,7 +229,7 @@
                         cep : cep
                     },
                     beforeSend: function(){
-                        $("cep").html('Consultando cep..');
+                        $("#cep").html('Consultando cep..');
 
                         $("[name=cep]").val('');
                     },
@@ -240,7 +240,7 @@
                             //sucesso , cep válido
                         }else{
 
-                            //erro de validação
+                            $("#cep").html(response.erro);
 
                         }
                     },
@@ -253,7 +253,6 @@
                 });
             }
 
-            alert(cep)
             
         });
 
