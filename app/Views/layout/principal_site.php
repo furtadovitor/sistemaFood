@@ -60,6 +60,13 @@
         .navbar-nav > li > a{
             line-height: 30px;
         }
+
+        .btn-food{
+
+            background-color: #990100;
+            color: white !important;
+            font-family: 'Montserrat-Bold';
+        }
     </style>
     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
     <?= $this->renderSection('estilos') ?>

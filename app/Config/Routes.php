@@ -37,6 +37,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('login', 'Login::novo', ['filter' => 'visitante']);
+$routes->get('registrar', 'Registrar::novo', ['filter' => 'visitante']);
+
 
 //Bota a URL do jeito que eu quiser 
 $routes->group('admin', function($routes){

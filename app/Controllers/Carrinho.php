@@ -308,14 +308,44 @@ class Carrinho extends BaseController
    
        if($consulta->bairro == null || $bairro == null){
 
-        $retorno['erro'] = '<span class="text-danger" small>"Não atendemos ao Bairro: '
+        $retorno['erro'] = '<span class="text-danger small">Não atendemos ao Bairro: '
         . esc($consulta->bairro) 
-        . ' - ' .  esc($consulta->localidade)  
-        . ' - ' .  esc($consulta->uf) . '  "</span>';
+        . ' - ' .  esc($consulta->localidade) 
+        . ' - CEP ' .  esc($consulta->cep)   
+        . ' - ' .  esc($consulta->uf) 
+        . '  </span>';
 
         return $this->response->setJSON($retorno);
        }
+
+       $retorno['valor_entrega'] = 'R$ '.esc(number_format($bairro->valor_entrega, 2));
+    
+       $retorno['bairro'] = '<span class="small">Valor de entrega do Bairro: '
+       . esc($consulta->bairro) 
+       . ' - ' .  esc($consulta->localidade)  
+       . ' - ' .  esc($consulta->uf) 
+       . ' -<strong> R$  ' .  esc(number_format($bairro->valor_entrega, 2))
+       . '  </span>';
+
+
+       $carrinho = session()->get('carrinho');
+
+       $total = 0;
+
+       foreach($carrinho as $produto){
+
+
+        $total += $produto['preco'] * $produto['quantidade'];
+
+       }
+
+       $total += esc(number_format($bairro->valor_entrega,2));
+
+       $retorno['total'] = 'R$ '.esc(number_format($total,2));
+
+       return $this->response->setJSON($retorno);
     }
+
     private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos)
     {
 

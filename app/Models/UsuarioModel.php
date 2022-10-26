@@ -10,7 +10,7 @@ class UsuarioModel extends Model
 {
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
-    protected $allowedFields    = ['nome', 'email','cpf', 'telefone','password','reset_hash', 'reset_expira_em'];
+    protected $allowedFields    = ['nome', 'email','cpf', 'telefone','password','reset_hash', 'reset_expira_em', 'ativacao_hash'];
 
 
     //Datas
@@ -96,6 +96,12 @@ class UsuarioModel extends Model
 
         unset($this->validationRules['password']);
         unset($this->validationRules['confirmPassword']);
+
+    }
+
+    public function desabilitaValidacaoTelefone(){
+
+        unset($this->validationRules['telefone']);
 
     }
 

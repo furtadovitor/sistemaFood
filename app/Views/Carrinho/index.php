@@ -21,6 +21,7 @@
   <?= $this->section('conteudo'); ?>
 
   <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
+
       <div class="col-sm-12 col-md-12 col-lg-12">
 
           <div class="product-content product-wrap clearfix product-deatil">
@@ -141,15 +142,18 @@
                               </tr>
 
                               <tr>
-                                  <td class="text-right border-top-0" colspan="5" style="font-weight: bold">Taxa de
+                                  <td class="text-right border-top-0" colspan="5"
+                                      style="font-weight: bold; border-top: none !important">Taxa de
                                       entrega:</td>
-                                  <td class="border-top-0" colspan="5" id="valor_entrega">R$&nbsp;30.00</td>
+                                  <td class="border-top-0" colspan="5" id="valor_entrega"
+                                      style="border-top: none !important">Não calculado</td>
                               </tr>
 
                               <tr>
-                                  <td class="text-right border-top-0" colspan="5" style="font-weight: bold">Total do
+                                  <td class="text-right border-top-0" colspan="5"
+                                      style="font-weight: bold; border-top: none !important">Total do
                                       pedido:</td>
-                                  <td class="border-top-0" colspan="5" id="total">
+                                  <td class="border-top-0" colspan="5" id="total" style="border-top: none !important">
                                       <?php echo 'R$&nbsp' . number_format($total, 2) ?></td>
                               </tr>
 
@@ -158,7 +162,7 @@
                           </tbody>
                       </table>
 
-                      <div class="form-group col-md-3">
+                      <div class="form-group col-md-6">
 
                           <label>Consulte a taxa de entrega</label>
                           <input type="text" name="cep" class="cep form-control" placeholder="Informe o seu cep">
@@ -184,12 +188,6 @@
                   <?php endif; ?>
 
 
-
-
-
-
-
-
               </div>
           </div>
       </div>
@@ -213,49 +211,74 @@
       <script src="<?= site_url('admin/vendors/mask/app.js'); ?>"></script>
 
       <script>
-
-        $("[name=cep]").focusout(function(){
-
-
-            var cep = $(this).val();
-
-            if(cep.length === 9){
-                $.ajax({
-                   
-                    type: 'get',
-                    url: '<?php echo site_url('carrinho/consultacep'); ?>',
-                    dataType: 'json',
-                    data: {
-                        cep : cep
-                    },
-                    beforeSend: function(){
-                        $("#cep").html('Consultando cep..');
-
-                        $("[name=cep]").val('');
-                    },
-
-                    success: function(response){
-                        if(!response.error){
-
-                            //sucesso , cep válido
-                        }else{
-
-                            $("#cep").html(response.erro);
-
-                        }
-                    },
-
-                    error:function(){
-                        alert('Não foi possível consultar a taxa de entrega.')
-                    }
+      $("[name=cep]").focusout(function() {
 
 
-                });
-            }
+          var cep = $(this).val();
 
-            
-        });
+          if (cep.length === 9) {
+              $.ajax({
 
+                  type: 'get',
+                  url: '<?php echo site_url('carrinho/consultacep'); ?>',
+                  dataType: 'json',
+                  data: {
+                      cep: cep
+                  },
+                  beforeSend: function() {
+                      $("#cep").html('Consultando cep..');
+
+                      $("[name=cep]").val('');
+                  },
+
+                  success: function(response) {
+                      if (!response.erro) {
+
+                          $("#cep").html('');
+
+                          $("#valor_entrega").html(response.valor_entrega);
+
+                          $("#total").html(response.total);
+
+                          $("#cep").html(response.bairro);
+
+                      } else {
+
+                          $("#cep").html(response.erro);
+
+                      }
+                  },
+
+                  error: function() {
+                      alert('Não foi possível consultar a taxa de entrega.')
+                  }
+
+
+              });
+          }
+
+
+      });
       </script>
 
       <?= $this->endSection(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
