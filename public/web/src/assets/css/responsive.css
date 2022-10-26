@@ -21,7 +21,7 @@
     {
         width: 50px;
     }
-    #about_us .short {
+    #sobre .short {
         font-size: 15px;
         line-height: 1.3;
     }
@@ -62,7 +62,7 @@
     .menu_filter .item a { font-size: 14px; padding: 2px 20px; }
     #menu_items .image { margin-bottom: 10px; }
     .filter_item_img { float: none; margin-right: 0; }
-    .about_img { height: auto; }
+    .foto_about { height: auto; }
     .border_on:before { content: none; }
     .item_img { float: none; margin: 0; padding-right: 20px; }
     .flex-xs-column { flex-direction: column; }
@@ -81,9 +81,9 @@
     .carousel-caption p { font-size: 14px; }
     .section-title { font-size: 30px; }
     #menu_items .info .name { font-size: 19px; }
-    #about_us .content { padding: 20px 30px 40px; }
-    #about_us .short { font-size: 12px; }
-    #about_us .border:after { width: calc(100% - 10px); left: 5px; border-width: 1px; }
+    #sobre .content { padding: 20px 30px 40px; }
+    #sobre .short { font-size: 12px; }
+    #sobre .border:after { width: calc(100% - 10px); left: 5px; border-width: 1px; }
     .section-title:before,
     .section-title:after { width: 25px; }
     .section { padding-top: 30px; }
@@ -124,7 +124,6 @@
 	.search_input:-moz-placeholder { color: #fff;}
 	.right_menu_search form { position: relative; }
 	.right_menu_search { padding: 15px; }
-    #googleMap { margin-bottom: 0; height: 300px; }
     .footer_pos { top: 20px; position: relative; padding-bottom: 20px; }
     #footer .footer_border { border: none; padding-left: 0; }
     #footer .footer_ttl_padd, #footer .footer_txt { padding-left: 0; }

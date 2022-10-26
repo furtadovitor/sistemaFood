@@ -12,6 +12,7 @@ class Carrinho extends BaseController
     private $extraModel;
     private $produtoModel;
     private $acao;
+    private $bairroModel;
 
 
     public function __construct()
@@ -22,6 +23,9 @@ class Carrinho extends BaseController
         $this->produtoEspecificacaoModel = new \App\Models\ProdutoEspecificacaoModel();
         $this->extraModel = new \App\Models\ExtraModel();
         $this->produtoModel = new \App\Models\ProdutoModel();
+        $this->bairroModel = new \App\Models\BairroModel();
+
+
 
 
         $this->acao = service('router')->methodName();
@@ -261,6 +265,56 @@ class Carrinho extends BaseController
         session()->remove('carrinho');
 
         return redirect()->to(site_url('carrinho'));
+    }
+
+    public function consultaCep()
+    {
+
+        if(!$this->request->isAjax()){
+
+            return redirect()->back();
+        }
+
+        $get = $this->request->getGet('cep');
+
+        $this->validacao->setRule('cep', 'CEP', 'required|exact_length[9]');
+
+
+        if (!$this->validacao->withRequest($this->request)->run()) {
+
+            $retorno['erro'] = '<span class="text-danger" small>'. $this->validacao->getError() .'</span>';
+
+            return $this->response->setJSON($retorno);
+            
+        }
+
+        $cep = str_replace("-", "", $this->request->getGet('cep'));
+        //carregando o helper consultaCep
+        helper('consulta_cep');
+
+        $consulta = consultaCep($cep);
+
+       if(isset($consulta->erro) && !isset($consulta->cep)){
+
+        $retorno['erro'] = '<span class="text-danger" small>"Informe um CEP válido"</span>';
+
+        return $this->response->setJSON($retorno);
+       }
+
+       $bairroRetornoSlug = mb_url_title($consulta->bairro, '-', true);
+
+       $bairro = $this->bairroModel->select('nome, valor_entrega')->where('slug', $bairroRetornoSlug)->where('ativo', true)->first();
+   
+   
+       if($consulta->bairro == null || $bairro == null){
+
+        $retorno['erro'] = '<span class="text-danger" small>"Não atendemos ao Bairro: '
+        . esc($consulta->bairro) 
+        . ' - ' .  esc($consulta->localidade)  
+        . ' - ' .  esc($consulta->uf) . '  "</span>';
+
+        return $this->response->setJSON($retorno);
+       }
     }
     private function atualizaProduto(string $acao, string $slug, int $quantidade, array $produtos)
     {
