@@ -72,6 +72,19 @@ class Registrar extends BaseController
         return view('Registrar/ativacao_enviado', $data);
     }
 
+    public function ativar(string $token = null)
+    {
+        if($token == null){
+
+            return redirect()->to(site_url('login'));
+        }
+
+        $this->usuarioModel->ativarContaPeloToken($token);
+
+        return redirect()->to(site_url('login'))->with('sucesso', 'Conta ativada com sucesso.');
+
+    }
+
     private function enviaEmailParaAtivarConta(object $usuario){
 
         $email = service('email');

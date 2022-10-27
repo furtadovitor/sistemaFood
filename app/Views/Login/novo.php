@@ -1,5 +1,5 @@
-  <!-- Extendendo o layout principal -->
-  <?= $this->extend('Admin/layout/principal_autenticacao'); ?>
+  <!-- Extendendo o layout principal_site -->
+  <?= $this->extend('layout/principal_site'); ?>
 
   <?= $this->section('titulo'); ?>
 
@@ -12,76 +12,46 @@
 
   <?= $this->section('estilos'); ?>
 
+  <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
   <?= $this->endSection(); ?>
 
 
 
-
-
   <?= $this->section('conteudo'); ?>
-  <!-- Aqui enviamos p/ template pricipal os estilos -->
 
 
-  <div class="container-fluid page-body-wrapper full-page-wrapper">
-      <div class="content-wrapper d-flex align-items-center auth px-0">
-          <div class="row w-100 mx-0">
-              <div class="col-lg-4 mx-auto">
-                  <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+
+  <div class="container section " id="menu" data-aos="fade-up" style="margin-top: 3em">
 
 
-                      <?php if(session()->has('sucesso')): ?>
+      <div class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 40%">
+          <div class="row">
 
-                      <div class="alert alert-success alert-dismissible fade show" role="alert">
-                          <strong>Perfeito!</strong> <?= session('sucesso'); ?>
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                          </button>
-                      </div>
+              <div class="col-md-12">
 
-                      <?php endif; ?>
+                  <?php if(session()->has('errors_model')): ?>
 
-                      <?php if(session()->has('info')): ?>
+                  <ul style="margin-left: -1.6em !important;">
+                      <?php foreach(session('errors_model') as $error) : ?>
 
-                      <div class="alert alert-info alert-dismissible fade show" role="alert">
-                          <strong>Informaçao!</strong> <?= session('info'); ?>
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                          </button>
-                      </div>
+                      <li class="text-danger"><?php echo $error ?></li>
 
-                      <?php endif; ?>
+                      <?php endforeach; ?>
+                  </ul>
 
-                      <?php if(session()->has('atencao')): ?>
 
-                      <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                          <strong>Atenção!</strong> <?= session('atencao'); ?>
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                          </button>
-                      </div>
+                  <?php endif; ?>
 
-                      <?php endif; ?>
-
-                      <!-- Captura os erros de CSRF, ação nao permitida! -->
-                      <?php if(session()->has('error')): ?>
-
-                      <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                          <strong>Erro!</strong> <?= session('error'); ?>
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                          </button>
-                      </div>
-
-                      <?php endif; ?>
-                      
-                      <div class="brand-logo">
+                  <div class="brand-logo">
                           <img src="<?php echo site_url('admin/')?>images/logo1.png" alt="logo">
                       </div>
-                      <h4>Olá, seja bem vindo(a) ao Braseiro Nobre!</h4>
-                      <h6 class="font-weight-light mb-3">Por favor, realize o login para continuar.</h6>
+                      <h3>Olá, seja bem vindo(a) ao Braseiro Nobre!</h3>
+                      <h5 class="font-weight-light mb-3">Por favor, realize o login para continuar.</h5>
+                      
+                      <hr>
 
-                      <?= form_open('login/criar'); ?>
+                  <?= form_open('login/criar'); ?>
                       <div class="form-group">
                           <input type="email" name="email" value="<?php echo old('email'); ?>"
                               class="form-control form-control-lg" id="exampleInputEmail1"
@@ -91,28 +61,36 @@
                           <input type="password" name="password" class="form-control form-control-lg"
                               id="exampleInputPassword1" placeholder="Digite a sua senha">
                       </div>
-                      <div class="mt-3">
+                      <div class="text-center">
                           <button type="submit"
-                              class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">ENTRAR</button>
+                              class="btn btn-food font-weight-medium auth-form-btn" style="margin-top: 3em">Entrar</button>
+
                       </div>
+
+                      <hr>
 
                       <div class="mt-3 d-flex justify-content-between align-items-center">
 
                       <a href="<?php echo site_url('password/esqueci'); ?>" class=" auth-link text-black ">Esqueceu sua senha?</a>
+                      
+                      
                   </div>
-                  <div class="text-center mt-4 font-weight-light">
+
+                  <br>
+                  
+                  <div class="text-nowrap text-center font-weight-light">
                       Ainda não possui uma conta? <a href="<?php echo site_url('registrar') ?>"class="text-primary">Cadastre-se. </a>
                   </div>
 
                   <?= form_close(); ?>
-
               </div>
+
           </div>
+
+
       </div>
   </div>
-  <!-- content-wrapper ends -->
-  </div>
-  <!-- page-body-wrapper ends -->
+
 
 
 
@@ -124,7 +102,5 @@
 
 
   <?= $this->section('scripts'); ?>
-  <!-- Aqui enviamos p/ template pricipal os scripts -->
-
 
   <?= $this->endSection(); ?>

@@ -154,6 +154,25 @@ class UsuarioModel extends Model
         }
     }
 
+    public function ativarContaPeloToken(string $token)
+    {
+        $token = new Token($token);
+
+        $token_hash = $token->getHash();
+
+        $usuario = $this->where('ativacao_hash', $token_hash)->first();
+
+        if($usuario != null){
+
+            $usuario->ativar();
+
+            $this->protect(false)->save($usuario);
+
+        }
+
+        
+    }
+
   
 
 }

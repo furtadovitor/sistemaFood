@@ -266,8 +266,7 @@
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
                                             <li><a class="page-scroll" href="#galeria">Galeria</a></li>
                                             <li><a class="page-scroll" href="#footer">Contato</a></li>
-                                            <li><a class="page-scroll" href="<?php echo site_url("login"); ?>">Entrar</a></li>
-                                            <li><a class="page-scroll" href="#">Registre-se</a></li>
+             
 
                                             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
@@ -279,6 +278,18 @@
                                                     </span>
                                                 </a>
                                             </li>
+
+                                            <?php endif; ?>
+
+                                            <?php if(usuario_logado()): ?>
+                                                
+                                                <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha conta </a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
+
+                                            <?php else: ?>
+
+                                                <li><a class="page-scroll" href="<?php echo site_url('login'); ?>">Entrar</a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('registrar'); ?>">Registrar-se </a></li>
 
                                             <?php endif; ?>
 
@@ -499,11 +510,7 @@
             <li><a class="page-scroll" href="#menu">Menus</a></li>
             <li><a class="page-scroll" href="#gallery">Galeria</a></li>
             <li><a class="page-scroll" href="#footer">Contato</a></li>
-            <li><a class="page-scroll" src="<?php echo site_url("Admin/login/"); ?>">Entrar</a></li>
-            <li><a class="page-scroll" href="#">Registre-se</a></li>
-
-
-
+          
             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
             <li><a class="page-scroll" href=<?php echo site_url('carrinho'); ?>>

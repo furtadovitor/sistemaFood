@@ -1,0 +1,13 @@
+CRITICAL - 2022-10-27 16:00:56 --> Undefined variable: usuario_logado
+in APPPATH/Views/layout/principal_site.php on line 285.
+ 1 APPPATH/Views/layout/principal_site.php(285): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/principal_site.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Registrar.php(31): view()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Registrar->novo()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

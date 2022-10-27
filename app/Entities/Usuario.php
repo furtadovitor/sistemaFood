@@ -64,4 +64,11 @@ class Usuario extends Entity
         $this->ativacao_hash = $token->getHash();
 
     }
+
+    public function ativar()
+    {
+        $this->ativo = true;
+        $this->ativacao_hash = null;
+
+    }
 }
