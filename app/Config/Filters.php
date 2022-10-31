@@ -82,6 +82,9 @@ class Filters extends BaseConfig
         'login' => [
             'before' => [
                 'admin/*', //quero que o filtro rode antes de todos os controladores que estão abaixo do namespace admin
+                'Conta(/*)?',
+                'Checkout(/*)?'
+                
             ]
             ],
 
