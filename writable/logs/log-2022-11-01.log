@@ -1,0 +1,84 @@
+ERROR - 2022-11-01 13:48:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/sistemaFood/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/sistemaFood/app/Models/CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+#7 /var/www/sistemaFood/app/Controllers/Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /var/www/sistemaFood/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/sistemaFood/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/sistemaFood/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/sistemaFood/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/sistemaFood/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/sistemaFood/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#5 /var/www/sistemaFood/app/Models/CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+#6 /var/www/sistemaFood/app/Controllers/Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+#7 /var/www/sistemaFood/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#8 /var/www/sistemaFood/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/sistemaFood/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/sistemaFood/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/sistemaFood/system/Commands/Server/rewrite.php(43): require_once('/var/www/sistem...')
+#12 {main}
+CRITICAL - 2022-11-01 13:48:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/CategoriaModel.php(91): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Home.php(24): App\Models\CategoriaModel->buscaCategoriasSiteHome()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-01 13:48:58 --> Undefined variable: data
+in APPPATH/Controllers/Conta.php on line 53.
+ 1 APPPATH/Controllers/Conta.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Conta->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-01 14:04:04 --> Undefined property: App\Controllers\Conta::$usuarioModel
+in APPPATH/Controllers/Conta.php on line 117.
+ 1 APPPATH/Controllers/Conta.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Conta->atualizar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-01 14:04:16 --> Undefined property: App\Controllers\Conta::$usuarioModel
+in APPPATH/Controllers/Conta.php on line 117.
+ 1 APPPATH/Controllers/Conta.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Conta->atualizar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-01 15:17:25 --> Call to undefined method App\Entities\Usuario::verificaPassowrd()
+in APPPATH/Controllers/Conta.php on line 159.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Conta->atualizarsenha()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-01 15:17:36 --> Call to undefined method App\Entities\Usuario::verificaPassoword()
+in APPPATH/Controllers/Conta.php on line 159.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Conta->atualizarsenha()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

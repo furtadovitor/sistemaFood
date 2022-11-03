@@ -34,6 +34,12 @@ class Login extends BaseController
                 
 
                 if(!$usuario->is_admin){
+
+                    if(session()->has('carrinho')){
+
+                        return redirect()->to(site_url('carrinho'));
+
+                    }
                 
                     return redirect()->to(site_url('/'));
 

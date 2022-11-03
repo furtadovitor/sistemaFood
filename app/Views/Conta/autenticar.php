@@ -45,23 +45,23 @@
 
                           </div>
 
-                          
-                          
 
-                   
-                      <div class="panel-footer">
 
-                      <button type="submit" class="btn btn-primary">Autenticar</button>
 
-                          <a href="<?php echo site_url('conta/show'); ?>" class="btn btn-danger">Cancelar</a>
 
+                          <div class="panel-footer">
+
+                              <button type="submit" class="btn btn-primary">Autenticar</button>
+
+                              <a href="<?php echo site_url('conta/show'); ?>" class="btn btn-danger">Cancelar</a>
+
+                          </div>
                       </div>
                   </div>
+
+                  <?php echo form_close(); ?>
+
               </div>
-
-              <?php echo form_close(); ?>
-
-
           </div>
       </div>
       <!-- end product -->
@@ -87,17 +87,17 @@
 
 
   <script>
-      /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-      function openNav() {
-          document.getElementById("mySidebar").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-      }
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
 
-      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-      function closeNav() {
-          document.getElementById("mySidebar").style.width = "0";
-          document.getElementById("main").style.marginLeft = "0";
-      }
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
   </script>
 
   <?= $this->endSection(); ?>
