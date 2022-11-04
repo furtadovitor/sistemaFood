@@ -57,16 +57,16 @@
     <meta name="theme-color" content="#ffffff" />
 
     <style>
-        .navbar-nav > li > a{
-            line-height: 30px;
-        }
+    .navbar-nav>li>a {
+        line-height: 30px;
+    }
 
-        .btn-food{
+    .btn-food {
 
-            background-color: #990100;
-            color: white !important;
-            font-family: 'Montserrat-Bold';
-        }
+        background-color: #990100;
+        color: white !important;
+        font-family: 'Montserrat-Bold';
+    }
     </style>
     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
     <?= $this->renderSection('estilos') ?>
@@ -266,7 +266,7 @@
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
                                             <li><a class="page-scroll" href="#galeria">Galeria</a></li>
                                             <li><a class="page-scroll" href="#footer">Contato</a></li>
-             
+
 
                                             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
@@ -282,14 +282,18 @@
                                             <?php endif; ?>
 
                                             <?php if(usuario_logado()): ?>
-                                                
-                                                <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha conta </a></li>
-                                                <li><a class="page-scroll" href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
+
+                                            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha
+                                                    conta </a></li>
+                                            <li><a class="page-scroll"
+                                                    href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
 
                                             <?php else: ?>
 
-                                                <li><a class="page-scroll" href="<?php echo site_url('login'); ?>">Entrar</a></li>
-                                                <li><a class="page-scroll" href="<?php echo site_url('registrar'); ?>">Registrar-se </a></li>
+                                            <li><a class="page-scroll"
+                                                    href="<?php echo site_url('login'); ?>">Entrar</a></li>
+                                            <li><a class="page-scroll"
+                                                    href="<?php echo site_url('registrar'); ?>">Registrar-se </a></li>
 
                                             <?php endif; ?>
 
@@ -362,110 +366,87 @@
 
             <!--    Google map, Social links    -->
             <div class="section" id="contact">
-               
-                    <div class="container">
-                        <div class="footer_content">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-4">
-                                    <h4 class="footer_ttl footer_ttl_padd">Sobre nós</h4>
-                                    <p class="footer_txt">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos
-                                        FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da
-                                        Penha,
-                                        O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria.
-                                        Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de
-                                        Cordeiro ao Douro e a Costela Prime. </p>
-                                </div>
-                                <div class="col-sm-6 col-md-5">
-                                    <h4 class="footer_ttl footer_ttl_padd">Expediente</h4>
-                                    <div class="footer_border">
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Segunda-Feira</div>
-                                            <div class="week_time text-right">Closed</div>
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Terça-Feira</div>
-                                            <div class="week_time">
-                                            <div class="week_time text-right">Closed</div>
-                                              
-                                            </div>
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Quarta-Feira</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">18:00 </span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">02:00 </span>
-                                            </div>
 
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Quinta-Feira</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">18:00 </span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">02:00 </span>
-                                            </div>
+                <div class="container">
+                    <div class="footer_content">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                <h4 class="footer_ttl footer_ttl_padd">Sobre nós</h4>
+                                <p class="footer_txt">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos
+                                    FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da
+                                    Penha,
+                                    O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria.
+                                    Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de
+                                    Cordeiro ao Douro e a Costela Prime. </p>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
 
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Sexta-Feira</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">18:00 </span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">02:00 </span>
-                                            </div>
+                                <?php $expedientes = expedientes();?>
 
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Sábado</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">18:00 </span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">02:00 </span>
-                                            </div>
-                                        </div>
-                                        <div class="week_row clearfix">
-                                            <div class="week_day">Domingo</div>
-                                            <div class="week_time">
-                                                <span class="week_time_start">18:00 </span>
-                                                <span class="week_time_node">-</span>
-                                                <span class="week_time_end">02:00 </span>
-                                            </div>
+                                <h4 class="footer_ttl footer_ttl_padd">Expediente</h4>
+                                <div class="footer_border">
+
+                                    <?php foreach($expedientes as $dia): ?>
+                                    <div class="week_row clearfix">
+                                        <div class="week_day"><?php echo esc($dia->dia_descricao); ?></div>
+
+                                        <?php if($dia->situacao == false): ?>
+
+                                        <div class="week_time text-right">Fechado</div>
+                                        <?php else: ?>
+
+                                        <div class="week_time text-right">Aberto</div>
+
+                                        <?php endif; ?>
+
+                                    </div>
+                                    <div class="week_row clearfix">
+
+                                        <div class="week_time">
+                                            <span class="week_time_start"><?php echo esc($dia->abertura_hora);?></span>
+                                            <span class="week_time_node">-</span>
+                                            <span class="week_time_start"><?php echo esc($dia->fechamento_hora);?></span>
+
+
                                         </div>
                                     </div>
+                                    <?php endforeach; ?>
+
+
                                 </div>
-                                <div class="col-sm-12 col-md-3">
-                                    <h4 class="footer_ttl footer_ttl_padd">Contato</h4>
-                                    <div class="footer_border">
-                                        <div class="footer_cnt">
-                                            <i class="fa fa-map-marker"></i>
-                                            <span>Praça do Viseu, em frente ao 124, Vila da peha, Rio de Janeiro, RJ</span>
-                                        </div>
-                                        <div class="footer_cnt">
-                                            <i class="fa fa-phone"></i>
-                                            <span>(21) 99100-5822</span>
-                                        </div>
-                                        <div class="footer_cnt">
-                                            <i class="fa fa-envelope"></i>
-                                            <span>braseironobre@gmail.com</span>
-                                        </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <h4 class="footer_ttl footer_ttl_padd">Contato</h4>
+                                <div class="footer_border">
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-map-marker"></i>
+                                        <span>Praça do Viseu, em frente ao 124, Vila da peha, Rio de Janeiro, RJ</span>
+                                    </div>
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-phone"></i>
+                                        <span>(21) 99100-5822</span>
+                                    </div>
+                                    <div class="footer_cnt">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>braseironobre@gmail.com</span>
                                     </div>
                                 </div>
                             </div>
-                        
+                        </div>
+
                     </div>
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
                                     <p>&copy Copyright 2022 – Braseiro Nobre. Todos os direitos reservados</p>
-                                    
+
                                 </div>
                                 <div class="col-md-4">
                                     <div class="social-links">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                            <a href="https://www.instagram.com" title="Facebook">
+                                                <a href="https://www.instagram.com" title="Facebook">
                                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </li>
@@ -510,7 +491,7 @@
             <li><a class="page-scroll" href="#menu">Menus</a></li>
             <li><a class="page-scroll" href="#gallery">Galeria</a></li>
             <li><a class="page-scroll" href="#footer">Contato</a></li>
-          
+
             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
             <li><a class="page-scroll" href=<?php echo site_url('carrinho'); ?>>

@@ -187,7 +187,7 @@
 
                           <div class="form-group col-md-9" style="padding-left: 0">
 
-                              <label>Ponto de referência</label>
+                              <label>Complemento e ponto de referência:</label>
                               <input type="text" name="checkout[referencia]" class="form-control" required="">
                               <div id="cep"></div>
                           </div>
@@ -252,7 +252,7 @@ $(".forma").on('click', function() {
     $("#forma_id").val(forma_id);
 
 
-    if (forma_id == 3) {
+    if (forma_id == 1) {
 
         $("#troco").removeClass('hidden');
 
@@ -271,6 +271,8 @@ $("#sem_troco").on('click', function() {
     if (this.checked) {
 
         $("#troco_para").prop('disabled', true);
+        $("#troco_para").val("");
+
 
         $("#troco_para").attr('placeholder', 'Não preciso de troco.')
 
@@ -344,6 +346,8 @@ $("[name=cep]").focusout(function() {
                 } else {
 
                     $("#cep").html(response.erro);
+                    $("#btn-checkout").prop('disabled', true);
+                    $("#btn-checkout").val('Consulte a taxa de entrega');
 
 
 
@@ -365,6 +369,26 @@ $("[name=cep]").focusout(function() {
 
 
 });
-  </script>
+
+    $("#form").submit(function (){
+
+        $(this).find(":submit").attr('disabled', 'disabled');
+
+        $("#btn-checkout").val('Processando o seu pedido..');
+
+    });
+
+    //função para não enviar o form com enter e sim clicando no botão
+
+    $(window).keydown(function(event){
+
+        if(event.keyCode == 13){
+
+            event.preventDefault();
+            return false;
+        }
+    });
+    
+    </script>
 
   <?= $this->endSection(); ?>
