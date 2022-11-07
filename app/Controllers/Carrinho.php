@@ -13,6 +13,9 @@ class Carrinho extends BaseController
     private $produtoModel;
     private $acao;
     private $bairroModel;
+    private $horaAtual;
+    private $expedienteHoje;
+
 
 
     public function __construct()
@@ -25,8 +28,9 @@ class Carrinho extends BaseController
         $this->produtoModel = new \App\Models\ProdutoModel();
         $this->bairroModel = new \App\Models\BairroModel();
 
-
-
+        $this->horaAtual = date('H:i');
+        
+     //   $this->expedienteHoje = $this->recuperaExpedienteHoje();
 
         $this->acao = service('router')->methodName();
     }
@@ -50,6 +54,19 @@ class Carrinho extends BaseController
     {
 
         if ($this->request->getMethod() === 'post') {
+
+            $this->expedienteHoje = expedienteHoje();
+
+
+            if($this->expedienteHoje->situacao == false){
+                
+                return redirect()->back()->with('expediente', 'Hoje estamos fechados!');
+            }
+
+            if($this->horaAtual > $this->expedienteHoje->fechamento_hora || $this->horaAtual < $this->expedienteHoje->abertura_hora){
+
+                return redirect()->back()->with('expediente', "Nosso horário de atendimento para a ".$this->expedienteHoje->dia_descricao. " é das ".$this->expedienteHoje->abertura_hora." às ".$this->expedienteHoje->fechamento_hora);
+            }
 
 
             $produtoPost = $this->request->getPost('produto');
@@ -377,5 +394,12 @@ class Carrinho extends BaseController
             return $linha['slug'] != $slug;
 
         });
+    }
+
+    public function recuperaExpedienteHoje(){
+
+        $expedienteHoje = expedienteHoje();
+
+        return $expedienteHoje;
     }
 }

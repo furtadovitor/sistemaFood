@@ -67,6 +67,22 @@
         color: white !important;
         font-family: 'Montserrat-Bold';
     }
+
+    .font-food {
+
+        color: #990100 !important;
+        font-family: 'Montserrat-Bold';
+
+    }
+
+    .panel-food {
+
+        background: #990100 !important;
+        color: white !important;
+        font-family: 'Montserrat-Bold';
+
+    }
+    
     </style>
     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
     <?= $this->renderSection('estilos') ?>
@@ -228,7 +244,20 @@
                                 <span><i class="fa fa-map-marker" aria-hidden="true"></i> Vila da Penha - Rio de Janeiro
                                 </span>
                                 <span><i class="fa fa-phone" aria-hidden="true"></i> (21) 99100-5822</span>
-                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 18:00 - 02:00</span>
+
+                                <?php $expedienteHoje = expedienteHoje(); ?>
+
+                                <?php if($expedienteHoje->situacao == false): ?>
+
+                                <span><i class="fa fa-lock" aria-hidden="true"></i>Hoje estamos fechados</span>
+
+                                <?php else: ?>
+
+                                <span><i class="fa fa-clock-o"
+                                        aria-hidden="true"></i><?php echo esc($expedienteHoje->abertura_hora); ?> -
+                                    <?php echo esc($expedienteHoje->fechamento_hora); ?> </span>
+
+                                <?php endif; ?>
                                 <div class="pull-right search-block">
                                     <i class="fa fa-search" id="search" aria-hidden="true"></i>
                                 </div>
@@ -263,8 +292,9 @@
                                         <ul class="nav navbar-nav">
                                             <li><a class="page-scroll" href="#header">Home</a></li>
                                             <li><a class="page-scroll" href="#sobre">Sobre Nós</a></li>
-                                            <li><a class="page-scroll" href="#menu">Menus</a></li>
                                             <li><a class="page-scroll" href="#galeria">Galeria</a></li>
+                                            <li><a class="page-scroll" href="<?php echo site_url('bairros'); ?>">Bairros
+                                                    atendidos</a></li>
                                             <li><a class="page-scroll" href="#footer">Contato</a></li>
 
 
@@ -347,6 +377,16 @@
 
             <?php endif; ?>
 
+            <?php if(session()->has('expediente')): ?>
+
+
+
+            <div class="alert alert-warning" role="alert"><?= session('expediente'); ?></div>
+
+            <?php endif; ?>
+
+
+
             <!-- Captura os erros de CSRF, ação nao permitida! -->
             <?php if(session()->has('error')): ?>
 
@@ -396,20 +436,18 @@
                                         <?php else: ?>
 
                                         <div class="week_time text-right">Aberto</div>
-
-                                        <?php endif; ?>
-
-                                    </div>
-                                    <div class="week_row clearfix">
-
                                         <div class="week_time">
                                             <span class="week_time_start"><?php echo esc($dia->abertura_hora);?></span>
                                             <span class="week_time_node">-</span>
-                                            <span class="week_time_start"><?php echo esc($dia->fechamento_hora);?></span>
+                                            <span
+                                                class="week_time_start"><?php echo esc($dia->fechamento_hora);?></span>
 
 
                                         </div>
+                                        <?php endif; ?>
+
                                     </div>
+
                                     <?php endforeach; ?>
 
 
