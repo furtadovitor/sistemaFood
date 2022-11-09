@@ -33,55 +33,48 @@
 
                   <!-- Peguei do Jquery autocomplete, classe que incorpora o estilo do arquivo css do jquery. -->
                   <div class="ui-widget">
-                      <input id="query" name="query" placeholder="Pesquise por uma forma de pagamento"
+                      <input id="query" name="query" placeholder="Pesquise por um pedido (código)"
                           class="form-control bg-light mb-5">
                   </div>
 
+                  <?php if(!isset($pedidos)): ?>
 
-                  <a href="<?= site_url("admin/formas/criar"); ?>" class="btn btn-success mb-5">
-                      <i class="mdi mdi-plus btn-icon-prepend"></i>
-                      Cadastrar forma de pagamento
-                  </a>
+                    <p>Não há pedidos</p>
+
+                  <?php else: ?>
+
+                  <?php endif; ?>
+                
+
 
                   <div class="table-responsive">
                       <table class="table table-hover">
                           <thead>
                               <tr>
-                                  <th>Nome</th>
-                                  <th>Data de criação</th>
-                                  <th>Ativo</th>
+                                  <th>Código do pedido</th>
+                                  <th>Data do pedido</th>
+                                  <th>Cliente</th>
+                                  <th>Valor</th>
                                   <th>Situação</th>
                                   
                               </tr>
                           </thead>
                           <tbody>
 
-                              <?php foreach($formas as $forma): ?>
+                              <?php foreach($pedidos as $pedido): ?>
                               <tr>
                                   <td>
-                                      <a href="<?= site_url("admin/formas/show/$forma->id"); ?>">
-                                          <?= $forma->nome; ?> </a>
+                                      <a href="<?= site_url("admin/pedidos/show/$pedido->codigo"); ?>">
+                                          <?= $pedido->codigo; ?> </a>
                                   </td>
 
-                                  <td><?php echo $forma->criado_em->humanize(); ?></td>
-                               
-                                  <td><?= ($forma->ativo && $forma->deletado_em == null? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>') ?>
-                                  </td>
-                                  <td>
+                                  <td><?php echo $pedido->criado_em->humanize(); ?></td>
+                                  <td><?php echo $pedido->cliente; ?></td>
 
-                                      <?= ($forma->deletado_em == null ? '<label class="badge badge-primary">Disponível</label>' : '<label class="badge badge-danger">Excluído</label>') ?>
+                                  <td>R$&nbsp;<?= esc(number_format($pedido->valor_pedido,2)); ?></td>
 
-                                      <?php if($forma->deletado_em != null): ?>
+                                  <td><?php $pedido->exibeSituacaoPedido(); ?></td>
 
-                                      <a href="<?= site_url("admin/formas/desfazerexclusao/$forma->id"); ?>"
-                                          class="badge badge-dark ml-2">
-                                          <i class="mdi mdi-undo btn-icon-prepend"></i>
-                                          Desfazer
-                                      </a>
-
-                                      <?php endif; ?>
-
-                                  </td>
                               </tr>
 
                               <?php endforeach; ?>
@@ -116,7 +109,7 @@
 
                   $.ajax({
 
-                      url: "<?= site_url('admin/formasagamento/procurar'); ?>",
+                      url: "<?= site_url('admin/pedidos/procurar'); ?>",
                       dataType: "json",
                       data: {
                           term: request.term
@@ -129,7 +122,7 @@
                               var data = [
 
                                   {
-                                      label: 'Forma de pagamento não encontrada',
+                                      label: 'Pedido não encontrado',
                                       value: -1
                                   }
                               ];
@@ -152,7 +145,7 @@
 
                   } else {
 
-                      window.location.href = '<?= site_url('admin/formaspagamento/show/'); ?>' + ui.item
+                      window.location.href = '<?= site_url('admin/pedidos/show/'); ?>' + ui.item
                           .id;
 
                   }

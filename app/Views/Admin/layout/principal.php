@@ -90,6 +90,14 @@
                             <span class="menu-title">Home Admin</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/pedidos'); ?>">
+                            <i class="mdi mdi-shopping menu-icon"></i>
+                            <span class="menu-title">Pedidos</span>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/categorias'); ?>">
                             <i class="mdi mdi-box-shadow menu-icon"></i>

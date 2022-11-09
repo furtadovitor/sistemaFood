@@ -43,8 +43,52 @@ class PedidoModel extends Model
 
         }
 
-        
+    
+    //Uso no controller de pedidos (admin)
+    
+    public function listaTodosOsPedidos()
+    {
+
+        return $this->select(
+                            [
+                                'pedidos.*',
+                                'usuarios.nome AS cliente',
+                            ]
+
+                            )
+                            ->join('usuarios', 'usuarios.id = pedidos.usuario_id')
+                            ->orderBy('pedidos.criado_em', 'DESC')
+                            ->paginate(10);
+
+
+    }
+
+    public function buscaPedidoOu404(string $codigoPedido)
+    {
+
+        if(!$codigoPedido){
+
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o Pedido $codigoPedido");
+
+        }
+
+        $pedido = $this->select(['pedidos.*', 'entregadores.nome AS entregador'])
+                        ->join('entregadores', 'entregadores.id = pedidos.entregador_id', 'LEFT')
+                        ->where('pedidos.codigo', $codigoPedido)
+                        ->first();
+
+        if(!$codigoPedido){
+
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o Pedido $codigoPedido");
+                
+        }
+
+        return $pedido;
     }
 
     
 
+        
+    }
+
+    
