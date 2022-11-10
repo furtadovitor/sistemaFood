@@ -150,6 +150,7 @@ class Pedidos extends BaseController
 
              }
 
+
              if($this->pedidoModel->save($pedido)){
 
                 //enviado e-mail qnd o pedido sair para entrega
@@ -164,7 +165,16 @@ class Pedidos extends BaseController
 
                 }
 
-                return redirect()->back()->with('sucesso', "Pedido $pedido->codigo atualizado com sucesso");
+                if($pedido->situacao == 2){
+
+                    $this->enviaEmailPedidoFoiEntregue($pedido);
+
+                    $this->insereProdutosDoPedido($pedido);
+
+
+                }
+
+                return redirect()->to(site_url("admin/pedidos/show/$codigoPedido"))->with('sucesso', "Pedido $pedido->codigo atualizado com sucesso");
 
 
 
@@ -197,4 +207,51 @@ class Pedidos extends BaseController
         
       
 }
+
+private function enviaEmailPedidoFoiEntregue(object $pedido){
+
+    $email = service('email');
+
+    $email->setFrom('no-reply@braseironobre.com.br', 'Braseiro Nobre');
+
+    $email->setTo($pedido->email);
+
+    $email->setSubject("Uhuuuuuuuuuuul!!!! Pedido $pedido->codigo Foi entregue - Braseiro Nobre");
+    
+    $mensagem = view ('Admin/Pedidos/pedido_foi_entregue_email', ['pedido' => $pedido]);
+
+    $email->setMessage($mensagem);
+
+    $email->send();
+        
+      
+}
+
+private function insereProdutosDoPedido(object $pedido)
+{
+
+    $pedidoProdutoModel = new \App\Models\PedidoProdutoModel();
+
+    $produtos = unserialize($pedido->produtos);
+
+    // Receberá o push
+    $produtosDoPedido = [];
+
+    foreach($produtos as $produto){
+
+        array_push($produtosDoPedido, [
+            
+            'pedido_id' => $pedido->id,
+            'produto' => $produto['nome'],
+            'quantidade' => $produto['quantidade'],
+
+
+        ]);
+    }
+
+    $pedidoProdutoModel->insertBatch($produtosDoPedido);
+}
+
+
+
 }

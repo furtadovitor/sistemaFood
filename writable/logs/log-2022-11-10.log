@@ -2710,3 +2710,445 @@ in APPPATH/Controllers/Admin/Pedidos.php on line 57.
  4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:50 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:50 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:50 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:51 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:51 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:51 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:11:52 --> Trying to get property 'nome' of non-object
+in APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php on line 6.
+ 1 APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/Pedidos.php(218): view()
+ 6 APPPATH/Controllers/Admin/Pedidos.php(169): App\Controllers\Admin\Pedidos->enviaEmailPedidoFoiEntregue()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->atualizar()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:35 --> Argument 1 passed to App\Models\PedidoModel::buscaPedidoOu404() must be of the type string, null given, called in /var/www/sistemaFood/app/Controllers/Admin/Pedidos.php on line 55
+in APPPATH/Models/PedidoModel.php on line 66.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(55): App\Models\PedidoModel->buscaPedidoOu404()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:41 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:41 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:41 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:42 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:42 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:42 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:14:43 --> Trying to get property 'nome' of non-object
+in APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php on line 6.
+ 1 APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Admin/Pedidos/pedido_foi_entregue_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/Pedidos.php(218): view()
+ 6 APPPATH/Controllers/Admin/Pedidos.php(169): App\Controllers\Admin\Pedidos->enviaEmailPedidoFoiEntregue()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->atualizar()
+ 8 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:35 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:35 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:35 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:36 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:36 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:36 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:39 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:39 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:15:39 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:03 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:03 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:03 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:04 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:04 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:25:04 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:26 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:26 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:26 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:27 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:27 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:27 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:32 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:32 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:27:32 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:19 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:19 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:19 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:21 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:21 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:31:21 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:09 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:09 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:09 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:10 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:10 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:10 --> Trying to get property 'situacao' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 57.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->editar()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:13 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:13 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 16:33:13 --> Trying to get property 'codigo' of non-object
+in APPPATH/Controllers/Admin/Pedidos.php on line 41.
+ 1 APPPATH/Controllers/Admin/Pedidos.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
