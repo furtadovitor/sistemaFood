@@ -43,6 +43,21 @@ class PedidoModel extends Model
 
         }
 
+
+        public function procurar($term){
+
+            if($term === null){
+    
+                return [];
+            }
+    
+            return $this->select('codigo')
+                            ->like('codigo', $term)
+                            ->withDeleted(true)
+                            ->get()
+                            ->getResult();
+    }
+
     
     //Uso no controller de pedidos (admin)
     

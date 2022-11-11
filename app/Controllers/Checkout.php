@@ -228,7 +228,7 @@ class Checkout extends BaseController
             session()->remove('endereco_entrega');
 
 
-            return redirect()->to("checkout/sucesso/$pedido->codigo");
+            return redirect()->to(site_url("checkout/sucesso/$pedido->codigo"));
         
             
 

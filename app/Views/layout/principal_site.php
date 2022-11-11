@@ -82,7 +82,6 @@
         font-family: 'Montserrat-Bold';
 
     }
-    
     </style>
     <!-- Essa section renderizará os estilos específicos da view que estender esse layout.-->
     <?= $this->renderSection('estilos') ?>
@@ -258,18 +257,9 @@
                                     <?php echo esc($expedienteHoje->fechamento_hora); ?> </span>
 
                                 <?php endif; ?>
-                                <div class="pull-right search-block">
-                                    <i class="fa fa-search" id="search" aria-hidden="true"></i>
-                                </div>
+
                             </div>
-                            <div id="navbar_search">
-                                <form method="post">
-                                    <input type="text" name="q" class="form-control pull-left" value=""
-                                        placeholder="Search anything">
-                                    <button type="submit" class="pull-right close" id="search_close"><i
-                                            class="fa fa-close"></i></button>
-                                </form>
-                            </div>
+
                         </div>
                         <!-- /.navbar_top -->
 
@@ -513,27 +503,24 @@
 
     <nav class="cd-nav-container right_menu" id="cd-nav">
         <div class="header__open_menu">
-            <a href="index-2.html" class="rmenu_logo" title="yagmurmebel.az">
+            <a href="<?php echo site_url('/'); ?>" class="rmenu_logo" title="Braseiro Nobre">
                 <img src="<?php echo site_url('web/'); ?>src/assets/img/logo.png" alt="logo" />
             </a>
         </div>
-        <div class="right_menu_search">
-            <form method="post">
-                <input type="text" name="q" class="form-control search_input" value="" placeholder="Search anything">
-                <button type="submit" class="search_icon"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
+
         <ul class="rmenu_list">
             <li><a class="page-scroll" href="#header">Home</a></li>
-            <li><a class="page-scroll" href="#sobre">Sobre nós</a></li>
-            <li><a class="page-scroll" href="#menu">Menus</a></li>
-            <li><a class="page-scroll" href="#gallery">Galeria</a></li>
+            <li><a class="page-scroll" href="#sobre">Sobre Nós</a></li>
+            <li><a class="page-scroll" href="#galeria">Galeria</a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('bairros'); ?>">Bairros
+                    atendidos</a></li>
             <li><a class="page-scroll" href="#footer">Contato</a></li>
+
 
             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
             <li><a class="page-scroll" href=<?php echo site_url('carrinho'); ?>>
-                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-shopping-cart fa fa-2x"></i>
                     <span style="font-size: 25px !important">
 
                         <?php echo count(session()->get('carrinho')); ?>
@@ -543,11 +530,37 @@
 
             <?php endif; ?>
 
+            <?php if(usuario_logado()): ?>
+
+            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha
+                    conta </a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
+
+            <?php else: ?>
+
+            <li><a class="page-scroll" href="<?php echo site_url('login'); ?>">Entrar</a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('registrar'); ?>">Registrar-se </a></li>
+
+            <?php endif; ?>
+
+
         </ul>
         <div class="right_menu_addr top_addr">
-            <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>
-            <span><i class="fa fa-phone" aria-hidden="true"></i> 123 456 789</span>
-            <span><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 21:00</span>
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i> VILA DA PENHA - RIO DE JANEIRO</span>
+            
+
+            <?php $expedienteHoje = expedienteHoje(); ?>
+
+            <?php if($expedienteHoje->situacao == false): ?>
+
+            <span><i class="fa fa-lock" aria-hidden="true"></i>Hoje estamos fechados</span>
+
+            <?php else: ?>
+
+            <span><i class="fa fa-clock-o" aria-hidden="true"></i><?php echo esc($expedienteHoje->abertura_hora); ?> -
+                <?php echo esc($expedienteHoje->fechamento_hora); ?> </span>
+
+            <?php endif; ?>
         </div>
     </nav>
 

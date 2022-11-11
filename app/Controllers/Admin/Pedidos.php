@@ -31,6 +31,35 @@ class Pedidos extends BaseController
         
     }
 
+    public function procurar()
+    {
+
+        //IF para não mostrar ao usuário. Pois ele só deve ser acessado via AJAX REQUEST. 
+         if(!$this->request->isAJAX()){
+ 
+             exit('Página não encontrada');
+         }
+ 
+         $pedidos = $this->pedidoModel->procurar($this->request->getGet('term'));
+ 
+         $retorno = [];
+ 
+         foreach ($pedidos as $pedido) {
+ 
+             //Esse id é do index.php de admin/pedidos dentro do else.
+             //O valure é do index.php de admin/pedidos dentro do if.
+ 
+             $data['value'] = $pedido->codigo;
+ 
+             $retorno[] = $data;
+ 
+         }
+ 
+         return $this->response->setJSON($retorno);
+ 
+         
+     }
+
     public function show($codigoPedido = null)
     {
 
@@ -174,6 +203,19 @@ class Pedidos extends BaseController
 
                 }
 
+                if($pedido->situacao == 3){
+
+                    $this->enviaEmailPedidoFoiCancelado($pedido);
+
+                    if($situacaoAnteriorPedido == 1){
+
+                        session()->setFlashdata('atencao', 'Admin, esse pedido está em rota de entrega, lembre-se de entrar em contato com o entregador para avisá-lô.');
+
+                    }
+
+
+                }
+
                 return redirect()->to(site_url("admin/pedidos/show/$codigoPedido"))->with('sucesso', "Pedido $pedido->codigo atualizado com sucesso");
 
 
@@ -187,6 +229,36 @@ class Pedidos extends BaseController
     }else{
         return redirect()->back();
     }
+  }
+
+  public function excluir($codigoPedido = null)
+  {
+
+      $pedido = $this->pedidoModel->buscaPedidoOu404($codigoPedido);
+      
+
+      if($pedido->situacao < 2){
+
+          return redirect()->back()->with('info', 'Apenas pedidos entregues ou cancelados podem ser excluídos.');
+      }
+
+      if($this->request->getMethod() === 'post'){
+
+        $this->pedidoModel->delete($pedido->id);
+
+        return redirect()->to(site_url("admin/pedidos"))->with('sucesso', 'Pedido foi excluído com sucesso.');
+      }
+      $data = [
+
+          'titulo' => "Excluindo o pedido $pedido->codigo",
+          'pedido' => $pedido,
+      ];
+
+      return view('Admin/Pedidos/excluir', $data);
+
+
+
+      
   }
 
   private function enviaEmailPedidoSaiuEntrega(object $pedido){
@@ -219,6 +291,25 @@ private function enviaEmailPedidoFoiEntregue(object $pedido){
     $email->setSubject("Uhuuuuuuuuuuul!!!! Pedido $pedido->codigo Foi entregue - Braseiro Nobre");
     
     $mensagem = view ('Admin/Pedidos/pedido_foi_entregue_email', ['pedido' => $pedido]);
+
+    $email->setMessage($mensagem);
+
+    $email->send();
+        
+      
+}
+
+private function enviaEmailPedidoFoiCancelado(object $pedido){
+
+    $email = service('email');
+
+    $email->setFrom('no-reply@braseironobre.com.br', 'Braseiro Nobre');
+
+    $email->setTo($pedido->email);
+
+    $email->setSubject("Poxaaaa!! Pedido $pedido->codigo Foi cancelado - Braseiro Nobre");
+    
+    $mensagem = view ('Admin/Pedidos/pedido_foi_cancelado_email', ['pedido' => $pedido]);
 
     $email->setMessage($mensagem);
 

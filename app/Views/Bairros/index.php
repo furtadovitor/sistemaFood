@@ -14,6 +14,15 @@
 
   <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
+  <style>
+@media only screen and (max-width: 767px) {
+
+    .section-title {
+        font-size: 20px !important;
+        margin-top: -6em !important;
+    }}
+
+  </style>
   <?= $this->endSection(); ?>
 
 
@@ -35,8 +44,10 @@
 
                   <div class="col-md-4">
                       <div class="panel panel-default">
-                          <div class="panel-heading panel-food"><?php echo esc($bairro->nome); ?> - <?php echo esc($bairro->cidade); ?>   </div>
-                          <div class="panel-body font-food">Taxa de entrega: R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega)); ?></div>
+                          <div class="panel-heading panel-food"><?php echo esc($bairro->nome); ?> -
+                              <?php echo esc($bairro->cidade); ?> </div>
+                          <div class="panel-body font-food">Taxa de entrega:
+                              R$&nbsp;<?php echo esc(number_format($bairro->valor_entrega)); ?></div>
                       </div>
                   </div>
 

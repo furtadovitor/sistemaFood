@@ -14,6 +14,21 @@
 
   <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
+
+  <style>
+@media only screen and (max-width: 767px) {
+
+    #login{
+
+        max-width: 100% !important;
+
+    }
+
+}
+
+  </style>
+
+
   <?= $this->endSection(); ?>
 
 
@@ -25,7 +40,7 @@
   <div class="container section " id="menu" data-aos="fade-up" style="margin-top: 3em">
 
 
-      <div class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 40%">
+      <div id="login" class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 40%">
           <div class="row">
 
               <div class="col-md-12">

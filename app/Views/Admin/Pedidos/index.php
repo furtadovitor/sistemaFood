@@ -146,7 +146,7 @@
                   } else {
 
                       window.location.href = '<?= site_url('admin/pedidos/show/'); ?>' + ui.item
-                          .id;
+                          .value;
 
                   }
               }
