@@ -40,33 +40,21 @@
                 </div>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-                <ul class="navbar-nav mr-lg-4 w-100">
-                    <li class="nav-item nav-search d-none d-lg-block w-100">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="search">
-                                    <i class="mdi mdi-magnify"></i>
-                                </span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Buscar" aria-label="search"
-                                aria-describedby="search">
-                        </div>
-                    </li>
-                </ul>
+                
                 <ul class="navbar-nav navbar-nav-right">
                    
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img src="images/faces/face5.jpg" alt="profile" />
-                            <span class="nav-profile-name">Vitor Hugo</span>
+                            
+                            <span class="nav-profile-name"><?php echo usuario_logado()->nome; ?></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                             aria-labelledby="profileDropdown">
-                            <a class="dropdown-item">
+                            <a href="<?php echo site_url("admin/usuarios/show/" . usuario_logado()->id);?>" class="dropdown-item">
                                 <i class="mdi mdi-settings text-primary"></i>
                                 Minha conta
                             </a>
-                            <a class="dropdown-item">
+                            <a href="<?php echo site_url("login/logout"); ?>"class="dropdown-item">
                                 <i class="mdi mdi-logout text-primary"></i>
                                 Logout
                             </a>

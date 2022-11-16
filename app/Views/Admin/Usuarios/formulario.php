@@ -37,6 +37,9 @@
                 <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirme sua senha">
         </div>
 
+        <?php if($usuario->id != usuario_logado()->id): ?>
+
+
         <div class="form-group col-md-3">
           <label for="email">Perfil de Acesso:</label>
             <select class="form-control" name="is_admin">
@@ -81,6 +84,8 @@
 
       </div>
 
+
+      <?php endif; ?>
       
 
 
