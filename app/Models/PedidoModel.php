@@ -128,6 +128,19 @@ class PedidoModel extends Model
                 
     }
 
+    public function recuperaClientesFieis(int $quantidade)
+    {
+
+        return $this->select('usuarios.nome, COUNT(*) AS pedidos')
+                    ->join('usuarios', 'usuarios.id = pedidos.usuario_id')
+                    ->where('situacao', 2)
+                    ->limit($quantidade)
+                    ->groupBy('usuarios.nome')
+                    ->orderBy('pedidos', 'DESC')
+                    ->find();
+
+    }
+
     
 
         

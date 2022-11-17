@@ -339,6 +339,8 @@ private function insereProdutosDoPedido(object $pedido)
 
         ]);
     }
+    
+
 
     $pedidoProdutoModel->insertBatch($produtosDoPedido);
 }

@@ -91,53 +91,62 @@
 
                   <?php if($expedienteHoje->situacao == false): ?>
 
-                    <h5 class="text-info"> <i class="mdi mdi-calendar-alert"></i>&nbsp;Hoje é <?php echo esc($expedienteHoje->dia_descricao); ?> e estamos fechados, logo não há novos pedidos. </h5>
+                  <h5 class="text-info"> <i class="mdi mdi-calendar-alert"></i>&nbsp;Hoje é
+                      <?php echo esc($expedienteHoje->dia_descricao); ?> e estamos fechados, logo não há novos pedidos.
+                  </h5>
 
 
                   <?php else: ?>
 
-                  <?php if(!isset($novosPedidos)): ?>
+                  <div id="atualiza">
 
-                  <h5 class="text-info">Não há novos pedidos no momento! <?php echo date('d/m/Y H:i:s'); ?></h5>
+                      <?php if(!isset($novosPedidos)): ?>
 
-                  <?php else: ?>
+                      <h5 class="text-info">Não há novos pedidos no momento! <?php echo date('d/m/Y H:i:s'); ?></h5>
 
+                      <?php else: ?>
 
-                  <div class="table-responsive">
-                      <table class="table table-hover">
-                          <thead>
-                              <tr>
-                                  <th>Código do pedido</th>
-                                  <th>Valor</th>
-                                  <th>Data do Pedido</th>
+                      <h6>Novos pedidos realizados</h6>
 
-                              </tr>
-                          </thead>
-                          <tbody>
-
-                              <?php foreach($novosPedidos as $pedido): ?>
-                              <tr>
-                                  <td>
-                                      <a href="<?= site_url("admin/pedidos/show/$pedido->codigo"); ?>">
-                                          <?= $pedido->codigo; ?> </a>
-                                  </td>
-                                  <td>R$&nbsp;<?= esc(number_format($pedido->valor_pedido,2)); ?></td>
-                                  <td><?php echo $pedido->criado_em->humanize(); ?></td>
-
-                              </tr>
-
-                              <?php endforeach; ?>
+                      <hr>
 
 
+                      <div class="table-responsive">
+                          <table class="table table-hover">
+                              <thead>
+                                  <tr>
+                                      <th>Código do pedido</th>
+                                      <th>Valor</th>
+                                      <th>Data do Pedido</th>
+
+                                  </tr>
+                              </thead>
+                              <tbody>
+
+                                  <?php foreach($novosPedidos as $pedido): ?>
+                                  <tr>
+                                      <td>
+                                          <a href="<?= site_url("admin/pedidos/show/$pedido->codigo"); ?>">
+                                              <?= $pedido->codigo; ?> </a>
+                                      </td>
+                                      <td>R$&nbsp;<?= esc(number_format($pedido->valor_pedido,2)); ?></td>
+                                      <td><?php echo $pedido->criado_em->humanize(); ?></td>
+
+                                  </tr>
+
+                                  <?php endforeach; ?>
 
 
-                          </tbody>
-                      </table>
-
-                  </div>
 
 
-                  <?php endif; ?>
+                              </tbody>
+                          </table>
+
+                      </div>
+
+                      <?php endif; ?>
+
+                  </div> <!-- fechando div do atualiza -->
 
 
                   <?php endif; ?>
@@ -149,6 +158,112 @@
       </div>
   </div>
 
+  <div class="row">
+
+
+      <div class="col-md-7 grid-margin stretch-card">
+          <div class="card">
+              <div class="card-body">
+                  <p class="card-title">Produtos mais vendidos</p>
+
+
+                  <ul class="list-arrow">
+
+                      <?php if (!isset($produtosMaisVendidos)): ?>
+
+                      <p class="card-title text-info">Não há dados para exibir no momento.</p>
+
+                      <?php else: ?>
+
+                      <?php foreach($produtosMaisVendidos as $produto): ?>
+
+                      <li class="mb-2">
+                          <?php echo word_limiter($produto->produto, 5); ?>
+                          <span
+                              class="badge badge-pill badge-primary float-right"><?php echo esc($produto->quantidade); ?></span>
+                      </li>
+                      <?php endforeach; ?>
+
+
+                      <?php endif; ?>
+
+
+
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-7 grid-margin stretch-card">
+          <div class="card">
+              <div class="card-body">
+                  <p class="card-title">TOP clientes</p>
+
+
+                  <ul class="list-arrow">
+
+                      <?php if (!isset($clientesFieis)): ?>
+
+                      <p class="card-title text-info">Não há dados para exibir no momento.</p>
+
+                      <?php else: ?>
+
+                      <?php foreach($clientesFieis as $cliente): ?>
+
+                      <li class="mb-2">
+                          <?php echo esc($cliente->nome); ?>
+                          <span
+                              class="badge badge-pill badge-success float-right"><?php echo esc($cliente->pedidos); ?></span>
+                      </li>
+                      <?php endforeach; ?>
+
+
+                      <?php endif; ?>
+
+
+
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-7 grid-margin stretch-card">
+          <div class="card">
+              <div class="card-body">
+                  <p class="card-title">TOP entregadores</p>
+
+
+                  <ul class="list-unstyled">
+
+                      <?php if (!isset($melhoresEntregadores)): ?>
+
+                      <p class="card-title text-info">Não há dados para exibir no momento.</p>
+
+                      <?php else: ?>
+
+                      <?php foreach($melhoresEntregadores as $entregador): ?>
+
+                      <li class="mb-2">
+                        <img class="rounded-circle" width="40px" src="<?php echo site_url("admin/entregadores/imagem/$entregador->imagem");?>" alt="">
+                          <?php echo esc($entregador->nome); ?>
+                          <span
+                              class="badge badge-pill badge-warning float-right"><?php echo esc($entregador->entregas); ?></span>
+                      </li>
+                      <?php endforeach; ?>
+
+
+                      <?php endif; ?>
+
+
+
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+
   <?= $this->endSection(); ?>
 
 
@@ -158,6 +273,16 @@
 
   <?= $this->section('scripts'); ?>
   <!-- Aqui enviamos p/ template pricipal os scripts -->
+
+  <script>
+setInterval("atualiza()", 12000); //equivalendo a milisegundos = 2 min
+
+function atualiza() {
+
+    $("#atualiza").toggleClass('bg-info');
+    $("#atualiza").load('<?php echo site_url('admin/home'); ?>' + ' #atualiza');
+}
+  </script>
 
 
   <?= $this->endSection(); ?>
