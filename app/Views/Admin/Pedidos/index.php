@@ -37,17 +37,14 @@
                           class="form-control bg-light mb-5">
                   </div>
 
-                  <?php if(!isset($pedidos)): ?>
+                  <?php if(!empty($pedidos)): ?>
 
-                    <p>Não há pedidos</p>
+                    <h4 class="alert alert-warning">Ainda não foi feito nenhum pedido</h4>
+                    
 
                   <?php else: ?>
 
-                  <?php endif; ?>
-                
-
-
-                  <div class="table-responsive">
+                    <div class="table-responsive">
                       <table class="table table-hover">
                           <thead>
                               <tr>
@@ -85,6 +82,12 @@
                           <?= $pager->links() ?>
                       </div>
                   </div>
+
+                  <?php endif; ?>
+                
+
+
+                  
               </div>
           </div>
       </div>

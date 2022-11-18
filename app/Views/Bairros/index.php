@@ -20,8 +20,8 @@
     .section-title {
         font-size: 20px !important;
         margin-top: -6em !important;
-    }}
-
+    }
+}
   </style>
   <?= $this->endSection(); ?>
 
@@ -35,12 +35,22 @@
           <div class="product-content product-wrap clearfix product-deatil">
               <div class="row">
 
+
+
+                  <?php if(empty($bairros)): ?>
+
+                  <h3 class="section-title">Não há dados para exibir</h3>
+
+
+                  <?php else: ?>
+
                   <div class="col-md-12 col-xs-12">
 
                       <h2 class="section-title"><?php echo esc($titulo); ?></h2>
                   </div>
 
                   <?php foreach ($bairros as $bairro): ?>
+
 
                   <div class="col-md-4">
                       <div class="panel panel-default">
@@ -54,6 +64,10 @@
 
 
                   <?php endforeach; ?>
+
+                  <?php endif; ?>
+
+
 
 
 

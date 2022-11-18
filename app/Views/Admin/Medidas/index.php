@@ -43,7 +43,17 @@
                       Cadastrar medida
                   </a>
 
-                  <div class="table-responsive">
+
+
+                  <?php if(!empty($medidas)): ?>
+
+                    <div class="alert alert-warning" role="alert">
+                      <h4>Ainda não foi cadastrado nenhuma medida do produto. <a href="<?= site_url("admin/medidas/criar/"); ?>" >Clique aqui</a>, caso queira cadastrar alguma. </h4>
+                  </div>
+
+                  <?php else: ?>
+
+                    <div class="table-responsive">
                       <table class="table table-hover">
                           <thead>
                               <tr>
@@ -51,7 +61,7 @@
                                   <th>Data de criação</th>
                                   <th>Ativo</th>
                                   <th>Situação</th>
-                                  
+
                               </tr>
                           </thead>
                           <tbody>
@@ -93,6 +103,10 @@
                           <?= $pager->links() ?>
                       </div>
                   </div>
+
+                  <?php endif; ?>
+
+                 
               </div>
           </div>
       </div>

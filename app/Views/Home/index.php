@@ -37,6 +37,16 @@
           <ul class="list-unstyled list-inline d-inline-block">
 
 
+
+              <?php if(empty($categorias)): ?>
+
+              <li class="item active">
+                  <a href="javascript:;" class="filter-button"> Ainda não há categorias cadastradas</a>
+              </li>
+
+
+              <?php else: ?>
+
               <li id="todas" class="item active">
                   <a href="javascript:;" class="filter-button" data-filter="todas">Todas</a>
               </li>
@@ -52,6 +62,11 @@
 
 
 
+              <?php endif; ?>
+
+
+
+
 
 
 
@@ -63,27 +78,45 @@
 
           <div class="row">
 
+              <?php if(empty($produtos)): ?>
+
+
+                <div class="title-block">
+                    <h2 class="section-title">Ainda não há produtos cadastrados</h2>
+                </div>
+              
+            
+
+
+
+              <?php else: ?>
+
               <?php foreach ($produtos as $produto): ?>
 
               <div class="col-sm-6 filtr-item image filter active <?php echo $produto->categoria_slug?>">
 
-                  <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?> "class="block
-              fancybox" data-fancybox-group="fancybox">
+                  <a href="<?php echo site_url("produto/detalhes/$produto->slug"); ?> " class="block fancybox" data-fancybox-group="fancybox">
                       <div class="content">
                           <div class="filter_item_img">
                               <i class="fa fa-search-plus"></i>
-                              <img src="<?php echo site_url("produto/imagem/$produto->imagem"); ?>" alt="<?php echo esc($produto->imagem); ?>" />
+                              <img src="<?php echo site_url("produto/imagem/$produto->imagem"); ?>"
+                                  alt="<?php echo esc($produto->imagem); ?>" />
                           </div>
                           <div class="info">
                               <div class="name"><?php echo esc($produto->nome); ?></div>
                               <div class="short"><?php echo word_limiter($produto->ingredientes, 5) ?></div>
-                              <span class="filter_item_price">A partir de R$ <?php echo esc(number_format($produto->preco,2)); ?></span>
+                              <span class="filter_item_price">A partir de R$
+                                  <?php echo esc(number_format($produto->preco,2)); ?></span>
                           </div>
                       </div>
                   </a>
               </div>
 
               <?php endforeach; ?>
+
+              <?php endif; ?>
+
+
 
 
 
@@ -243,7 +276,10 @@
           <div class="col-sm-6 d-flex align-items-center padd_lr0" data-aos="fade-up">
               <div class="content">
                   <h1 class="section-title title_sty1">Sobre nós</h1>
-                  <p class="short">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos FoodTruck's mais tradicionais do bairro. Localizado na Praça do Viseu, Vila da Penha, O Braseiro Nobre contém no cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime.</p>
+                  <p class="short">Fundado em 2021, em plena Pandemia, o Braseiro Nobre é um dos FoodTruck's mais
+                      tradicionais do bairro. Localizado na Praça do Viseu, Vila da Penha, O Braseiro Nobre contém no
+                      cardápio carnes nobres, petiscos e muita alegria. Cortes criados pela casa se destacam, como a
+                      Picanha Borboleta, Paleta de Cordeiro ao Douro e a Costela Prime.</p>
               </div>
           </div>
           <div class="col-sm-6 img text-center padd_lr0" data-aos="fade-down">
@@ -253,7 +289,7 @@
               </div>
           </div>
 
-          
+
       </div>
   </div>
 
