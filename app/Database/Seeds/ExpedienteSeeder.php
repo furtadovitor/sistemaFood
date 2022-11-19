@@ -97,6 +97,5 @@ class ExpedienteSeeder extends Seeder
             $expedienteModel->protect(false)->insert($expediente);
         }
 
-        dd($expedienteModel->errors());
     }
 }

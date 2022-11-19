@@ -181,7 +181,6 @@ class Checkout extends BaseController
             $pedido->valor_pedido = number_format($pedido->valor_produtos + $pedido->valor_entrega,2);
             $pedido->endereco_entrega = session()->get('endereco_entrega').'- Número '.$checkoutPost['numero'];
 
-            dd($pedido);
             
             if($forma->id == 1 ){
 

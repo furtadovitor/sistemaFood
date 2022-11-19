@@ -3428,3 +3428,41 @@ in APPPATH/Controllers/Admin/Medidas.php on line 224.
  4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-11-07 21:54:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'barata123', 'braseiro', 3306, '', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(1380): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(1411): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(1380): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(1411): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\sistemaFood\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\sistemaFood\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\sistemaFood\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\sistemaFood\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(897): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\sistemaFood\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\sistemaFood\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}

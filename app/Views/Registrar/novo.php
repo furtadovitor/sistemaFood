@@ -30,17 +30,20 @@
 
               <div class="col-md-12">
 
-                  <p><?php echo $titulo ?></p>
 
-                  <?php if(session()->has('errors_model')): ?>
+                  <div class="col-md-12 col-xs-12">
 
-                  <ul style="margin-left: -1.6em !important;">
-                      <?php foreach(session('errors_model') as $error) : ?>
+                      <h2 class="section-title"><?php echo esc($titulo); ?></h2>
+                  </div>
+                  <?php if (session()->has('errors_model')) : ?>
 
-                      <li class="text-danger"><?php echo $error ?></li>
+                      <ul style="margin-left: -1.6em !important;">
+                          <?php foreach (session('errors_model') as $error) : ?>
 
-                      <?php endforeach; ?>
-                  </ul>
+                              <li class="text-danger"><?php echo $error ?></li>
+
+                          <?php endforeach; ?>
+                      </ul>
 
 
                   <?php endif; ?>
@@ -64,8 +67,7 @@
                   </div>
                   <div class="form-group">
                       <label>Confirme sua senha</label>
-                      <input type="password" class="form-control" name="confirmPassword"
-                          placeholder="Confirme sua senha">
+                      <input type="password" class="form-control" name="confirmPassword" placeholder="Confirme sua senha">
                   </div>
 
                   <button type="submit" class="btn btn-food" style="margin-top: 3em">Criar conta</button>

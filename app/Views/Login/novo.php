@@ -30,6 +30,11 @@
 
               <div class="col-md-12">
 
+              <div class="col-md-12 col-xs-12">
+
+<h2 class="section-title"><?php echo esc($titulo); ?></h2>
+</div>
+
                   <?php if(session()->has('errors_model')): ?>
 
                   <ul style="margin-left: -1.6em !important;">
@@ -44,7 +49,6 @@
                   <?php endif; ?>
 
                   <div class="brand-logo">
-                          <img src="<?php echo site_url('admin/')?>images/logo1.png" alt="logo">
                       </div>
                       <h3>Olá, seja bem vindo(a) ao Braseiro Nobre!</h3>
                       <h5 class="font-weight-light mb-3">Por favor, realize o login para continuar.</h5>
