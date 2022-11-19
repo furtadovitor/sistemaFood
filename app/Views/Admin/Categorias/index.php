@@ -43,6 +43,15 @@
                       Cadastrar categoria
                   </a>
 
+
+                  <?php if (empty($categorias)): ?>
+
+                  <div class="alert alert-warning" role="alert">
+                      <h4>Ainda não foi criada nenhuma categoria. <a href="<?= site_url("admin/categorias/criar/"); ?>" >Clique aqui</a>, caso queira criar alguma. </h4>
+                  </div>
+
+                  <?php else: ?>
+
                   <div class="table-responsive">
                       <table class="table table-hover">
                           <thead>
@@ -51,7 +60,7 @@
                                   <th>Data de criação</th>
                                   <th>Ativo</th>
                                   <th>Situação</th>
-                                  
+
                               </tr>
                           </thead>
                           <tbody>
@@ -91,6 +100,12 @@
                           <?= $pager->links() ?>
                       </div>
                   </div>
+
+
+                  <?php endif; ?>
+
+
+
               </div>
           </div>
       </div>

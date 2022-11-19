@@ -14,6 +14,29 @@
 
   <link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css"); ?>" />
 
+  <style>
+@media only screen and (max-width: 767px) {
+
+    .section-title {
+        font-size: 20px !important;
+        margin-top: -9em !important;
+    }
+
+    #titulo-situacao{
+
+        margin-top: -8em !important;
+    }
+
+    #topo{
+
+        margin-top: 6em !important;
+
+
+    }
+}
+
+  </style>
+
   <?= $this->endSection(); ?>
 
 
@@ -24,7 +47,7 @@
 
       <div class="col-sm-12 col-md-12 col-lg-12">
 
-          <div class="product-content product-wrap clearfix product-deatil">
+          <div id="topo" class="product-content product-wrap clearfix product-deatil">
               <div class="row">
 
 
@@ -39,7 +62,7 @@
 
                   <?php endif; ?>
 
-                  <div class="col-md-12 col-xs-12">
+                  <div id="titulo-situacao" class="col-md-12 col-xs-12">
 
                   <h4>No momento, o seu pedido está com o status de <?php echo $pedido->exibeSituacaoPedido(); ?></h4>
 

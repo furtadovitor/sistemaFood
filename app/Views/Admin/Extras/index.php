@@ -43,6 +43,15 @@
                       Cadastrar extra
                   </a>
 
+                  <?php if(empty($extras)): ?>
+
+                    <div class="alert alert-warning" role="alert">
+                      <h4>Ainda não foi cadastrado nenhum extras do produto. <a href="<?= site_url("admin/extras/criar/"); ?>" >Clique aqui</a>, caso queira cadastrar algum. </h4>
+                  </div>
+
+                  <?php else: ?>
+
+
                   <div class="table-responsive">
                       <table class="table table-hover">
                           <thead>
@@ -52,7 +61,7 @@
                                   <th>Data de criação</th>
                                   <th>Ativo</th>
                                   <th>Situação</th>
-                                  
+
                               </tr>
                           </thead>
                           <tbody>
@@ -94,6 +103,9 @@
                           <?= $pager->links() ?>
                       </div>
                   </div>
+
+                  <?php endif; ?>
+
               </div>
           </div>
       </div>

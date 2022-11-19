@@ -65,7 +65,7 @@ class Carrinho extends BaseController
 
             if($this->horaAtual > $this->expedienteHoje->fechamento_hora || $this->horaAtual < $this->expedienteHoje->abertura_hora){
 
-                return redirect()->back()->with('expediente', "Nosso horário de atendimento para a ".$this->expedienteHoje->dia_descricao. " é das ".$this->expedienteHoje->abertura_hora." às ".$this->expedienteHoje->fechamento_hora);
+              return redirect()->back()->with('expediente', "Nosso horário de atendimento para a ".$this->expedienteHoje->dia_descricao. " é das ".$this->expedienteHoje->abertura_hora." às ".$this->expedienteHoje->fechamento_hora);
             }
 
 

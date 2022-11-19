@@ -116,7 +116,7 @@
 
                   $.ajax({
 
-                      url: "<?= site_url('admin/formaspagamento/procurar'); ?>",
+                      url: "<?= site_url('admin/formasagamento/procurar'); ?>",
                       dataType: "json",
                       data: {
                           term: request.term
@@ -152,7 +152,7 @@
 
                   } else {
 
-                      window.location.href = '<?= site_url('admin/formas/show/'); ?>' + ui.item
+                      window.location.href = '<?= site_url('admin/formaspagamento/show/'); ?>' + ui.item
                           .id;
 
                   }

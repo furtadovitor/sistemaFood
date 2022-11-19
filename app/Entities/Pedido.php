@@ -27,11 +27,11 @@ class Pedido extends Entity
 
             case 2:
 
-                echo "<i class='fa fa-money' aria-hidden='true'></i>&nbsp; Saiu para entrega";
+                echo "<i class='fa fa-money' aria-hidden='true'></i>&nbsp; Pedido entregue";
         
                 break; 
                 
-            case 2:
+            case 3:
 
                 echo "<i class='fa fa-thumbs-down' aria-hidden='true'></i>&nbsp; Pedido cancelado";
             

@@ -173,6 +173,13 @@ class UsuarioModel extends Model
         
     }
 
+    public function recuperaTotalClientesAtivos()
+    {
+        return $this->where('is_admin', false)
+                    ->where('ativo', true)
+                    ->countAllResults();
+    }
+
   
 
 }

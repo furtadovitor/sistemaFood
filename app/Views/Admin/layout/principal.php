@@ -30,8 +30,8 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="navbar-brand-wrapper d-flex justify-content-center">
                 <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-                    <a class="navbar-brand brand-logo" href="index.html"><img src="images/logoAdmin.png" alt="logo" /></a>
-                    <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.png"
+                    <a class="navbar-brand brand-logo" href="<?php echo site_url("admin/home"); ?>"><img src="images/logoAdmin.png" alt="logo" /></a>
+                    <a class="navbar-brand brand-logo-mini" href="<?php echo site_url("admin/home"); ?>"><img src="logo-mini.png"
                             alt="logo" /></a>
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button"
                         data-toggle="minimize">
@@ -40,33 +40,21 @@
                 </div>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-                <ul class="navbar-nav mr-lg-4 w-100">
-                    <li class="nav-item nav-search d-none d-lg-block w-100">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="search">
-                                    <i class="mdi mdi-magnify"></i>
-                                </span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Buscar" aria-label="search"
-                                aria-describedby="search">
-                        </div>
-                    </li>
-                </ul>
+                
                 <ul class="navbar-nav navbar-nav-right">
                    
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img src="images/faces/face5.jpg" alt="profile" />
-                            <span class="nav-profile-name">Vitor Hugo</span>
+                            
+                            <span class="nav-profile-name"><?php echo usuario_logado()->nome; ?></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                             aria-labelledby="profileDropdown">
-                            <a class="dropdown-item">
+                            <a href="<?php echo site_url("admin/usuarios/show/" . usuario_logado()->id);?>" class="dropdown-item">
                                 <i class="mdi mdi-settings text-primary"></i>
                                 Minha conta
                             </a>
-                            <a class="dropdown-item">
+                            <a href="<?php echo site_url("login/logout"); ?>"class="dropdown-item">
                                 <i class="mdi mdi-logout text-primary"></i>
                                 Logout
                             </a>
@@ -90,6 +78,14 @@
                             <span class="menu-title">Home Admin</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/pedidos'); ?>">
+                            <i class="mdi mdi-shopping menu-icon"></i>
+                            <span class="menu-title">Pedidos</span>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/categorias'); ?>">
                             <i class="mdi mdi-box-shadow menu-icon"></i>

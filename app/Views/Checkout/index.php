@@ -194,9 +194,9 @@
 
                           <div class="form-group col-md-12">
 
-                              <input type="text" id="forma_id" name="checkout[forma_id]"
+                              <input type="hidden" id="forma_id" name="checkout[forma_id]"
                                   placeholder="checkout[forma_id]">
-                              <input type="text" id="bairro_slug" name="checkout[bairro_slug]"
+                              <input type="hidden" id="bairro_slug" name="checkout[bairro_slug]"
                                   placeholder="checkout[bairro_slug]">
 
 
