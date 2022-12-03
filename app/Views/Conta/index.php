@@ -23,7 +23,6 @@
   <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em; min-height: 300px">
 
 
-      <?php echo $this->include("Conta/sidebar"); ?>
 
       <div class="row" style="margin-top: 2em">
 
@@ -164,6 +163,8 @@
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
+
+    
 }
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */

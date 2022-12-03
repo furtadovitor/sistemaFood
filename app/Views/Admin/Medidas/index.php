@@ -45,7 +45,7 @@
 
 
 
-                  <?php if(!empty($medidas)): ?>
+                  <?php if(empty($medidas)): ?>
 
                     <div class="alert alert-warning" role="alert">
                       <h4>Ainda não foi cadastrado nenhuma medida do produto. <a href="<?= site_url("admin/medidas/criar/"); ?>" >Clique aqui</a>, caso queira cadastrar alguma. </h4>

@@ -24,7 +24,7 @@
   <div class="row">
 
 
-      <div class="col-lg-12 grid-margin stretch-card">
+      <div class="col-lg-6 grid-margin stretch-card">
           <div class="card">
 
               <div class="card-header bg-primary pb-0 pt-4">
@@ -52,7 +52,7 @@
 
                   <div class="form-row">
 
-                      <div class="form-group col-md-4">
+                      <div class="form-group col-md-7">
 
                           <label for="">Escolha a medida do produto (opcional)</label>
 
@@ -74,19 +74,6 @@
                               value="<?= old('preco'); ?>">
                       </div>
 
-                      <div class="form-group col-md-4">
-
-                          <label for="">Produto customizável</label>
-
-                          <select class="form-control" name="customizavel">
-
-                              <option value="">Escolha..</option>
-                              <option value="1">Sim</option>
-                              <option value="0">Não</option>
-
-
-                          </select>
-                      </div>
 
 
                   </div>
@@ -106,7 +93,7 @@
                   <hr class="mt-5 mb-3">
 
                   <div class="form-row">
-                      <div class="col-md-8">
+                      <div class="col-md-12">
 
                           <?php if(empty($produtoEspecificacoes)): ?>
 
@@ -129,7 +116,6 @@
                                       <tr>
                                           <th>Medida</th>
                                           <th>Preço</th>
-                                          <th>Customizável</th>
 
                                           <th class="text-center">Remover</th>
                                       </tr>
@@ -142,9 +128,7 @@
                                           <td>R$&nbsp;<?php echo esc(number_format($especificacao->preco, 2) ); ?>
                                           </td>
 
-                                          <td><?php echo ($especificacao->customizavel ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-warning">Não</label>') ?>
-                                          </td>
-
+                                       
                                           <td class="text-center">
 
                                               <a href="<?= site_url("admin/produtos/excluirespecificacao/$especificacao->id/$especificacao->produto_id"); ?>"

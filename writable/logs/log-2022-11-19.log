@@ -1,0 +1,16 @@
+CRITICAL - 2022-11-19 11:44:20 --> Undefined variable: formaPagamentoModel
+in APPPATH\Controllers\Admin\FormasPagamento.php on line 103.
+ 1 APPPATH\Controllers\Admin\FormasPagamento.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: formaPagamentoModel', 'APPPATH\\Controllers\\Admin\\FormasPagamento.php', 103, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\FormasPagamento->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamento))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 12:03:03 --> Undefined variable: formaPagamentoModel
+in APPPATH\Controllers\Admin\FormasPagamento.php on line 103.
+ 1 APPPATH\Controllers\Admin\FormasPagamento.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: formaPagamentoModel', 'APPPATH\\Controllers\\Admin\\FormasPagamento.php', 103, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\FormasPagamento->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamento))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

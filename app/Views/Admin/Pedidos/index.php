@@ -37,7 +37,7 @@
                           class="form-control bg-light mb-5">
                   </div>
 
-                  <?php if(!empty($pedidos)): ?>
+                  <?php if(empty($pedidos)): ?>
 
                     <h4 class="alert alert-warning">Ainda não foi feito nenhum pedido</h4>
                     

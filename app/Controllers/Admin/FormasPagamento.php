@@ -100,7 +100,7 @@ class FormasPagamento extends BaseController
 
         if($this->formaPagamentoModel->save($formaPagamento)){
 
-            return redirect()->to(site_url("admin/formas/show/".$this->$formaPagamentoModel->getInsertID()))
+            return redirect()->to(site_url("admin/formas/show/".$this->formaPagamentoModel->getInsertID()))
                              ->with('sucesso', "Forma de pagamento $formaPagamento->nome cadastrada com sucesso.");
         }else{
 

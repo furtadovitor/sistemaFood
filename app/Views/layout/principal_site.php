@@ -152,7 +152,6 @@
                                         argentina, uruguaia; Coração de frango, linguiça suína, mineira, entre outros...
                                     </p>
                                     <div class="item_link_box">
-                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +172,6 @@
                                     <p class="item_info">Temos petiscos de frango, batata frita com cheddar, alcatra
                                         acebolada, peixe frito, entre outros...</p>
                                     <div class="item_link_box">
-                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +193,6 @@
                                         temperado com um molho especial, a base de ervas finas. Uma receita tradicional
                                         da casa.</p>
                                     <div class="item_link_box">
-                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +217,6 @@
                                         ensejo de cortar a carne com a "colher" ou retirar com "palitinho", de textura
                                         tão macia e saborosa.</p>
                                     <div class="item_link_box">
-                                        <a href="#" class="item_link page-scroll">Conheça mais</a>
                                     </div>
                                 </div>
                             </div>
@@ -280,12 +276,9 @@
                                 <div class="collapse navbar-collapse" id="navbar">
                                     <div class="navbar-right">
                                         <ul class="nav navbar-nav">
-                                            <li><a class="page-scroll" href="#header">Home</a></li>
-                                            <li><a class="page-scroll" href="#sobre">Sobre Nós</a></li>
-                                            <li><a class="page-scroll" href="#galeria">Galeria</a></li>
+                                            <li><a class="page-scroll" href="<?php echo site_url('/'); ?>">Home</a></li>
                                             <li><a class="page-scroll" href="<?php echo site_url('bairros'); ?>">Bairros
                                                     atendidos</a></li>
-                                            <li><a class="page-scroll" href="#footer">Contato</a></li>
 
 
                                             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
@@ -302,9 +295,12 @@
                                             <?php endif; ?>
 
                                             <?php if(usuario_logado()): ?>
+                                                
 
-                                            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha
-                                                    conta </a></li>
+                                            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Meus Pedidos
+                                                     </a></li>
+                                            <li><a class="page-scroll" href="<?php echo site_url('conta/show'); ?>">Meus dados
+                                                     </a></li>
                                             <li><a class="page-scroll"
                                                     href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
 
@@ -474,7 +470,7 @@
                                     <div class="social-links">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a href="https://www.instagram.com" title="Facebook">
+                                                <a href="https://www.facebook.com" title="Facebook">
                                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </li>
@@ -509,13 +505,11 @@
         </div>
 
         <ul class="rmenu_list">
-            <li><a class="page-scroll" href="#header">Home</a></li>
-            <li><a class="page-scroll" href="#sobre">Sobre Nós</a></li>
-            <li><a class="page-scroll" href="#galeria">Galeria</a></li>
-            <li><a class="page-scroll" href="<?php echo site_url('bairros'); ?>">Bairros
-                    atendidos</a></li>
-            <li><a class="page-scroll" href="#footer">Contato</a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('/'); ?>">Home</a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('bairros'); ?>">Bairros atendidos</a></li>
 
+
+  
 
             <?php if(session()->has('carrinho') && count(session()->get('carrinho'))>0): ?>
 
@@ -532,8 +526,10 @@
 
             <?php if(usuario_logado()): ?>
 
-            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha
-                    conta </a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Meus pedidos
+                     </a></li>
+            <li><a class="page-scroll" href="<?php echo site_url('conta/show'); ?>">Meus dados
+                       </a></li>         
             <li><a class="page-scroll" href="<?php echo site_url('login/logout'); ?>">Sair </a></li>
 
             <?php else: ?>

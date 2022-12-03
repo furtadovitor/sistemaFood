@@ -23,8 +23,6 @@
   <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em; min-height: 300px">
 
 
-      <?php echo $this->include("Conta/sidebar"); ?>
-
       <div class="row" style="margin-top: 2em">
 
           <div class="col-md-12 col-xs-12">

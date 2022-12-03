@@ -30,13 +30,14 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="navbar-brand-wrapper d-flex justify-content-center">
                 <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-                    <a class="navbar-brand brand-logo" href="<?php echo site_url("admin/home"); ?>"><img src="images/logoAdmin.png" alt="logo" /></a>
-                    <a class="navbar-brand brand-logo-mini" href="<?php echo site_url("admin/home"); ?>"><img src="logo-mini.png"
-                            alt="logo" /></a>
+                    <a class="navbar-brand brand-logo" href="<?php echo site_url("admin/home"); ?>"><h3>Braseiro Nobre</h3></a>
+                    <a class="navbar-brand brand-logo-mini" href="<?php echo site_url("admin/home"); ?>"><h3>BN</h3></a>
+
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button"
                         data-toggle="minimize">
                         <span class="mdi mdi-sort-variant"></span>
                     </button>
+                    
                 </div>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -80,6 +81,13 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/usuarios'); ?>">
+                            <i class="mdi mdi-account-settings menu-icon"></i>
+                            <span class="menu-title">Usuários</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/pedidos'); ?>">
                             <i class="mdi mdi-shopping menu-icon"></i>
                             <span class="menu-title">Pedidos</span>
@@ -92,12 +100,29 @@
                             <span class="menu-title">Categorias</span>
                         </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('admin/usuarios'); ?>">
-                            <i class="mdi mdi-account-settings menu-icon"></i>
-                            <span class="menu-title">Usuários</span>
+                        <a class="nav-link" href="<?= site_url('admin/produtos'); ?>">
+                            <i class="mdi mdi-cart-plus menu-icon"></i>
+                            <span class="menu-title">Produtos</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/extras'); ?>">
+                            <i class="mdi mdi-library-plus menu-icon"></i>
+                            <span class="menu-title">Extras</span>
+                        </a>
+                    </li>
+                   
+                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url('admin/medidas'); ?>">
+                            <i class="mdi mdi-library-plus menu-icon"></i>
+                            <span class="menu-title">Medidas</span>
+                        </a>
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/entregadores'); ?>">
                             <i class="mdi mdi-motorbike menu-icon"></i>
@@ -119,24 +144,7 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('admin/extras'); ?>">
-                            <i class="mdi mdi-library-plus menu-icon"></i>
-                            <span class="menu-title">Extras</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('admin/medidas'); ?>">
-                            <i class="mdi mdi-library-plus menu-icon"></i>
-                            <span class="menu-title">Medidas</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('admin/produtos'); ?>">
-                            <i class="mdi mdi-cart-plus menu-icon"></i>
-                            <span class="menu-title">Produtos</span>
-                        </a>
-                    </li>
+                 
                     <li class="nav-item">
                         <a class="nav-link" href="<?= site_url('admin/formas'); ?>">
                             <i class="mdi mdi-credit-card-multiple menu-icon"></i>

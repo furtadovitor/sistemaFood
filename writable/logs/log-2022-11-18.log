@@ -1635,3 +1635,204 @@ in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
  6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
  7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-11-18 21:32:31 --> mysqli_sql_exception: Table 'braseiro_nobre.pedidos_produtos' doesn't exist in C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\sistemaFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\sistemaFood\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\sistemaFood\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\sistemaFood\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemaFood\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\sistemaFood\app\Models\PedidoProdutoModel.php(20): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\sistemaFood\app\Controllers\Admin\Home.php(39): App\Models\PedidoProdutoModel->recuperaProdutosMaisVendidos(5)
+#8 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+#9 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#10 C:\xampp\htdocs\sistemaFood\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemaFood\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistemaFood\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-18 21:32:31 --> Table 'braseiro_nobre.pedidos_produtos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto`, `quantidade`, SUM(quantidade) AS quantidade
+FROM `pedidos_produtos`
+GROUP BY `produto`, `quantidade`
+ORDER BY `quantidade` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto`, `quantidade`, SUM(quantidade) AS quantidade
+FROM `pedidos_produtos`
+GROUP BY `produto`, `quantidade`
+ORDER BY `quantidade` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto`, `quantidade`, SUM(quantidade) AS quantidade
+FROM `pedidos_produtos`
+GROUP BY `produto`, `quantidade`
+ORDER BY `quantidade` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `produto`, `quantidade`, SUM(quantidade) AS quantidade
+FROM `pedidos_produtos`
+GROUP BY `produto`, `quantidade`
+ORDER BY `quantidade` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Models\PedidoProdutoModel.php(20): CodeIgniter\BaseModel->find()
+ 8 APPPATH\Controllers\Admin\Home.php(39): App\Models\PedidoProdutoModel->recuperaProdutosMaisVendidos(5)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:33:15 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:33:15 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:33:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\sistemaFood\app\Controllers\Admin\Entregadores.php on line 108
+in APPPATH\Controllers\Admin\Entregadores.php on line 369.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(108): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Entregadores->show('images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:33:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\sistemaFood\app\Controllers\Admin\Entregadores.php on line 108
+in APPPATH\Controllers\Admin\Entregadores.php on line 369.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(108): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('FCPATH\\logo-mini.png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Entregadores->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:03:33 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:03:33 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:03:37 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:03:37 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:21 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\admin', 'pedidos', 'images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:21 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:21 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\admin', 'pedidos', 'images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:22 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:22 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\admin', 'pedidos', 'images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:22 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:22 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\admin', 'pedidos', 'images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:22 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:04:57 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('FCPATH\\logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:08:55 --> Trying to get property 'codigo' of non-object
+in APPPATH\Controllers\Admin\Pedidos.php on line 70.
+ 1 APPPATH\Controllers\Admin\Pedidos.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'codigo\' of non-object', 'APPPATH\\Controllers\\Admin\\Pedidos.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\Pedidos->show('images', 'FCPATH\\logoAdmin.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:24:01 --> Arquivo inválido: Produto/customizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Produto/customizar.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Produto/customizar', [], true)
+ 3 APPPATH\Controllers\Produto.php(87): view('Produto/customizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Produto->customizar('picanha')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

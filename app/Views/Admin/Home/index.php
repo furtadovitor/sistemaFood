@@ -66,8 +66,7 @@
                                       <h5 class="mr-2 mb-0"><?php echo $totalClientesAtivos ?></h5>
                                   </div>
                               </div>
-                              <div
-                                  class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                              <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
                                   <i class="mdi mdi-motorbike mr-3 icon-lg text-warning"></i>
                                   <div class="d-flex flex-column justify-content-around">
                                       <small class="mb-1 text-muted">Entregadores Ativos</small>
@@ -161,7 +160,7 @@
   <div class="row">
 
 
-      <div class="col-md-7 grid-margin stretch-card">
+      <div class="col-md-4 grid-margin stretch-card">
           <div class="card">
               <div class="card-body">
                   <p class="card-title">Produtos mais vendidos</p>
@@ -194,7 +193,7 @@
           </div>
       </div>
 
-      <div class="col-md-7 grid-margin stretch-card">
+      <div class="col-md-4 grid-margin stretch-card">
           <div class="card">
               <div class="card-body">
                   <p class="card-title">TOP clientes</p>
@@ -227,7 +226,7 @@
           </div>
       </div>
 
-      <div class="col-md-7 grid-margin stretch-card">
+      <div class="col-md-4 grid-margin stretch-card">
           <div class="card">
               <div class="card-body">
                   <p class="card-title">TOP entregadores</p>
@@ -275,11 +274,10 @@
   <!-- Aqui enviamos p/ template pricipal os scripts -->
 
   <script>
-setInterval("atualiza()", 12000); //equivalendo a milisegundos = 2 min
+setInterval("atualiza();", 30000); //equivalendo a milisegundos = 2 min
 
 function atualiza() {
 
-    $("#atualiza").toggleClass('bg-info');
     $("#atualiza").load('<?php echo site_url('admin/home'); ?>' + ' #atualiza');
 }
   </script>

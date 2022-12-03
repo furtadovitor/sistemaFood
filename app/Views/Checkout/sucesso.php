@@ -46,19 +46,22 @@
   <div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
 
       <div class="col-sm-12 col-md-12 col-lg-12">
+        
+      <div class="col-md-12 col-xs-12">
 
+                        
           <div id="topo" class="product-content product-wrap clearfix product-deatil">
               <div class="row">
+
+              <h2 class="section-title "><?php echo esc($titulo); ?></h2>
+
+</div>
 
 
 
                   <?php if ($pedido->situacao == 0) : ?>
 
-                      <div class="col-md-12 col-xs-12">
-
-                          <h2 class="section-title "><?php echo esc($titulo); ?></h2>
-
-                      </div>
+                      
 
                   <?php endif; ?>
 

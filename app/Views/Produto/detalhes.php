@@ -176,19 +176,7 @@
 
 
                           <!-- Colocando o botão customizavel para aparecer somento se o item for customizavel -->
-                          <?php foreach($especificacoes as $especificacao): ?>
-
-                          <?php if($especificacao->customizavel): ?>
-
-                          <div class="col-sm-4">
-
-                              <a href="<?php echo site_url("produto/customizar/$produto->slug"); ?>"
-                                  class="btn btn-primary btn-block ">Customizar</a>
-                          </div>
-
-                          <?php break; ?>
-                          <?php endif; ?>
-                          <?php endforeach; ?>
+                          
 
                           <div class="col-sm-4">
 

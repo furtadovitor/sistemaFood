@@ -43,7 +43,7 @@
                       Cadastrar produto
                   </a>
 
-                  <?php if(!empty($produtos)): ?>
+                  <?php if(empty($produtos)): ?>
 
 
                     <div class="alert alert-warning" role="alert">
